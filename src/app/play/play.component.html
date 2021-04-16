@@ -1,0 +1,40 @@
+<div class="container">
+
+    <div class="buttons mt-3">
+        <div class="nav-button">
+            <button class="btn btn-primary d-block" (click)="setPreviousPlane()" [disabled]="!previousPlanes.length">
+                <fa-icon [icon]="previousIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+        </div>
+        <div class="roll-panel">
+            <button class="btn btn-primary d-block" (click)="reset()">
+                <fa-icon [icon]="resetIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+            <div class="m-auto">
+                <p class="align-middle m-auto">{{rollCounter}}</p>
+            </div>
+            <div class="m-auto">
+                <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">X</p>
+                <img *ngIf="rolled === 6" src="assets/planeswalker.png">
+                <img *ngIf="rolled === 1" src="assets/chaos.png">
+            </div>
+            <button class="btn btn-primary d-block" (click)="roll()">
+                <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+        </div>
+        <div class="nav-button">
+            <button class="btn btn-primary d-block" (click)="setNextPlane()"
+                    [disabled]="!planes.length && !navigationPlanes.length">
+                <fa-icon [icon]="nextIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="text-center mb-3" *ngIf="!currentPlane">
+        <p>You have used all planes!</p>
+        <button class="btn btn-danger" (click)="resetPlanes()">Reset</button>
+    </div>
+    <img *ngIf="currentPlane" class="plane" [src]="currentPlane.img">
+</div>

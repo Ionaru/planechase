@@ -1,0 +1,54 @@
+<div class="container">
+
+    <h1 class="d-flex justify-content-around">
+        <fa-icon [icon]="funIcon" [spin]="true"></fa-icon>
+        Planechase!
+        <fa-icon [icon]="funIcon" [spin]="true"></fa-icon>
+    </h1>
+
+    <hr>
+    <button class="btn btn-success" [routerLink]="['/play']">Start</button>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-lg-4">
+
+            <div *ngIf="customPlanes.length" class="mb-3">
+                <button (click)="toggleSelection(this.customPlanes, false)" class="btn btn-primary">Select none</button>
+                <button (click)="toggleSelection(this.customPlanes)" class="btn btn-primary ml-5">Select all</button>
+            </div>
+
+            <div class="form-check mb-3" *ngFor="let plane of customPlanes">
+                <label class="form-check-label" (mouseover)="setUrl(plane)">
+                    <input class="form-check-input" type="checkbox" (change)="togglePlane(plane)"
+                           [checked]="plane.enabled">
+                    {{plane.name}}
+                </label>
+            </div>
+
+            <input #fileInput type="file" multiple class="d-none" (change)="processFiles($event)">
+            <button class="btn btn-primary" (click)="fileInput.click()">Upload custom</button>
+
+            <hr>
+
+            <div class="mb-3">
+                <button (click)="toggleSelection(this.planes, false)" class="btn btn-primary">Select none</button>
+                <button (click)="toggleSelection(this.planes)" class="btn btn-primary ml-5">Select all</button>
+            </div>
+
+            <div class="form-check" *ngFor="let plane of planes">
+                <label class="form-check-label" (mouseover)="setUrl(plane)">
+                    <input class="form-check-input" type="checkbox" (change)="togglePlane(plane)"
+                           [checked]="plane.enabled">
+                    {{plane.name}}
+                </label>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="card-image-container">
+                <img class="card-image" [src]="url">
+            </div>
+        </div>
+    </div>
+</div>

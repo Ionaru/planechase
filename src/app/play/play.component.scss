@@ -1,0 +1,25 @@
+.plane {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+
+    div.nav-button {
+        display: grid;
+        justify-content: center;
+    }
+
+    div.roll-panel {
+        max-height: 38px;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        justify-content: space-between;
+
+        div, img {
+            max-height: 38px;
+        }
+    }
+}
