@@ -16,7 +16,7 @@ export class HomeComponent {
     public planes = AppComponent.planes;
     public customPlanes = AppComponent.customPlanes;
 
-    public url: string | ArrayBuffer = 'assets/Planechase Back.jpg';
+    public previewPlane: IPlane = {id: '0', name: 'Planechase image', img: 'assets/Planechase Back.jpg', enabled: false};
 
     public toggleSelection(context: IPlane[], enabled = true): void {
         context.forEach((plane) => plane.enabled = enabled);
@@ -29,17 +29,17 @@ export class HomeComponent {
         for (const file of fileList) {
             const reader = new FileReader();
             reader.onload = (event: ProgressEvent<FileReader>) => {
-                const image = event.target.result;
-
-                this.customPlanes.push({
+                const customPlane: IPlane = {
                     id: uuid.v4(),
                     name: file.name,
                     img: event.target.result,
                     enabled: true,
-                });
+                };
+
+                this.customPlanes.push(customPlane);
 
                 if (fileList.indexOf(file) === (fileList.length - 1)) {
-                    this.url = event.target.result;
+                    this.previewPlane = customPlane;
                 }
             };
 
@@ -48,7 +48,7 @@ export class HomeComponent {
     }
 
     public setUrl(plane: IPlane): void {
-        this.url = typeof plane.img === 'string' ? `${plane.img}` : this.url = plane.img;
+        this.previewPlane = plane;
     }
 
     public togglePlane(plane: IPlane): void {

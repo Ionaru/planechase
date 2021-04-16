@@ -15,8 +15,8 @@
             </div>
             <div class="m-auto">
                 <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">X</p>
-                <img *ngIf="rolled === 6" src="assets/planeswalker.png">
-                <img *ngIf="rolled === 1" src="assets/chaos.png">
+                <img alt="planeswalker" *ngIf="rolled === 6" src="assets/planeswalker.png">
+                <img alt="chaos" *ngIf="rolled === 1" src="assets/chaos.png">
             </div>
             <button class="btn btn-primary d-block" (click)="roll()">
                 <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>
@@ -36,5 +36,5 @@
         <p>You have used all planes!</p>
         <button class="btn btn-danger" (click)="resetPlanes()">Reset</button>
     </div>
-    <img *ngIf="currentPlane" class="plane" [src]="currentPlane.img">
+    <img [alt]="currentPlane.name" *ngIf="currentPlane" class="plane" [src]="currentPlane.img">
 </div>
