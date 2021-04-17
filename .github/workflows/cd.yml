@@ -1,112 +1,112 @@
 name: Planechase CD
 
 on:
-    workflow_dispatch:
-    push:
-        branches:
-            - main
-    pull_request:
-        branches:
-            - main
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-    audit:
-        runs-on: ubuntu-latest
-        steps:
-            -   uses: actions/checkout@v2
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 
-            -   uses: actions/setup-node@v2
-                with:
-                    node-version: '14'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-            -   name: Audit
-                run: npm audit
+      - name: Audit
+        run: npm audit
 
-    test:
-        needs: [ audit ]
+  test:
+    needs: [ audit ]
 
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-        steps:
-            -   uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-            -   uses: actions/setup-node@v2
-                with:
-                    node-version: '14'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-            -   name: Install packages
-                run: npm ci
+      - name: Install packages
+        run: npm ci
 
-            -   name: Lint
-                run: npm run lint
+      - name: Lint
+        run: npm run lint
 
-    build-image:
-        needs: [ test ]
+  build-image:
+    needs: [ test ]
 
-        runs-on: ubuntu-latest
-        steps:
-            -   uses: actions/checkout@v2
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 
-            -   uses: actions/setup-node@v2
-                with:
-                    node-version: '14'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-            -   name: Install packages
-                run: npm ci
+      - name: Install packages
+        run: npm ci
 
-            -   name: Build
-                run: npm run build:production
+      - name: Build
+        run: npm run build:production
 
-            -   name: Build image
-                run: docker build -t planechase:latest .
+      - name: Build image
+        run: docker build -t planechase:latest .
 
-            -   name: Save image
-                run: docker save planechase:latest > planechase-image.tar
+      - name: Save image
+        run: docker save planechase:latest > planechase-image.tar
 
-            -   uses: actions/upload-artifact@v2
-                with:
-                    name: planechase-image
-                    path: planechase-image.tar
-                    retention-days: 1
+      - uses: actions/upload-artifact@v2
+        with:
+          name: planechase-image
+          path: planechase-image.tar
+          retention-days: 1
 
-    push-image:
-        needs: [ build-image ]
+  push-image:
+    needs: [ build-image ]
 
-        if: github.event_name == 'push'
+    if: github.event_name == 'push'
 
-        runs-on: ubuntu-latest
-        steps:
-            -   name: Retrieve saved Docker image
-                uses: actions/download-artifact@v2
-                with:
-                    name: planechase-image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Retrieve saved Docker image
+        uses: actions/download-artifact@v2
+        with:
+          name: planechase-image
 
-            -   name: Load image into docker
-                run: docker load < planechase-image.tar
+      - name: Load image into docker
+        run: docker load < planechase-image.tar
 
-            -   name: Retag image for upload
-                run: docker tag planechase:latest docker.saturnserver.org/planechase/planechase:latest
+      - name: Retag image for upload
+        run: docker tag planechase:latest docker.saturnserver.org/planechase/planechase:latest
 
-            -   name: Login to Docker Registry
-                uses: docker/login-action@v1
-                with:
-                    registry: docker.saturnserver.org
-                    username: ${{ secrets.REGISTRY_USER }}
-                    password: ${{ secrets.REGISTRY_PASSWORD }}
+      - name: Login to Docker Registry
+        uses: docker/login-action@v1
+        with:
+          registry: docker.saturnserver.org
+          username: ${{ secrets.REGISTRY_USER }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
 
-            -   name: Push image
-                run: docker push docker.saturnserver.org/planechase/planechase:latest
+      - name: Push image
+        run: docker push docker.saturnserver.org/planechase/planechase:latest
 
-    deploy:
-        needs: [ push-image ]
+  deploy:
+    needs: [ push-image ]
 
-        if: github.event_name == 'push'
+    if: github.event_name == 'push'
 
-        runs-on: ubuntu-latest
-        steps:
-            -   uses: actions/setup-node@v2
-                with:
-                    node-version: '14'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-            -   name: Deploy
-                run: npx -q @ionaru/teamcity-deploy teamcity.saturnserver.org Planechase_Deploy ${{ secrets.TEAMCITY_TOKEN }}
+      - name: Deploy
+        run: npx -q @ionaru/teamcity-deploy teamcity.saturnserver.org Planechase_Deploy ${{ secrets.TEAMCITY_TOKEN }}
