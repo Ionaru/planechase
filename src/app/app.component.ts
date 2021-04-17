@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as opca from './data/opca.json';
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
 export interface IPlane {
     id: string;
@@ -17,6 +18,8 @@ export class AppComponent {
 
     public static planes: IPlane[] = [];
     public static customPlanes: IPlane[] = [];
+
+    public copyrightIcon = faCopyright;
 
     public constructor() {
         AppComponent.planes = opca.data.map((data): IPlane => {
