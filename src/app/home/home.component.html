@@ -28,7 +28,9 @@
             </div>
 
             <input #fileInput type="file" multiple class="d-none" (change)="processFiles($event)">
-            <button class="btn btn-primary" [ngClass]="{'mt-3': customPlanes.length}" (click)="fileInput.click()">Upload custom</button>
+            <button class="btn btn-primary" [ngClass]="{'mt-3': customPlanes.length}" (click)="fileInput.click()">
+                Use custom images
+            </button>
 
             <hr>
 
