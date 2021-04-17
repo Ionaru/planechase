@@ -8,6 +8,7 @@
         "build:production": "ng build --prod",
         "lint": "ng lint"
     },
+    "license": "MIT",
     "private": true,
     "dependencies": {
         "@angular/animations": "~11.2.10",
