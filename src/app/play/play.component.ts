@@ -27,12 +27,13 @@ export class PlayComponent {
     }
 
     public setNextPlane(): void {
+        this.previousPlanes.push(this.currentPlane);
         if (this.navigationPlanes.length) {
-            this.previousPlanes.push(this.currentPlane);
             this.setPlane(this.navigationPlanes.pop());
         } else if (this.planes.length) {
-            this.previousPlanes.push(this.currentPlane);
             this.setPlane(this.getRandomPlane());
+        } else {
+            this.setPlane();
         }
     }
 
@@ -44,7 +45,9 @@ export class PlayComponent {
         if (!this.previousPlanes.length) {
             return;
         }
-        this.navigationPlanes.push(this.currentPlane);
+        if (this.currentPlane) {
+            this.navigationPlanes.push(this.currentPlane);
+        }
         this.setPlane(this.previousPlanes.pop());
     }
 

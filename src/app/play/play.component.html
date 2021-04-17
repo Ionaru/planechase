@@ -23,8 +23,7 @@
             </button>
         </div>
         <div class="nav-button">
-            <button class="btn btn-primary d-block" (click)="setNextPlane()"
-                    [disabled]="!planes.length && !navigationPlanes.length">
+            <button class="btn btn-primary d-block" (click)="setNextPlane()" [disabled]="!currentPlane">
                 <fa-icon [icon]="nextIcon" [fixedWidth]="true"></fa-icon>
             </button>
         </div>
