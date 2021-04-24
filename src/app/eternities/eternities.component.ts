@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { generateNumbersArray } from '@ionaru/array-utils';
 import { AppComponent, IPlane } from '../app.component';
 import { faDiceD6, faRedo } from '@fortawesome/free-solid-svg-icons';
 
@@ -73,8 +72,6 @@ export class EternitiesComponent {
 
     public rollIcon = faDiceD6;
     public resetIcon = faRedo;
-
-    public grid = generateNumbersArray(25);
 
     public rows = [new Row(), new Row(), new Row(), new Row(), new Row()];
     public columns = [new Column(), new Column(), new Column(), new Column(), new Column()];
