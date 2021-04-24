@@ -80,6 +80,8 @@ export class EternitiesComponent {
     public columns = [new Column(), new Column(), new Column(), new Column(), new Column()];
     public items: GridItem[] = [];
 
+    public canPlay = true;
+
     constructor() {
         this.planes = [
             ...AppComponent.planes.filter((plane) => plane.enabled),
@@ -87,7 +89,8 @@ export class EternitiesComponent {
         ];
 
         if (this.planes.length < 25) {
-            throw new Error('Not enough planes! ✈');
+            this.canPlay = false;
+            return;
         }
 
         for (const row of this.rows) {
@@ -98,7 +101,7 @@ export class EternitiesComponent {
         this.seeVisibleGridItems();
     }
 
-    public doAction(item: GridItem): void {
+    public walkToPlane(item: GridItem): void {
         const coordinates = this.getCoordinates(item);
         switch (coordinates) {
             case '1:1':

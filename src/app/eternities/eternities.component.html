@@ -21,10 +21,14 @@
 
     <hr>
 
-    <p class="m-auto text-center">Click on a plane to planeswalk to it, hover over a plane to view it.</p>
+    <p *ngIf="canPlay" class="m-auto text-center">Click on a plane to planeswalk to it, hover over a plane to view it.</p>
+    <div *ngIf="!canPlay" class="text-center">
+        <p class="text-danger">You need to select at least 25 planes to play Eternities Map.</p>
+        <button class="btn btn-danger" [routerLink]="['/']">Go back</button>
+    </div>
 
     <div class="grid">
-        <div class="grid-item" *ngFor="let item of items" (click)="doAction(item)" (appDelayedHover)="hover(item)"
+        <div class="grid-item" *ngFor="let item of items" (click)="walkToPlane(item)" (appDelayedHover)="hover(item)"
              [ngClass]="{'interactable': isInteractable(item)}"
              [ngStyle]="{'grid-row': getGridRow(item), 'grid-column': getGridColumn(item)}">
             <img class="grid-item-image" [src]="item.plane.img" [alt]="item.plane.name">
