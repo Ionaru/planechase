@@ -62,9 +62,7 @@ export class PlayComponent {
     }
 
     public getRandomPlane(): IPlane {
-        const plane = this.planes[this.getRandomNumber(this.planes.length)];
-        this.planes = this.planes.filter((p) => p.id !== plane.id);
-        return plane;
+        return this.planes.splice(this.getRandomNumber(this.planes.length), 1)[0];
     }
 
     public roll(): void {
