@@ -1,10 +1,27 @@
-<div class="container" (click)="dismissPreview()">
+<div class="container">
 
-    <div class="info mt-3 text-center">
-        <p>Click on a plane to planeswalk to it, hover over a plane to view it.</p>
+    <div class="buttons mt-3">
+        <div class="roll-panel">
+            <button class="btn btn-primary d-block" (click)="reset()">
+                <fa-icon [icon]="resetIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+            <div class="m-auto">
+                <p class="align-middle m-auto">{{rollCounter}}</p>
+            </div>
+            <div class="m-auto">
+                <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">X</p>
+                <img alt="planeswalker" *ngIf="rolled === 6" src="assets/planeswalker.png">
+                <img alt="chaos" *ngIf="rolled === 1" src="assets/chaos.png">
+            </div>
+            <button class="btn btn-primary d-block" (click)="roll()">
+                <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>
+            </button>
+        </div>
     </div>
 
     <hr>
+
+    <p class="m-auto text-center">Click on a plane to planeswalk to it, hover over a plane to view it.</p>
 
     <div class="grid">
         <div class="grid-item" *ngFor="let item of items" (click)="doAction(item)" (appDelayedHover)="hover(item)"
@@ -13,7 +30,7 @@
             <img class="grid-item-image" [src]="item.plane.img" [alt]="item.plane.name">
         </div>
 
-        <div class="preview-box-container" *ngIf="previewPlane">
+        <div class="preview-box-container" *ngIf="previewPlane" (click)="dismissPreview()">
             <img [src]="previewPlane.img" [alt]="previewPlane.name">
             <p>Click to dismiss</p>
         </div>

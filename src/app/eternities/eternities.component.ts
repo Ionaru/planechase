@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { generateNumbersArray } from '@ionaru/array-utils';
 import { AppComponent, IPlane } from '../app.component';
+import { faDiceD6, faRedo } from '@fortawesome/free-solid-svg-icons';
 
 
 class GridItem {
@@ -66,6 +67,12 @@ export class EternitiesComponent {
 
     public planes: IPlane[] = [];
     public previewPlane: IPlane;
+
+    public rollCounter = 0;
+    public rolled?: number;
+
+    public rollIcon = faDiceD6;
+    public resetIcon = faRedo;
 
     public grid = generateNumbersArray(25);
 
@@ -213,5 +220,16 @@ export class EternitiesComponent {
         const itemRow = this.rows.indexOf(item.row);
         const itemColumn = this.columns.indexOf(item.column);
         return `${itemRow}:${itemColumn}`;
+    }
+
+    public roll(): void {
+        const roll = this.getRandomNumber(6, 1);
+        this.rollCounter++;
+        this.rolled = roll;
+    }
+
+    public reset(): void {
+        this.rollCounter = 0;
+        this.rolled = undefined;
     }
 }
