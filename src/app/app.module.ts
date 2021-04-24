@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { PlayComponent } from './play/play.component';
 import { EternitiesComponent } from './eternities/eternities.component';
 import { DelayedHoverDirective } from './delayed-hover.directive';
+import { DiceRollerComponent } from './dice-roller/dice-roller.component';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import { DelayedHoverDirective } from './delayed-hover.directive';
         PlayComponent,
         EternitiesComponent,
         DelayedHoverDirective,
+        DiceRollerComponent,
     ],
     imports: [
         BrowserModule,

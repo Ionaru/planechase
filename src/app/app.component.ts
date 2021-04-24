@@ -35,4 +35,12 @@ export class AppComponent {
         });
     }
 
+    public static getRandomNumber(max: number, min = 0): number {
+        return Math.floor(Math.random() * max) + min;
+    }
+
+    public static spliceRandomItemFromList<T>(list: T[]): T {
+        return list.splice(this.getRandomNumber(list.length), 1)[0];
+    }
+
 }

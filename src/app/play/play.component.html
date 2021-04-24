@@ -6,22 +6,7 @@
                 <fa-icon [icon]="previousIcon" [fixedWidth]="true"></fa-icon>
             </button>
         </div>
-        <div class="roll-panel">
-            <button class="btn btn-primary d-block" (click)="reset()">
-                <fa-icon [icon]="resetIcon" [fixedWidth]="true"></fa-icon>
-            </button>
-            <div class="m-auto">
-                <p class="align-middle m-auto">{{rollCounter}}</p>
-            </div>
-            <div class="m-auto">
-                <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">X</p>
-                <img alt="planeswalker" *ngIf="rolled === 6" src="assets/planeswalker.png">
-                <img alt="chaos" *ngIf="rolled === 1" src="assets/chaos.png">
-            </div>
-            <button class="btn btn-primary d-block" (click)="roll()">
-                <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>
-            </button>
-        </div>
+        <app-dice-roller></app-dice-roller>
         <div class="nav-button">
             <button class="btn btn-primary d-block" (click)="setNextPlane()" [disabled]="!currentPlane">
                 <fa-icon [icon]="nextIcon" [fixedWidth]="true"></fa-icon>

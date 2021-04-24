@@ -1,27 +1,15 @@
 <div class="container">
 
     <div class="buttons mt-3">
-        <div class="roll-panel">
-            <button class="btn btn-primary d-block" (click)="reset()">
-                <fa-icon [icon]="resetIcon" [fixedWidth]="true"></fa-icon>
-            </button>
-            <div class="m-auto">
-                <p class="align-middle m-auto">{{rollCounter}}</p>
-            </div>
-            <div class="m-auto">
-                <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">X</p>
-                <img alt="planeswalker" *ngIf="rolled === 6" src="assets/planeswalker.png">
-                <img alt="chaos" *ngIf="rolled === 1" src="assets/chaos.png">
-            </div>
-            <button class="btn btn-primary d-block" (click)="roll()">
-                <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>
-            </button>
+        <div class="dice-roller-container">
+            <app-dice-roller></app-dice-roller>
         </div>
     </div>
 
     <hr>
 
-    <p *ngIf="canPlay" class="m-auto text-center">Click on a plane to planeswalk to it, hover over a plane to view it.</p>
+    <p *ngIf="canPlay" class="m-auto text-center">Click on a plane to planeswalk to it, hover over a plane to view
+        it.</p>
     <div *ngIf="!canPlay" class="text-center">
         <p class="text-danger">You need to select at least 25 planes to play Eternities Map.</p>
         <button class="btn btn-danger" [routerLink]="['/']">Go back</button>

@@ -1,0 +1,10 @@
+.roll-panel {
+    max-height: 38px;
+    display: grid;
+    grid-template-columns: repeat(4, calc(100% / 4));
+    justify-content: space-between;
+
+    div, img {
+        max-height: 38px;
+    }
+}

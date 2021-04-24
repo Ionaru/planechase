@@ -11,15 +11,4 @@
         display: grid;
         justify-content: center;
     }
-
-    div.roll-panel {
-        max-height: 38px;
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        justify-content: space-between;
-
-        div, img {
-            max-height: 38px;
-        }
-    }
 }
