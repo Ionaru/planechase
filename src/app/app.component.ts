@@ -18,6 +18,9 @@ export class AppComponent {
 
     public static planes: IPlane[] = [];
     public static customPlanes: IPlane[] = [];
+    public static fakePlane: IPlane = {
+        id: '0', name: 'Planechase image', img: 'assets/Planechase Back.jpg', enabled: false
+    };
 
     public copyrightIcon = faCopyright;
 

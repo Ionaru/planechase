@@ -1,9 +1,22 @@
-<div class="container">
+<div class="container" (click)="dismissPreview()">
 
-    <div class="grid">
-        <div class="grid-item" *ngFor="let thing of grid" id="grid-{{thing}}" (click)="doAction($event.target)">
-            <img class="grid-item-image" id="grid-{{thing}}-image" src="/assets/Planechase Back.jpg">
-        </div>
+    <div class="info mt-3 text-center">
+        <p>Click on a plane to planeswalk to it, hover over a plane to view it.</p>
     </div>
 
+    <hr>
+
+    <div class="grid">
+        <div class="grid-item" *ngFor="let item of items" (click)="doAction(item)" (appDelayedHover)="hover(item)"
+             [ngClass]="{'interactable': isInteractable(item)}"
+             [ngStyle]="{'grid-row': getGridRow(item), 'grid-column': getGridColumn(item)}">
+            <img class="grid-item-image" [src]="item.plane.img" [alt]="item.plane.name">
+        </div>
+
+        <div class="preview-box-container" *ngIf="previewPlane">
+            <img [src]="previewPlane.img" [alt]="previewPlane.name">
+            <p>Click to dismiss</p>
+        </div>
+
+    </div>
 </div>

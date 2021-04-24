@@ -15,8 +15,7 @@ export class HomeComponent {
 
     public planes = AppComponent.planes;
     public customPlanes = AppComponent.customPlanes;
-
-    public previewPlane: IPlane = {id: '0', name: 'Planechase image', img: 'assets/Planechase Back.jpg', enabled: false};
+    public previewPlane = AppComponent.fakePlane;
 
     public toggleSelection(context: IPlane[], enabled = true): void {
         context.forEach((plane) => plane.enabled = enabled);

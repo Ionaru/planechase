@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { PlayComponent } from './play/play.component';
 import { EternitiesComponent } from './eternities/eternities.component';
+import { DelayedHoverDirective } from './delayed-hover.directive';
 
 @NgModule({
     declarations: [
@@ -16,6 +17,7 @@ import { EternitiesComponent } from './eternities/eternities.component';
         HomeComponent,
         PlayComponent,
         EternitiesComponent,
+        DelayedHoverDirective,
     ],
     imports: [
         BrowserModule,
