@@ -386,7 +386,7 @@
         },
         {
             "id": "7a425df4-7010-462e-9cb5-20389bac721c",
-            "enabled": true,
+            "enabled": false,
             "name": "Stairs to Infinity",
             "img": "assets/planes/opca-73.jpg"
         },
