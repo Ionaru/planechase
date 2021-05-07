@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as opca from './data/opca.json';
+import * as defaultPlanes from './data/defaultPlanes.json';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
 export interface IPlane {
@@ -25,14 +25,7 @@ export class AppComponent {
     public copyrightIcon = faCopyright;
 
     public constructor() {
-        AppComponent.planes = opca.data.map((data): IPlane => {
-            return {
-                id: data.oracle_id,
-                enabled: true,
-                name: data.name,
-                img: `assets/planes/opca-${data.collector_number}.jpg`,
-            };
-        });
+        AppComponent.planes = defaultPlanes.planes;
     }
 
     public static getRandomNumber(max: number, min = 0): number {

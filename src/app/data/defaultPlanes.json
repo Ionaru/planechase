@@ -1,0 +1,520 @@
+{
+    "planes": [
+        {
+            "id": "15b979de-c8ee-4664-9ca7-6c4eb3346967",
+            "enabled": true,
+            "name": "Academy at Tolaria West",
+            "img": "assets/planes/opca-9.jpg"
+        },
+        {
+            "id": "38f84e55-049c-441e-b4e2-1e207ab5dbe5",
+            "enabled": true,
+            "name": "Agyrem",
+            "img": "assets/planes/opca-11.jpg"
+        },
+        {
+            "id": "25650a32-4014-4065-ad01-7357c3ad3995",
+            "enabled": true,
+            "name": "Akoum",
+            "img": "assets/planes/opca-12.jpg"
+        },
+        {
+            "id": "d6ab4159-e04e-4991-8a9b-9da302c98e9d",
+            "enabled": true,
+            "name": "Aretopolis",
+            "img": "assets/planes/opca-13.jpg"
+        },
+        {
+            "id": "805f9dc2-e172-481d-bae7-9a136a3d1e49",
+            "enabled": true,
+            "name": "Astral Arena",
+            "img": "assets/planes/opca-14.jpg"
+        },
+        {
+            "id": "82e67c57-6d7a-44cc-ba63-77ce887ab075",
+            "enabled": true,
+            "name": "Bant",
+            "img": "assets/planes/opca-15.jpg"
+        },
+        {
+            "id": "ce8139b9-31f3-464d-86ea-7efbdbfce478",
+            "enabled": true,
+            "name": "Bloodhill Bastion",
+            "img": "assets/planes/opca-16.jpg"
+        },
+        {
+            "id": "2979597d-c3cc-4585-a9b7-7fa15641b030",
+            "enabled": true,
+            "name": "Celestine Reef",
+            "img": "assets/planes/opca-17.jpg"
+        },
+        {
+            "id": "6dc67a65-31bf-4535-9e02-8f6d6ecefde5",
+            "enabled": true,
+            "name": "Chaotic Aether",
+            "img": "assets/planes/opca-1.jpg"
+        },
+        {
+            "id": "b21a71d7-f236-43e2-b576-0b5c9280f0cc",
+            "enabled": true,
+            "name": "Cliffside Market",
+            "img": "assets/planes/opca-18.jpg"
+        },
+        {
+            "id": "cb467901-a68d-4922-8ceb-867b582c8fe7",
+            "enabled": true,
+            "name": "Edge of Malacol",
+            "img": "assets/planes/opca-20.jpg"
+        },
+        {
+            "id": "23fe1c21-c396-4ebf-a8b0-22d697952b34",
+            "enabled": true,
+            "name": "Eloren Wilds",
+            "img": "assets/planes/opca-21.jpg"
+        },
+        {
+            "id": "b1eff630-b56c-48a5-ac21-836a60157b35",
+            "enabled": true,
+            "name": "Feeding Grounds",
+            "img": "assets/planes/opca-23.jpg"
+        },
+        {
+            "id": "81a0d96a-7ac8-4947-8779-2102c9b33d38",
+            "enabled": true,
+            "name": "Fields of Summer",
+            "img": "assets/planes/opca-24.jpg"
+        },
+        {
+            "id": "1799d361-85e7-4c04-aa04-6f83e6499573",
+            "enabled": true,
+            "name": "Furnace Layer",
+            "img": "assets/planes/opca-26.jpg"
+        },
+        {
+            "id": "2387edac-765b-4502-bd3d-88be8ba7d0a4",
+            "enabled": true,
+            "name": "Gavony",
+            "img": "assets/planes/opca-27.jpg"
+        },
+        {
+            "id": "662e5245-73e4-49ba-aece-c73f1bea7b6a",
+            "enabled": true,
+            "name": "Glen Elendra",
+            "img": "assets/planes/opca-28.jpg"
+        },
+        {
+            "id": "43a23de7-0738-4b03-b87d-5a7d1144825c",
+            "enabled": true,
+            "name": "Glimmervoid Basin",
+            "img": "assets/planes/opca-29.jpg"
+        },
+        {
+            "id": "f12400e5-8288-48e1-b3b7-0cc4f8d9ca67",
+            "enabled": true,
+            "name": "Goldmeadow",
+            "img": "assets/planes/opca-30.jpg"
+        },
+        {
+            "id": "fb9651f5-1aec-4812-a044-3c1b60e6651f",
+            "enabled": true,
+            "name": "Grand Ossuary",
+            "img": "assets/planes/opca-31.jpg"
+        },
+        {
+            "id": "1aaa60e4-47a8-4255-8a09-5f00922ccf6d",
+            "enabled": true,
+            "name": "Grixis",
+            "img": "assets/planes/opca-33.jpg"
+        },
+        {
+            "id": "3e553881-bac7-4830-b739-3b8c6aa0ded6",
+            "enabled": true,
+            "name": "Grove of the Dreampods",
+            "img": "assets/planes/opca-34.jpg"
+        },
+        {
+            "id": "1f7daaf2-3206-4f52-928a-f5116b782367",
+            "enabled": true,
+            "name": "Hedron Fields of Agadeem",
+            "img": "assets/planes/opca-35.jpg"
+        },
+        {
+            "id": "065346cd-cd81-478e-8a62-2c7ea421bdcd",
+            "enabled": true,
+            "name": "Horizon Boughs",
+            "img": "assets/planes/opca-37.jpg"
+        },
+        {
+            "id": "ece3b5ed-3c07-4586-bf99-72bc1aa6ccef",
+            "enabled": true,
+            "name": "Immersturm",
+            "img": "assets/planes/opca-38.jpg"
+        },
+        {
+            "id": "7812174b-2dc1-43e8-b98f-639905e20ab7",
+            "enabled": false,
+            "name": "Interplanar Tunnel",
+            "img": "assets/planes/opca-2.jpg"
+        },
+        {
+            "id": "f017380f-97db-4a36-b111-b257aa17ebaf",
+            "enabled": true,
+            "name": "Isle of Vesuva",
+            "img": "assets/planes/opca-39.jpg"
+        },
+        {
+            "id": "e5f8b2bb-e9bb-4a0a-aa88-7fa0299f52a9",
+            "enabled": true,
+            "name": "Izzet Steam Maze",
+            "img": "assets/planes/opca-40.jpg"
+        },
+        {
+            "id": "9aa94de8-b114-4479-a771-c7bc0297be58",
+            "enabled": true,
+            "name": "Jund",
+            "img": "assets/planes/opca-41.jpg"
+        },
+        {
+            "id": "b54d9a4a-1d55-4ceb-96fd-2b1d5e46de14",
+            "enabled": true,
+            "name": "Kessig",
+            "img": "assets/planes/opca-42.jpg"
+        },
+        {
+            "id": "256770fe-c17d-45dd-bf05-36eeee240324",
+            "enabled": true,
+            "name": "Kharasha Foothills",
+            "img": "assets/planes/opca-43.jpg"
+        },
+        {
+            "id": "fc650404-991c-4639-b311-c35df81a254a",
+            "enabled": true,
+            "name": "Kilnspire District",
+            "img": "assets/planes/opca-44.jpg"
+        },
+        {
+            "id": "2732b605-7c88-4995-b46e-62dc09e68919",
+            "enabled": true,
+            "name": "Krosa",
+            "img": "assets/planes/opca-45.jpg"
+        },
+        {
+            "id": "ac4fe2a2-76ff-49d9-b506-26a17b4bf892",
+            "enabled": true,
+            "name": "Lair of the Ashen Idol",
+            "img": "assets/planes/opca-46.jpg"
+        },
+        {
+            "id": "85592710-8637-4726-8b92-552b9be677c0",
+            "enabled": true,
+            "name": "Lethe Lake",
+            "img": "assets/planes/opca-47.jpg"
+        },
+        {
+            "id": "11b3fcb2-0b66-4d8b-8e66-a21a5da1c1f5",
+            "enabled": true,
+            "name": "Llanowar",
+            "img": "assets/planes/opca-48.jpg"
+        },
+        {
+            "id": "6491f511-87e6-4504-84f5-fe5cf44768d7",
+            "enabled": true,
+            "name": "Minamo",
+            "img": "assets/planes/opca-50.jpg"
+        },
+        {
+            "id": "b6329c2f-ea7f-4611-986c-f82bacf2a872",
+            "enabled": true,
+            "name": "Mirrored Depths",
+            "img": "assets/planes/opca-51.jpg"
+        },
+        {
+            "id": "302e4ac2-522b-4a0a-850a-d856639ea2a4",
+            "enabled": true,
+            "name": "Morphic Tide",
+            "img": "assets/planes/opca-3.jpg"
+        },
+        {
+            "id": "e0dc9986-1099-4189-bfff-8f41bab9019d",
+            "enabled": true,
+            "name": "Mount Keralia",
+            "img": "assets/planes/opca-52.jpg"
+        },
+        {
+            "id": "07cc253d-e23c-450c-bfaf-5cb6a3a588ce",
+            "enabled": true,
+            "name": "Murasa",
+            "img": "assets/planes/opca-53.jpg"
+        },
+        {
+            "id": "c871974e-54e6-411f-8408-3708823fa2df",
+            "enabled": true,
+            "name": "Mutual Epiphany",
+            "img": "assets/planes/opca-4.jpg"
+        },
+        {
+            "id": "3e0bcf65-1eaf-440f-a59b-0b11e1106135",
+            "enabled": true,
+            "name": "Naar Isle",
+            "img": "assets/planes/opca-54.jpg"
+        },
+        {
+            "id": "5ed6be01-af06-4f3d-8b43-ef8993c52c97",
+            "enabled": true,
+            "name": "Naya",
+            "img": "assets/planes/opca-55.jpg"
+        },
+        {
+            "id": "72af7529-75bb-488f-801d-7148631b9e9b",
+            "enabled": true,
+            "name": "Nephalia",
+            "img": "assets/planes/opca-56.jpg"
+        },
+        {
+            "id": "9d58f647-3f83-4f65-a944-c6236db7c422",
+            "enabled": true,
+            "name": "Norn's Dominion",
+            "img": "assets/planes/opca-57.jpg"
+        },
+        {
+            "id": "69f06edb-dade-4e94-b563-e36a05e567f0",
+            "enabled": true,
+            "name": "Onakke Catacomb",
+            "img": "assets/planes/opca-58.jpg"
+        },
+        {
+            "id": "6e008fdc-48f2-40ef-95bd-80d014535ca3",
+            "enabled": true,
+            "name": "Orochi Colony",
+            "img": "assets/planes/opca-59.jpg"
+        },
+        {
+            "id": "c7241e4b-d2c7-4801-96a3-91bb998953a1",
+            "enabled": true,
+            "name": "Orzhova",
+            "img": "assets/planes/opca-60.jpg"
+        },
+        {
+            "id": "29e3371d-aa41-46a9-921a-96565be47eff",
+            "enabled": true,
+            "name": "Otaria",
+            "img": "assets/planes/opca-61.jpg"
+        },
+        {
+            "id": "cd8ce6f1-9753-40a7-a625-5ed63c15c29e",
+            "enabled": true,
+            "name": "Panopticon",
+            "img": "assets/planes/opca-62.jpg"
+        },
+        {
+            "id": "a34b272b-084b-4ff1-8b02-d95116ccfeab",
+            "enabled": true,
+            "name": "Planewide Disaster",
+            "img": "assets/planes/opca-5.jpg"
+        },
+        {
+            "id": "f133e42a-2962-4781-b413-ce2127f17c26",
+            "enabled": true,
+            "name": "Pools of Becoming",
+            "img": "assets/planes/opca-63.jpg"
+        },
+        {
+            "id": "34a31865-b701-4ce1-8912-29fc41ecdda3",
+            "enabled": true,
+            "name": "Prahv",
+            "img": "assets/planes/opca-64.jpg"
+        },
+        {
+            "id": "53517dbf-7b32-423a-af76-afd39b876a1a",
+            "enabled": true,
+            "name": "Quicksilver Sea",
+            "img": "assets/planes/opca-65.jpg"
+        },
+        {
+            "id": "b53e06af-be18-4f75-9dd0-7494ec867b13",
+            "enabled": true,
+            "name": "Raven's Run",
+            "img": "assets/planes/opca-66.jpg"
+        },
+        {
+            "id": "3fc15821-1add-4321-aecd-33f8a8c5f9a7",
+            "enabled": true,
+            "name": "Reality Shaping",
+            "img": "assets/planes/opca-6.jpg"
+        },
+        {
+            "id": "f0c8ce35-b627-485c-bd64-d7eae47b8efa",
+            "enabled": true,
+            "name": "Sanctum of Serra",
+            "img": "assets/planes/opca-67.jpg"
+        },
+        {
+            "id": "edd21d18-98d2-4e3f-8da1-1ba645b8f69c",
+            "enabled": true,
+            "name": "Sea of Sand",
+            "img": "assets/planes/opca-68.jpg"
+        },
+        {
+            "id": "0a4bf88d-106a-413b-9d80-8775c1ff5ded",
+            "enabled": true,
+            "name": "Selesnya Loft Gardens",
+            "img": "assets/planes/opca-69.jpg"
+        },
+        {
+            "id": "70edae19-e278-401d-9772-508bd66320a6",
+            "enabled": true,
+            "name": "Shiv",
+            "img": "assets/planes/opca-70.jpg"
+        },
+        {
+            "id": "61006acf-de38-420b-ab7a-685fbd64141c",
+            "enabled": true,
+            "name": "Skybreen",
+            "img": "assets/planes/opca-71.jpg"
+        },
+        {
+            "id": "c09d304a-87d0-4a2a-bcb2-e81341b2dbf2",
+            "enabled": true,
+            "name": "Sokenzan",
+            "img": "assets/planes/opca-72.jpg"
+        },
+        {
+            "id": "aa166578-b13b-4adb-a78e-d5183e987112",
+            "enabled": false,
+            "name": "Spatial Merging",
+            "img": "assets/planes/opca-7.jpg"
+        },
+        {
+            "id": "7a425df4-7010-462e-9cb5-20389bac721c",
+            "enabled": true,
+            "name": "Stairs to Infinity",
+            "img": "assets/planes/opca-73.jpg"
+        },
+        {
+            "id": "38bdd034-0375-403c-97ca-6f93a5e12e54",
+            "enabled": true,
+            "name": "Stensia",
+            "img": "assets/planes/opca-74.jpg"
+        },
+        {
+            "id": "ff76b576-8ad3-44f9-8043-80003a078e84",
+            "enabled": true,
+            "name": "Stronghold Furnace",
+            "img": "assets/planes/opca-75.jpg"
+        },
+        {
+            "id": "de53c948-b371-4f79-a965-33c44d0b44de",
+            "enabled": true,
+            "name": "Takenuma",
+            "img": "assets/planes/opca-76.jpg"
+        },
+        {
+            "id": "c85d3740-8c8d-4fef-ad33-a6f446b883ac",
+            "enabled": true,
+            "name": "Talon Gates",
+            "img": "assets/planes/opca-77.jpg"
+        },
+        {
+            "id": "97f708de-9271-4137-a9fe-dda25b922900",
+            "enabled": true,
+            "name": "Tazeem",
+            "img": "assets/planes/opca-78.jpg"
+        },
+        {
+            "id": "bbb1d13c-a3ce-4151-883a-cce9bbd584d0",
+            "enabled": true,
+            "name": "Tember City",
+            "img": "assets/planes/opca-79.jpg"
+        },
+        {
+            "id": "8eb442a9-5e61-4e2e-983d-b49b04be2575",
+            "enabled": true,
+            "name": "The Aether Flues",
+            "img": "assets/planes/opca-10.jpg"
+        },
+        {
+            "id": "5503c308-560d-4d5f-a86a-4b06d9947ddc",
+            "enabled": true,
+            "name": "The Dark Barony",
+            "img": "assets/planes/opca-19.jpg"
+        },
+        {
+            "id": "a04d05ed-1b9b-4407-8780-c75c102a94dd",
+            "enabled": true,
+            "name": "The Eon Fog",
+            "img": "assets/planes/opca-22.jpg"
+        },
+        {
+            "id": "13e801cd-e537-4ea6-8c3d-21b142bdc026",
+            "enabled": true,
+            "name": "The Fourth Sphere",
+            "img": "assets/planes/opca-25.jpg"
+        },
+        {
+            "id": "8c56bb41-a8d8-4b0f-bbb7-be8466dc9ed1",
+            "enabled": true,
+            "name": "The Great Forest",
+            "img": "assets/planes/opca-32.jpg"
+        },
+        {
+            "id": "cde8d8c4-5e2b-452f-b3e9-bb9f2e745ec9",
+            "enabled": true,
+            "name": "The Hippodrome",
+            "img": "assets/planes/opca-36.jpg"
+        },
+        {
+            "id": "e28deac5-d3c4-48e9-974c-093e3122f317",
+            "enabled": true,
+            "name": "The Maelstrom",
+            "img": "assets/planes/opca-49.jpg"
+        },
+        {
+            "id": "2d84be6d-49a5-4200-8cd3-d8653dfd0899",
+            "enabled": true,
+            "name": "The Zephyr Maze",
+            "img": "assets/planes/opca-86.jpg"
+        },
+        {
+            "id": "e19e8895-f8a4-4995-8dd4-2821c6469126",
+            "enabled": true,
+            "name": "Time Distortion",
+            "img": "assets/planes/opca-8.jpg"
+        },
+        {
+            "id": "b2c95c7a-a04c-46ef-a879-6eb08e444093",
+            "enabled": true,
+            "name": "Trail of the Mage-Rings",
+            "img": "assets/planes/opca-80.jpg"
+        },
+        {
+            "id": "d858e6db-9842-41d1-8006-574c8dcd98ed",
+            "enabled": true,
+            "name": "Truga Jungle",
+            "img": "assets/planes/opca-81.jpg"
+        },
+        {
+            "id": "1300b5e7-d741-4723-bb15-dabd04cb0c11",
+            "enabled": true,
+            "name": "Turri Island",
+            "img": "assets/planes/opca-82.jpg"
+        },
+        {
+            "id": "f3f5a033-d063-4250-9cfe-4c3c1a2725f1",
+            "enabled": true,
+            "name": "Undercity Reaches",
+            "img": "assets/planes/opca-83.jpg"
+        },
+        {
+            "id": "1c4e174e-19fb-4c0a-b762-ef6d927392c9",
+            "enabled": true,
+            "name": "Velis Vel",
+            "img": "assets/planes/opca-84.jpg"
+        },
+        {
+            "id": "e4b941d1-60cb-4e14-89a4-62a9785f6eda",
+            "enabled": true,
+            "name": "Windriddle Palaces",
+            "img": "assets/planes/opca-85.jpg"
+        }
+    ]
+}
