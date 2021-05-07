@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: repeat(4, calc(100% / 4));
     justify-content: space-between;
+    font-size: 1.45em;
+    user-select: none;
 
     div, img {
         max-height: 38px;

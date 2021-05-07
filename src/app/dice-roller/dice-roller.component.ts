@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AppComponent } from '../app.component';
-import { faDiceD6, faRedo } from '@fortawesome/free-solid-svg-icons';
+import { faDiceD6, faRedo, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-dice-roller',
@@ -14,6 +14,7 @@ export class DiceRollerComponent {
 
     public rollIcon = faDiceD6;
     public resetIcon = faRedo;
+    public xIcon = faTimes;
 
     public roll(): void {
         const roll = AppComponent.getRandomNumber(6, 1);
