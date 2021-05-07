@@ -53,4 +53,8 @@ export class HomeComponent {
     public togglePlane(plane: IPlane): void {
         plane.enabled = !plane.enabled;
     }
+
+    public countEnabledPlanes(planes: IPlane[]): number {
+        return planes.filter((plane) => plane.enabled).length;
+    }
 }
