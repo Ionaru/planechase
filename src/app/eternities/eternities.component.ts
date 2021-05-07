@@ -1,6 +1,18 @@
 import { Component } from '@angular/core';
 import { AppComponent, IPlane } from '../app.component';
 
+enum NavigationCoordinate {
+    TOP_LEFT = '1:1',
+    TOP_CENTER = '1:2',
+    TOP_RIGHT = '1:3',
+    CENTER_LEFT = '2:1',
+    CENTER = '2:2',
+    CENTER_RIGHT = '2:3',
+    BOTTOM_LEFT = '3:1',
+    BOTTOM_CENTER = '3:2',
+    BOTTOM_RIGHT = '3:3',
+}
+
 class GridItem {
     plane = AppComponent.fakePlane;
     seen = false;
@@ -93,40 +105,40 @@ export class EternitiesComponent {
     public walkToPlane(item: GridItem): void {
         const coordinates = this.getCoordinates(item);
         switch (coordinates) {
-            case '1:1':
+            case NavigationCoordinate.TOP_LEFT:
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, 1);
                 this.move(this.columns, 1);
                 break;
-            case '1:2':
+            case NavigationCoordinate.TOP_CENTER:
                 this.move(this.rows, 1);
                 break;
-            case '1:3':
+            case NavigationCoordinate.TOP_RIGHT:
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, 1);
                 this.move(this.columns, -1);
                 break;
-            case '2:1':
+            case NavigationCoordinate.CENTER_LEFT:
                 this.move(this.columns, 1);
                 break;
-            case '2:3':
+            case NavigationCoordinate.CENTER_RIGHT:
                 this.move(this.columns, -1);
                 break;
-            case '3:1':
+            case NavigationCoordinate.BOTTOM_LEFT:
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, -1);
                 this.move(this.columns, 1);
                 break;
-            case '3:2':
+            case NavigationCoordinate.BOTTOM_CENTER:
                 this.move(this.rows, -1);
                 break;
-            case '3:3':
+            case NavigationCoordinate.BOTTOM_RIGHT:
                 if (item.seen) {
                     return;
                 }
@@ -147,24 +159,27 @@ export class EternitiesComponent {
         return this.columns.indexOf(item.column) + 1;
     }
 
-    public move(lines: Line[], x: number): void {
-        if (x) {
-            if (x === 1) {
-                const line = lines.pop();
-                line.reset(this.planes);
-                lines.unshift(line);
-            }
-            if (x === -1) {
-                const line = lines.shift();
-                line.reset(this.planes);
-                lines.push(line);
-            }
+    public move(lines: Line[], x: -1 | 1): void {
+        if (x === 1) {
+            const line = lines.pop();
+            line.reset(this.planes);
+            lines.unshift(line);
+        } else {
+            const line = lines.shift();
+            line.reset(this.planes);
+            lines.push(line);
         }
     }
 
     public seeVisibleGridItems(): void {
 
-        const allowedCoordinates = ['1:2', '2:1', '2:2', '2:3', '3:2'];
+        const allowedCoordinates = [
+            NavigationCoordinate.TOP_CENTER,
+            NavigationCoordinate.CENTER_LEFT,
+            NavigationCoordinate.CENTER,
+            NavigationCoordinate.CENTER_RIGHT,
+            NavigationCoordinate.BOTTOM_CENTER,
+        ];
 
         for (const item of this.items) {
             const coordinates = this.getCoordinates(item);
@@ -191,20 +206,31 @@ export class EternitiesComponent {
     public isInteractable(item: GridItem): boolean {
         const coordinates = this.getCoordinates(item);
 
-        if (['1:2', '2:1', '2:2', '2:3', '3:2'].includes(coordinates)) {
+        if ([
+            NavigationCoordinate.TOP_CENTER,
+            NavigationCoordinate.CENTER_LEFT,
+            NavigationCoordinate.CENTER,
+            NavigationCoordinate.CENTER_RIGHT,
+            NavigationCoordinate.BOTTOM_CENTER,
+        ].includes(coordinates)) {
             return true;
         }
 
-        if (['1:1', '1:3', '3:1', '3:3'].includes(coordinates)) {
+        if ([
+            NavigationCoordinate.TOP_LEFT,
+            NavigationCoordinate.TOP_RIGHT,
+            NavigationCoordinate.BOTTOM_LEFT,
+            NavigationCoordinate.BOTTOM_RIGHT,
+        ].includes(coordinates)) {
             return !item.seen;
         }
 
         return false;
     }
 
-    public getCoordinates(item: GridItem): string {
+    public getCoordinates(item: GridItem): NavigationCoordinate {
         const itemRow = this.rows.indexOf(item.row);
         const itemColumn = this.columns.indexOf(item.column);
-        return `${itemRow}:${itemColumn}`;
+        return `${itemRow}:${itemColumn}` as NavigationCoordinate;
     }
 }
