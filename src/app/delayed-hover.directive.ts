@@ -6,8 +6,7 @@ import { delay, map, switchMap } from 'rxjs/operators';
     selector: '[appDelayedHover]',
 })
 export class DelayedHoverDirective implements OnInit, OnDestroy {
-    @Input()
-    delay = 1500;
+    @Input() delay = 1000;
 
     @Output('appDelayedHover') hoverEvent = new EventEmitter();
 
