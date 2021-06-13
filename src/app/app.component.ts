@@ -29,7 +29,7 @@ export class AppComponent {
     }
 
     public static getRandomNumber(max: number, min = 0): number {
-        return Math.floor(Math.random() * max) + min;
+        return Math.floor(Math.random() * ((max - min) + 1)) + min;
     }
 
     public static spliceRandomItemFromList<T>(list: T[]): T {
