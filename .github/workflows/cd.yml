@@ -20,7 +20,7 @@ jobs:
           node-version: '14'
 
       - name: Audit
-        run: npm audit
+        run: npm audit --production
 
   test:
     needs: [ audit ]
