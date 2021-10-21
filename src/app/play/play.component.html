@@ -6,7 +6,7 @@
                 <fa-icon [icon]="previousIcon" [fixedWidth]="true"></fa-icon>
             </button>
         </div>
-        <app-dice-roller></app-dice-roller>
+        <app-dice-roller [seed]="seed"></app-dice-roller>
         <div class="nav-button">
             <button class="btn btn-primary d-block" (click)="setNextPlane()" [disabled]="!currentPlane">
                 <fa-icon [icon]="nextIcon" [fixedWidth]="true"></fa-icon>

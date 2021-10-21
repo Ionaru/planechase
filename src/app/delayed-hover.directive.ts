@@ -23,7 +23,7 @@ export class DelayedHoverDirective implements OnInit, OnDestroy {
                         return of(false);
                     }
                     return of(true).pipe(delay(this.delay));
-                })
+                }),
             )
             .subscribe(show => {
                 if (show) {

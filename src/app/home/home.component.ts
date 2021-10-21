@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { faDiceD20 } from '@fortawesome/free-solid-svg-icons';
-import { AppComponent, IPlane } from '../app.component';
 import * as uuid from 'uuid';
+
+import { AppComponent, IPlane } from '../app.component';
 
 
 @Component({

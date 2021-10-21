@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { PlayComponent } from './play/play.component';
-import { HomeComponent } from './home/home.component';
+
 import { EternitiesComponent } from './eternities/eternities.component';
+import { HomeComponent } from './home/home.component';
+import { PlayComponent } from './play/play.component';
 
 @NgModule({
     imports: [RouterModule.forRoot([

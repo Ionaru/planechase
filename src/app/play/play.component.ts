@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
-import { AppComponent, IPlane } from '../app.component';
+import { ActivatedRoute, Router } from '@angular/router';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { generateRandomString } from '@ionaru/random-string';
+
+import { AppComponent, IPlane } from '../app.component';
 
 @Component({
     selector: 'app-play',
@@ -17,8 +20,23 @@ export class PlayComponent {
     public nextIcon = faArrowRight;
     public previousIcon = faArrowLeft;
 
-    constructor() {
-        this.resetPlanes();
+    public seed: string;
+
+    constructor(
+        private readonly activatedRoute: ActivatedRoute,
+        private readonly router: Router,
+    ) {
+        activatedRoute.queryParams.subscribe((params) => {
+            this.seed = params.seed;
+
+            if (!this.seed) {
+                this.router.navigate(
+                    [`/play`], {queryParams: {seed: generateRandomString(6)}},
+                ).then();
+            }
+
+            this.resetPlanes();
+        });
     }
 
     public setNextPlane(): void {
@@ -57,6 +75,6 @@ export class PlayComponent {
     }
 
     public getRandomPlane(): IPlane {
-        return AppComponent.spliceRandomItemFromList(this.planes);
+        return AppComponent.spliceRandomItemFromList(this.planes, this.seed);
     }
 }

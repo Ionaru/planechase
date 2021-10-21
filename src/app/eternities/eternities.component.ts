@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { generateRandomString } from '@ionaru/random-string';
+
 import { AppComponent, IPlane } from '../app.component';
 
 enum NavigationCoordinate {
@@ -83,23 +86,38 @@ export class EternitiesComponent {
 
     public canPlay = true;
 
-    constructor() {
-        this.planes = [
-            ...AppComponent.planes.filter((plane) => plane.enabled),
-            ...AppComponent.customPlanes.filter((plane) => plane.enabled),
-        ];
+    public seed: string;
 
-        if (this.planes.length < 25) {
-            this.canPlay = false;
-            return;
-        }
+    constructor(
+        private readonly activatedRoute: ActivatedRoute,
+        private readonly router: Router,
+    ) {
+        activatedRoute.queryParams.subscribe((params) => {
+            this.seed = params.seed;
 
-        for (const row of this.rows) {
-            for (const column of this.columns) {
-                this.items.push(new GridItem(row, column));
+            if (!this.seed) {
+                this.router.navigate(
+                    [`/eternities`], {queryParams: {seed: generateRandomString(6)}},
+                ).then();
             }
-        }
-        this.seeVisibleGridItems();
+
+            this.planes = [
+                ...AppComponent.planes.filter((plane) => plane.enabled),
+                ...AppComponent.customPlanes.filter((plane) => plane.enabled),
+            ];
+
+            if (this.planes.length < 25) {
+                this.canPlay = false;
+                return;
+            }
+
+            for (const row of this.rows) {
+                for (const column of this.columns) {
+                    this.items.push(new GridItem(row, column));
+                }
+            }
+            this.seeVisibleGridItems();
+        });
     }
 
     public walkToPlane(item: GridItem): void {
@@ -190,7 +208,7 @@ export class EternitiesComponent {
     }
 
     public getRandomPlane(): IPlane {
-        return AppComponent.spliceRandomItemFromList(this.planes);
+        return AppComponent.spliceRandomItemFromList(this.planes, this.seed);
     }
 
     public hover(item: GridItem): void {

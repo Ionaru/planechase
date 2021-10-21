@@ -11,7 +11,9 @@
         </p>
     </div>
     <div class="m-auto">
-        <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1"><fa-icon [icon]="xIcon"></fa-icon></p>
+        <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">
+            <fa-icon [icon]="xIcon"></fa-icon>
+        </p>
         <img alt="planeswalker" *ngIf="rolled === 6" src="assets/planeswalker.png">
         <img alt="chaos" *ngIf="rolled === 1" src="assets/chaos.png">
     </div>
