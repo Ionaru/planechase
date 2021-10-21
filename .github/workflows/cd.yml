@@ -17,7 +17,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Audit
         run: npm audit --production
@@ -32,7 +32,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install packages
         run: npm ci
@@ -49,7 +49,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install packages
         run: npm ci
@@ -106,7 +106,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Deploy
         run: npx -q @ionaru/teamcity-deploy teamcity.saturnserver.org Planechase_Deploy ${{ secrets.TEAMCITY_TOKEN }}

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as defaultPlanes from './data/defaultPlanes.json';
+import planes from './data/defaultPlanes.json';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
 export interface IPlane {
@@ -25,7 +25,7 @@ export class AppComponent {
     public copyrightIcon = faCopyright;
 
     public constructor() {
-        AppComponent.planes = defaultPlanes.planes;
+        AppComponent.planes = planes.planes;
     }
 
     public static getRandomNumber(max: number, min = 0): number {
