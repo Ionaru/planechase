@@ -21,4 +21,12 @@
         <button class="btn btn-danger" (click)="resetPlanes()">Reset</button>
     </div>
     <img [alt]="currentPlane.name" *ngIf="currentPlane" class="plane" [src]="currentPlane.img">
+
+    <hr>
+
+    <div class="buttons mt-3">
+        <div class="nav-container">
+            <app-nav-buttons></app-nav-buttons>
+        </div>
+    </div>
 </div>

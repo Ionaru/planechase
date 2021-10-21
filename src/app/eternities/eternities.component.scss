@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, calc(100% / 3));
 
-    .dice-roller-container {
+    .dice-roller-container, .nav-container {
         grid-column: 2;
     }
 }

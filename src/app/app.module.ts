@@ -10,6 +10,7 @@ import { DelayedHoverDirective } from './delayed-hover.directive';
 import { DiceRollerComponent } from './dice-roller/dice-roller.component';
 import { EternitiesComponent } from './eternities/eternities.component';
 import { HomeComponent } from './home/home.component';
+import { NavButtonsComponent } from './nav-buttons/nav-buttons.component';
 import { PlayComponent } from './play/play.component';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { PlayComponent } from './play/play.component';
         EternitiesComponent,
         DelayedHoverDirective,
         DiceRollerComponent,
+        NavButtonsComponent,
     ],
     imports: [
         BrowserModule,
