@@ -35,7 +35,8 @@ export class AppComponent {
     }
 
     public static spliceRandomItemFromList<T>(list: T[], seed: string): T {
-        return list.splice(this.getRandomNumber(seed, list.length), 1)[0];
+        const indexToDelete = this.getRandomNumber(seed + list.length, list.length) - 1;
+        return list.splice(indexToDelete, 1)[0];
     }
 
 }
