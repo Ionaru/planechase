@@ -11,7 +11,7 @@ import { AppComponent } from '../app.component';
 })
 export class DiceRollerComponent implements OnInit {
 
-    @Input('seed') pageSeed: string;
+    @Input() seed: string;
 
     public resetSeed = '';
 
@@ -24,7 +24,7 @@ export class DiceRollerComponent implements OnInit {
 
     public ngOnInit() {
         // Set initial seed based on page seed.
-        this.resetSeed = seedrandom(this.pageSeed)().toString();
+        this.resetSeed = seedrandom(this.seed)().toString();
         this.reset();
     }
 
