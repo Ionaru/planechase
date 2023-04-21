@@ -515,6 +515,156 @@
             "enabled": true,
             "name": "Windriddle Palaces",
             "img": "assets/planes/opca-85.jpg"
+        },
+        {
+            "id": "a4400c14-2aed-4018-a3fb-7de2b0456c07",
+            "enabled": true,
+            "name": "Enigma Ridges",
+            "img": "assets/planes/moc-1.jpg"
+        },
+        {
+            "id": "ffdf27d3-80b4-4aa1-b943-d247e502d32c",
+            "enabled": true,
+            "name": "Esper",
+            "img": "assets/planes/moc-2.jpg"
+        },
+        {
+            "id": "0c8456bd-d290-43af-b2b9-06823bab65a2",
+            "enabled": true,
+            "name": "Ghirapur",
+            "img": "assets/planes/moc-3.jpg"
+        },
+        {
+            "id": "6a9b4ba6-12cb-488c-b9d5-245e094f72c3",
+            "enabled": true,
+            "name": "Inys Haen",
+            "img": "assets/planes/moc-4.jpg"
+        },
+        {
+            "id": "8d63dc8a-101c-4b12-bf56-06a8a3cea64e",
+            "enabled": true,
+            "name": "Ketria",
+            "img": "assets/planes/moc-5.jpg"
+        },
+        {
+            "id": "2a098e3b-00e7-48d5-bc0d-f153e7cc5dfd",
+            "enabled": true,
+            "name": "Littjara",
+            "img": "assets/planes/moc-6.jpg"
+        },
+        {
+            "id": "53f91325-e95a-4b68-9491-4249c2e940b4",
+            "enabled": true,
+            "name": "Megaflora Jungle",
+            "img": "assets/planes/moc-7.jpg"
+        },
+        {
+            "id": "7ff092bb-e284-4397-a584-6a046145424b",
+            "enabled": true,
+            "name": "Naktamun",
+            "img": "assets/planes/moc-8.jpg"
+        },
+        {
+            "id": "e22ac94f-03a7-49ee-a059-fc123708962e",
+            "enabled": true,
+            "name": "New Argive",
+            "img": "assets/planes/moc-9.jpg"
+        },
+        {
+            "id": "1a4238ce-2a8f-404f-a893-9bb8b3f26835",
+            "enabled": false,
+            "name": "Norn's Seedcore",
+            "img": "assets/planes/moc-10.jpg"
+        },
+        {
+            "id": "d8da872d-55e0-4596-ba8e-f9ff7b2c0a86",
+            "enabled": true,
+            "name": "Nyx",
+            "img": "assets/planes/moc-11.jpg"
+        },
+        {
+            "id": "fe509cef-83e5-48d9-a9ec-e187ab65b5e0",
+            "enabled": true,
+            "name": "Paliano",
+            "img": "assets/planes/moc-12.jpg"
+        },
+        {
+            "id": "618dbae8-7e3f-47ba-8f02-292047e86a05",
+            "enabled": true,
+            "name": "Riptide Island",
+            "img": "assets/planes/moc-13.jpg"
+        },
+        {
+            "id": "6a8a8752-6849-4abc-9acb-bafffe685e94",
+            "enabled": true,
+            "name": "Strixhaven",
+            "img": "assets/planes/moc-14.jpg"
+        },
+        {
+            "id": "d2603e7a-1b1b-4f71-81d9-7e84c766312d",
+            "enabled": true,
+            "name": "Ten Wizards Mountain",
+            "img": "assets/planes/moc-15.jpg"
+        },
+        {
+            "id": "de4c566d-85ef-49af-a5cb-bcfa4aaba245",
+            "enabled": true,
+            "name": "The Caldaia",
+            "img": "assets/planes/moc-16.jpg"
+        },
+        {
+            "id": "fe2e52fb-4633-46c1-a48a-cde89d709e07",
+            "enabled": false,
+            "name": "The Fertile Lands of Saulvinia",
+            "img": "assets/planes/moc-17.jpg"
+        },
+        {
+            "id": "03a2c40d-6adb-4ad7-ba8e-3954d33f0e09",
+            "enabled": true,
+            "name": "The Golden City of Orazca",
+            "img": "assets/planes/moc-18.jpg"
+        },
+        {
+            "id": "4afe8c95-efeb-4f7d-834d-fa5b095c9a06",
+            "enabled": true,
+            "name": "The Great Aerie",
+            "img": "assets/planes/moc-19.jpg"
+        },
+        {
+            "id": "fd571dc7-b0b0-49a2-938a-d4336efe5e76",
+            "enabled": true,
+            "name": "The Pit",
+            "img": "assets/planes/moc-20.jpg"
+        },
+        {
+            "id": "4a0e558d-cfd7-4ecf-b951-50016e8cc569",
+            "enabled": true,
+            "name": "The Western Cloud",
+            "img": "assets/planes/moc-21.jpg"
+        },
+        {
+            "id": "1fccd76c-cce9-4ae3-84c1-000e54ca4734",
+            "enabled": true,
+            "name": "The Wilds",
+            "img": "assets/planes/moc-22.jpg"
+        },
+        {
+            "id": "6d37cf73-e128-4367-b030-313d987fda7a",
+            "enabled": true,
+            "name": "Towashi",
+            "img": "assets/planes/moc-23.jpg"
+        },
+        {
+            "id": "6ef8454d-1aac-4907-91cf-535ea679042c",
+            "enabled": true,
+            "name": "Unyaro",
+            "img": "assets/planes/moc-24.jpg"
+        },
+        {
+            "id": "450ed99e-7fb6-45d3-b043-27ff58fe8dbb",
+            "enabled": true,
+            "name": "Valor's Reach",
+            "img": "assets/planes/moc-25.jpg"
         }
     ]
 }
