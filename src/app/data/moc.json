@@ -7,9 +7,7 @@
             "object": "card",
             "id": "a4400c14-2aed-4018-a3fb-7de2b0456c07",
             "oracle_id": "93b3acc1-2d41-4f5f-9225-7a30ea2d8158",
-            "multiverse_ids": [
-                614931
-            ],
+            "multiverse_ids": [614931],
             "tcgplayer_id": 491537,
             "cardmarket_id": 705487,
             "name": "Enigma Ridges",
@@ -58,15 +56,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -85,9 +79,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Eytan Zana",
-            "artist_ids": [
-                "0d8d6726-4051-445a-8374-a919aad98f38"
-            ],
+            "artist_ids": ["0d8d6726-4051-445a-8374-a919aad98f38"],
             "illustration_id": "1ac49066-3e2e-4b97-978f-ac340606f9cc",
             "border_color": "black",
             "frame": "2015",
@@ -119,9 +111,7 @@
             "object": "card",
             "id": "ffdf27d3-80b4-4aa1-b943-d247e502d32c",
             "oracle_id": "4eebfaf3-18da-4661-b6a5-d874585e170a",
-            "multiverse_ids": [
-                614932
-            ],
+            "multiverse_ids": [614932],
             "tcgplayer_id": 490482,
             "cardmarket_id": 705488,
             "name": "Esper",
@@ -170,15 +160,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -197,9 +183,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Bruce Brenneise",
-            "artist_ids": [
-                "91d65465-e8a6-4a4e-8b0e-0e07466cfa0f"
-            ],
+            "artist_ids": ["91d65465-e8a6-4a4e-8b0e-0e07466cfa0f"],
             "illustration_id": "b6689314-0f56-4483-a214-e744fd0d55e5",
             "border_color": "black",
             "frame": "2015",
@@ -236,9 +220,7 @@
             "object": "card",
             "id": "0c8456bd-d290-43af-b2b9-06823bab65a2",
             "oracle_id": "a7c6b72c-f9ec-4048-8e4c-99210e4e7b85",
-            "multiverse_ids": [
-                614934
-            ],
+            "multiverse_ids": [614934],
             "tcgplayer_id": 491526,
             "cardmarket_id": 705491,
             "name": "Ghirapur",
@@ -263,9 +245,7 @@
             "oracle_text": "At the beginning of combat on your turn, until end of turn, each noncreature, non-Vehicle artifact you control becomes a 5/3 Vehicle in addition to its other types and gains trample, haste, and crew 2.\nWhenever chaos ensues, return target noncreature artifact card from your graveyard to your hand.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Haste"
-            ],
+            "keywords": ["Haste"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -289,15 +269,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -316,9 +292,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "David Álvarez",
-            "artist_ids": [
-                "c3004e2c-d372-4faa-90db-f1274e75ef41"
-            ],
+            "artist_ids": ["c3004e2c-d372-4faa-90db-f1274e75ef41"],
             "illustration_id": "5cf6e5a6-a428-410c-8366-79db1715b5f3",
             "border_color": "black",
             "frame": "2015",
@@ -350,9 +324,7 @@
             "object": "card",
             "id": "6a9b4ba6-12cb-488c-b9d5-245e094f72c3",
             "oracle_id": "61c5f2cb-f39c-487c-9786-a8dad4663f4f",
-            "multiverse_ids": [
-                614937
-            ],
+            "multiverse_ids": [614937],
             "tcgplayer_id": 491277,
             "cardmarket_id": 705502,
             "name": "Inys Haen",
@@ -377,9 +349,7 @@
             "oracle_text": "When you planeswalk to Ins Haen and at the beginning of your upkeep, mill three cards.\nWhen you planeswalk away from Ins Haen, each player returns all land cards from their graveyard to the battlefield tapped\nWhenever chaos ensues, return target nonland card from your graveyard to your hand.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Mill"
-            ],
+            "keywords": ["Mill"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -403,15 +373,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -430,9 +396,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Aldo Domínguez",
-            "artist_ids": [
-                "b701136e-c578-4a48-9383-1c2a5381ecb2"
-            ],
+            "artist_ids": ["b701136e-c578-4a48-9383-1c2a5381ecb2"],
             "illustration_id": "07bda8d5-e9b5-4360-8ba4-bec6ccd5e1d1",
             "border_color": "black",
             "frame": "2015",
@@ -464,9 +428,7 @@
             "object": "card",
             "id": "8d63dc8a-101c-4b12-bf56-06a8a3cea64e",
             "oracle_id": "f3b27908-ca10-4793-ab8e-6639c73cfadd",
-            "multiverse_ids": [
-                614938
-            ],
+            "multiverse_ids": [614938],
             "tcgplayer_id": 491558,
             "cardmarket_id": 705503,
             "name": "Ketria",
@@ -515,15 +477,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -542,9 +500,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Piotr Dura",
-            "artist_ids": [
-                "aff176e8-1d15-432e-ad1d-207a474decba"
-            ],
+            "artist_ids": ["aff176e8-1d15-432e-ad1d-207a474decba"],
             "illustration_id": "f7f3cb67-2970-43a4-9a02-05072c244fe8",
             "border_color": "black",
             "frame": "2015",
@@ -581,9 +537,7 @@
             "object": "card",
             "id": "2a098e3b-00e7-48d5-bc0d-f153e7cc5dfd",
             "oracle_id": "0ff2bbed-e435-4108-b02a-564a75abba40",
-            "multiverse_ids": [
-                614939
-            ],
+            "multiverse_ids": [614939],
             "tcgplayer_id": 491570,
             "cardmarket_id": 705504,
             "name": "Littjara",
@@ -650,15 +604,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -677,9 +627,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Jonas De Ro",
-            "artist_ids": [
-                "561ebf9e-8d93-4b57-8156-8826d0c19601"
-            ],
+            "artist_ids": ["561ebf9e-8d93-4b57-8156-8826d0c19601"],
             "illustration_id": "9fc0baa6-d81c-4afd-9d16-f220adcc906b",
             "border_color": "black",
             "frame": "2015",
@@ -711,9 +659,7 @@
             "object": "card",
             "id": "53f91325-e95a-4b68-9491-4249c2e940b4",
             "oracle_id": "c907333b-eae8-444f-9da3-b193289f19e2",
-            "multiverse_ids": [
-                614940
-            ],
+            "multiverse_ids": [614940],
             "tcgplayer_id": 491263,
             "cardmarket_id": 705505,
             "name": "Megaflora Jungle",
@@ -780,15 +726,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -807,9 +749,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "John Avon",
-            "artist_ids": [
-                "798f3932-30e0-4420-aa3f-db4d613f89ca"
-            ],
+            "artist_ids": ["798f3932-30e0-4420-aa3f-db4d613f89ca"],
             "illustration_id": "fd9a4be9-cd8c-4ea8-962f-a5f4cff8f0d7",
             "border_color": "black",
             "frame": "2015",
@@ -841,9 +781,7 @@
             "object": "card",
             "id": "7ff092bb-e284-4397-a584-6a046145424b",
             "oracle_id": "a2048704-0d22-435d-b819-269291f2981e",
-            "multiverse_ids": [
-                614941
-            ],
+            "multiverse_ids": [614941],
             "tcgplayer_id": 491535,
             "cardmarket_id": 705506,
             "name": "Naktamun",
@@ -892,15 +830,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -919,9 +853,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Robin Olausson",
-            "artist_ids": [
-                "adb9ad6d-6173-454b-8b50-a102b182548b"
-            ],
+            "artist_ids": ["adb9ad6d-6173-454b-8b50-a102b182548b"],
             "illustration_id": "8988f22c-e94d-4488-99b7-58569db157fa",
             "border_color": "black",
             "frame": "2015",
@@ -958,9 +890,7 @@
             "object": "card",
             "id": "e22ac94f-03a7-49ee-a059-fc123708962e",
             "oracle_id": "08427dab-3874-4a29-bd63-cbd16c1d229d",
-            "multiverse_ids": [
-                614942
-            ],
+            "multiverse_ids": [614942],
             "tcgplayer_id": 491560,
             "cardmarket_id": 705507,
             "name": "New Argive",
@@ -1009,15 +939,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1036,9 +962,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Leon Tukker",
-            "artist_ids": [
-                "669b8b90-758d-4f9e-b4f7-98cd6742eb97"
-            ],
+            "artist_ids": ["669b8b90-758d-4f9e-b4f7-98cd6742eb97"],
             "illustration_id": "5f559995-580c-462b-a982-06beb57ed251",
             "border_color": "black",
             "frame": "2015",
@@ -1070,9 +994,7 @@
             "object": "card",
             "id": "1a4238ce-2a8f-404f-a893-9bb8b3f26835",
             "oracle_id": "ab72ff80-738a-4468-aecf-5d806143f791",
-            "multiverse_ids": [
-                614943
-            ],
+            "multiverse_ids": [614943],
             "tcgplayer_id": 491541,
             "cardmarket_id": 705508,
             "name": "Norn's Seedcore",
@@ -1121,15 +1043,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1148,9 +1066,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Alexander Forssberg",
-            "artist_ids": [
-                "85908891-3cc7-42b0-9b54-27ed0fe89c53"
-            ],
+            "artist_ids": ["85908891-3cc7-42b0-9b54-27ed0fe89c53"],
             "illustration_id": "16e7cfd2-89d5-4d03-9a9b-a7b4e52c6f07",
             "border_color": "black",
             "frame": "2015",
@@ -1182,9 +1098,7 @@
             "object": "card",
             "id": "d8da872d-55e0-4596-ba8e-f9ff7b2c0a86",
             "oracle_id": "6552e3dd-ce35-4267-a25e-f5d4dceb8311",
-            "multiverse_ids": [
-                614944
-            ],
+            "multiverse_ids": [614944],
             "tcgplayer_id": 490481,
             "cardmarket_id": 705509,
             "name": "Nyx",
@@ -1209,16 +1123,8 @@
             "oracle_text": "Nontoken creatures are enchantments in addition to their other types.\nConstellation — Whenever an enchantment enters the battlefield under your control, you gain 1 life.\nWhenever chaos ensues, choose a color. Add an amount of mana of that color equal to your devotion to that color.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Constellation"
-            ],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "keywords": ["Constellation"],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -1242,15 +1148,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1269,9 +1171,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Piotr Dura",
-            "artist_ids": [
-                "aff176e8-1d15-432e-ad1d-207a474decba"
-            ],
+            "artist_ids": ["aff176e8-1d15-432e-ad1d-207a474decba"],
             "illustration_id": "4cedeedb-46fb-4113-a6c1-83d5b50c45f4",
             "border_color": "black",
             "frame": "2015",
@@ -1308,9 +1208,7 @@
             "object": "card",
             "id": "fe509cef-83e5-48d9-a9ec-e187ab65b5e0",
             "oracle_id": "c5f0da12-b76f-42fb-a52e-cd09535e72fb",
-            "multiverse_ids": [
-                614945
-            ],
+            "multiverse_ids": [614945],
             "tcgplayer_id": 491566,
             "cardmarket_id": 705510,
             "name": "Paliano",
@@ -1377,15 +1275,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1404,9 +1298,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Piotr Dura",
-            "artist_ids": [
-                "aff176e8-1d15-432e-ad1d-207a474decba"
-            ],
+            "artist_ids": ["aff176e8-1d15-432e-ad1d-207a474decba"],
             "illustration_id": "19bc4727-9cd3-4c4a-94e1-0a6f7fc7b761",
             "border_color": "black",
             "frame": "2015",
@@ -1438,9 +1330,7 @@
             "object": "card",
             "id": "618dbae8-7e3f-47ba-8f02-292047e86a05",
             "oracle_id": "91fe554b-13db-451d-ab25-717ab2b70649",
-            "multiverse_ids": [
-                614947
-            ],
+            "multiverse_ids": [614947],
             "tcgplayer_id": 491261,
             "cardmarket_id": 705512,
             "name": "Riptide Island",
@@ -1507,15 +1397,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1534,9 +1420,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Jesper Ejsing",
-            "artist_ids": [
-                "a5f8354a-8b51-4e59-96b2-0e3aeae4fa1d"
-            ],
+            "artist_ids": ["a5f8354a-8b51-4e59-96b2-0e3aeae4fa1d"],
             "illustration_id": "a743f2e2-c3f9-49bd-b4f0-1e5fc2299982",
             "border_color": "black",
             "frame": "2015",
@@ -1568,9 +1452,7 @@
             "object": "card",
             "id": "6a8a8752-6849-4abc-9acb-bafffe685e94",
             "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
-            "multiverse_ids": [
-                614948
-            ],
+            "multiverse_ids": [614948],
             "tcgplayer_id": 491571,
             "cardmarket_id": 705513,
             "name": "Strixhaven",
@@ -1619,15 +1501,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1646,9 +1524,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Alexander Forssberg",
-            "artist_ids": [
-                "85908891-3cc7-42b0-9b54-27ed0fe89c53"
-            ],
+            "artist_ids": ["85908891-3cc7-42b0-9b54-27ed0fe89c53"],
             "illustration_id": "1b2f396e-0b7d-4d85-95f9-11ce7f68a2d7",
             "border_color": "black",
             "frame": "2015",
@@ -1680,9 +1556,7 @@
             "object": "card",
             "id": "d2603e7a-1b1b-4f71-81d9-7e84c766312d",
             "oracle_id": "a0cb118e-6af1-41d2-847f-d685ced2165d",
-            "multiverse_ids": [
-                614949
-            ],
+            "multiverse_ids": [614949],
             "tcgplayer_id": 491561,
             "cardmarket_id": 705514,
             "name": "Ten Wizards Mountain",
@@ -1731,15 +1605,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1758,9 +1628,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Iris Compiet",
-            "artist_ids": [
-                "aa807c8c-d07f-4f09-90d3-b2cbf5b86dbf"
-            ],
+            "artist_ids": ["aa807c8c-d07f-4f09-90d3-b2cbf5b86dbf"],
             "illustration_id": "8c669d5f-0664-4455-b441-fce7f9c4f905",
             "border_color": "black",
             "frame": "2015",
@@ -1792,9 +1660,7 @@
             "object": "card",
             "id": "de4c566d-85ef-49af-a5cb-bcfa4aaba245",
             "oracle_id": "86534917-5d51-4eba-9bf5-f9fc93c83c80",
-            "multiverse_ids": [
-                614930
-            ],
+            "multiverse_ids": [614930],
             "tcgplayer_id": 491539,
             "cardmarket_id": 705485,
             "name": "The Caldaia",
@@ -1843,15 +1709,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1870,9 +1732,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Julian Kok Joon Wen",
-            "artist_ids": [
-                "7f1868e3-325f-4df9-8f27-a381fed4f0fc"
-            ],
+            "artist_ids": ["7f1868e3-325f-4df9-8f27-a381fed4f0fc"],
             "illustration_id": "ab9cb55c-ddb8-45aa-aab4-8fe7820703dd",
             "border_color": "black",
             "frame": "2015",
@@ -1904,9 +1764,7 @@
             "object": "card",
             "id": "fe2e52fb-4633-46c1-a48a-cde89d709e07",
             "oracle_id": "2f3e71b6-0fd6-4ac5-a265-faaabe21177b",
-            "multiverse_ids": [
-                614933
-            ],
+            "multiverse_ids": [614933],
             "tcgplayer_id": 491562,
             "cardmarket_id": 705489,
             "name": "The Fertile Lands of Saulvinia",
@@ -1932,13 +1790,7 @@
             "colors": [],
             "color_identity": [],
             "keywords": [],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -1962,15 +1814,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -1989,9 +1837,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Lorenzo Lanfranconi",
-            "artist_ids": [
-                "334dd388-1e26-4181-8eca-f9c097e29c5e"
-            ],
+            "artist_ids": ["334dd388-1e26-4181-8eca-f9c097e29c5e"],
             "illustration_id": "31c010be-e07d-41e4-beb6-3134a21dfcfd",
             "border_color": "black",
             "frame": "2015",
@@ -2023,9 +1869,7 @@
             "object": "card",
             "id": "03a2c40d-6adb-4ad7-ba8e-3954d33f0e09",
             "oracle_id": "3c200cc0-02b1-4a32-a910-5cd3c4d716b7",
-            "multiverse_ids": [
-                614935
-            ],
+            "multiverse_ids": [614935],
             "tcgplayer_id": 491257,
             "cardmarket_id": 705499,
             "name": "The Golden City of Orazca",
@@ -2050,10 +1894,7 @@
             "oracle_text": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token. Then draw a card if you have the city's blessing.\nWhenever chaos ensues, you may put a permanent card from your hand onto the battlefield tapped.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Ascend",
-                "Treasure"
-            ],
+            "keywords": ["Ascend", "Treasure"],
             "all_parts": [
                 {
                     "object": "related_card",
@@ -2103,15 +1944,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2130,9 +1967,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Alayna Danner",
-            "artist_ids": [
-                "bb677b1a-ce51-4888-83d6-5a94de461ff9"
-            ],
+            "artist_ids": ["bb677b1a-ce51-4888-83d6-5a94de461ff9"],
             "illustration_id": "c0a57417-f213-41c9-8200-5aaa2baeb70c",
             "border_color": "black",
             "frame": "2015",
@@ -2164,9 +1999,7 @@
             "object": "card",
             "id": "4afe8c95-efeb-4f7d-834d-fa5b095c9a06",
             "oracle_id": "00f00001-bd84-4dbf-a707-f4b1549100d4",
-            "multiverse_ids": [
-                614936
-            ],
+            "multiverse_ids": [614936],
             "tcgplayer_id": 491262,
             "cardmarket_id": 705501,
             "name": "The Great Aerie",
@@ -2191,9 +2024,7 @@
             "oracle_text": "When you planeswalk to The Great Aerie and at the beginning of your upkeep, bolster 3. (Choose a creature with the least toughness among creatures you control and put three +1/+1 counters on it.)\nWhenever chaos ensues, choose up to one target creature you control and up to one target creature an opponent controls. Each of those creatures deals damage equal to its toughness to the other.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Bolster"
-            ],
+            "keywords": ["Bolster"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -2217,15 +2048,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2244,9 +2071,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Julian Kok Joon Wen",
-            "artist_ids": [
-                "7f1868e3-325f-4df9-8f27-a381fed4f0fc"
-            ],
+            "artist_ids": ["7f1868e3-325f-4df9-8f27-a381fed4f0fc"],
             "illustration_id": "7bc06fca-0d55-4d44-862c-2f56be2318b5",
             "border_color": "black",
             "frame": "2015",
@@ -2278,9 +2103,7 @@
             "object": "card",
             "id": "fd571dc7-b0b0-49a2-938a-d4336efe5e76",
             "oracle_id": "b60e8617-fc35-4c8a-beb0-4688b88484c4",
-            "multiverse_ids": [
-                614946
-            ],
+            "multiverse_ids": [614946],
             "tcgplayer_id": 491528,
             "cardmarket_id": 705511,
             "name": "The Pit",
@@ -2355,15 +2178,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2382,9 +2201,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Dave Kendall",
-            "artist_ids": [
-                "8a5540a8-18c9-4fa9-802c-59d6866114d5"
-            ],
+            "artist_ids": ["8a5540a8-18c9-4fa9-802c-59d6866114d5"],
             "illustration_id": "0c1a6c0e-4fd1-4f32-a7d2-727246457329",
             "border_color": "black",
             "frame": "2015",
@@ -2421,9 +2238,7 @@
             "object": "card",
             "id": "4a0e558d-cfd7-4ecf-b951-50016e8cc569",
             "oracle_id": "4abae901-eb47-4318-bf64-322a893c2833",
-            "multiverse_ids": [
-                614953
-            ],
+            "multiverse_ids": [614953],
             "tcgplayer_id": 491555,
             "cardmarket_id": 705517,
             "name": "The Western Cloud",
@@ -2448,9 +2263,7 @@
             "oracle_text": "Prevent all damage that would be dealt to creatures and planeswalkers you control.\nWhenever chaos ensues, create three tapped Treasure tokens. They each deal 1 damage to each creature and each planeswalker.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Treasure"
-            ],
+            "keywords": ["Treasure"],
             "all_parts": [
                 {
                     "object": "related_card",
@@ -2492,15 +2305,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2519,9 +2328,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Titus Lunter",
-            "artist_ids": [
-                "b11e6b3a-f4ca-4cf1-8fd7-475696de5f5c"
-            ],
+            "artist_ids": ["b11e6b3a-f4ca-4cf1-8fd7-475696de5f5c"],
             "illustration_id": "a1720f02-660f-4fe5-b0de-f4f817aa8793",
             "border_color": "black",
             "frame": "2015",
@@ -2553,9 +2360,7 @@
             "object": "card",
             "id": "1fccd76c-cce9-4ae3-84c1-000e54ca4734",
             "oracle_id": "cb7ae16a-9982-4782-9e20-07bb771d0601",
-            "multiverse_ids": [
-                614954
-            ],
+            "multiverse_ids": [614954],
             "tcgplayer_id": 491563,
             "cardmarket_id": 705518,
             "name": "The Wilds",
@@ -2580,9 +2385,7 @@
             "oracle_text": "When you planeswalk to The Wilds and at the beginning of your upkeep, create a Food token.\nWhenever chaos ensues, target player sacrifices a creature. If they do, you create a Food token. You create two Food tokens instead if the sacrificed creature's toughness was 4 or greater.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Food"
-            ],
+            "keywords": ["Food"],
             "all_parts": [
                 {
                     "object": "related_card",
@@ -2624,15 +2427,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2651,9 +2450,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Chris Seaman",
-            "artist_ids": [
-                "b9c49463-6f55-4039-9d32-c02a658af100"
-            ],
+            "artist_ids": ["b9c49463-6f55-4039-9d32-c02a658af100"],
             "illustration_id": "4e9edf5c-04f4-4783-8905-a20c3fefe6f8",
             "border_color": "black",
             "frame": "2015",
@@ -2685,9 +2482,7 @@
             "object": "card",
             "id": "6d37cf73-e128-4367-b030-313d987fda7a",
             "oracle_id": "0c1cb8e2-8ed4-4a0e-926b-4df5466c607c",
-            "multiverse_ids": [
-                614950
-            ],
+            "multiverse_ids": [614950],
             "tcgplayer_id": 484633,
             "cardmarket_id": 698041,
             "name": "Towashi",
@@ -2736,15 +2531,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2763,9 +2554,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Kamila Szutenberg",
-            "artist_ids": [
-                "bec9ba7f-594e-4ff0-8172-9ec1fc909607"
-            ],
+            "artist_ids": ["bec9ba7f-594e-4ff0-8172-9ec1fc909607"],
             "illustration_id": "7766b628-f29a-4c5a-b716-7e5093a485a3",
             "border_color": "black",
             "frame": "2015",
@@ -2802,9 +2591,7 @@
             "object": "card",
             "id": "6ef8454d-1aac-4907-91cf-535ea679042c",
             "oracle_id": "503fcc43-dafd-484b-a97f-bbd11eed66de",
-            "multiverse_ids": [
-                614951
-            ],
+            "multiverse_ids": [614951],
             "tcgplayer_id": 491547,
             "cardmarket_id": 705515,
             "name": "Unyaro",
@@ -2871,15 +2658,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -2898,9 +2681,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Robin Olausson",
-            "artist_ids": [
-                "adb9ad6d-6173-454b-8b50-a102b182548b"
-            ],
+            "artist_ids": ["adb9ad6d-6173-454b-8b50-a102b182548b"],
             "illustration_id": "78fbb952-54f9-4576-b01a-23b4fa8d41aa",
             "border_color": "black",
             "frame": "2015",
@@ -2932,9 +2713,7 @@
             "object": "card",
             "id": "450ed99e-7fb6-45d3-b043-27ff58fe8dbb",
             "oracle_id": "61b5984a-de6a-4d5a-8b20-e2fb3b553a34",
-            "multiverse_ids": [
-                614952
-            ],
+            "multiverse_ids": [614952],
             "tcgplayer_id": 491549,
             "cardmarket_id": 705516,
             "name": "Valor's Reach",
@@ -2983,15 +2762,11 @@
                 "premodern": "not_legal",
                 "predh": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
-            "finishes": [
-                "nonfoil"
-            ],
+            "finishes": ["nonfoil"],
             "oversized": true,
             "promo": false,
             "reprint": false,
@@ -3010,9 +2785,7 @@
             "rarity": "common",
             "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
             "artist": "Kamila Szutenberg",
-            "artist_ids": [
-                "bec9ba7f-594e-4ff0-8172-9ec1fc909607"
-            ],
+            "artist_ids": ["bec9ba7f-594e-4ff0-8172-9ec1fc909607"],
             "illustration_id": "d43b0b81-2036-4d93-a38f-c45efde674e8",
             "border_color": "black",
             "frame": "2015",

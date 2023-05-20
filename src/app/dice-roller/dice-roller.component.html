@@ -1,5 +1,5 @@
-<link rel="preload" as="image" href="assets/PW.svg">
-<link rel="preload" as="image" href="assets/CHAOS.svg">
+<link rel="preload" as="image" href="assets/PW.svg" />
+<link rel="preload" as="image" href="assets/CHAOS.svg" />
 
 <div class="roll-panel">
     <button class="btn btn-primary d-block" (click)="reset()">
@@ -7,15 +7,15 @@
     </button>
     <div class="m-auto">
         <p class="align-middle m-auto">
-            <strong>{{rollCounter}}</strong>
+            <strong>{{ rollCounter }}</strong>
         </p>
     </div>
     <div class="m-auto">
         <p class="align-middle m-auto" *ngIf="rolled !== 6 && rolled !== 1">
             <fa-icon [icon]="xIcon"></fa-icon>
         </p>
-        <img alt="planeswalker" *ngIf="rolled === 6" src="assets/PW.svg">
-        <img alt="chaos" *ngIf="rolled === 1" src="assets/CHAOS.svg">
+        <img alt="planeswalker" *ngIf="rolled === 6" src="assets/PW.svg" />
+        <img alt="chaos" *ngIf="rolled === 1" src="assets/CHAOS.svg" />
     </div>
     <button class="btn btn-primary d-block" (click)="roll()">
         <fa-icon [icon]="rollIcon" [fixedWidth]="true"></fa-icon>

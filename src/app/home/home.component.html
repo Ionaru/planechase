@@ -1,64 +1,112 @@
 <div class="container">
-
     <h1 class="d-flex justify-content-around">
-        <fa-icon [icon]="funIcon" [spin]="true"></fa-icon>
+        <fa-icon [icon]="funIcon" animation="spin"></fa-icon>
         Planechase!
-        <fa-icon [icon]="funIcon" [spin]="true"></fa-icon>
+        <fa-icon [icon]="funIcon" animation="spin-reverse"></fa-icon>
     </h1>
 
-    <hr>
+    <hr />
     <button class="btn btn-success" routerLink="/play">Start Planechase</button>
-    <button class="btn btn-success ms-5" routerLink="/eternities">Start Eternities Map</button>
+    <button class="btn btn-success ms-5" routerLink="/eternities">
+        Start Eternities Map
+    </button>
 
-    <hr>
+    <hr />
 
     <div class="row">
         <div class="col-lg-4">
-
             <div *ngIf="customPlanes.length" class="mb-3">
-                <button (click)="toggleSelection(this.customPlanes, false)" class="btn btn-primary">Select none</button>
-                <button (click)="toggleSelection(this.customPlanes)" class="btn btn-primary ms-5">Select all</button>
+                <button
+                    (click)="toggleSelection(this.customPlanes, false)"
+                    class="btn btn-primary"
+                >
+                    Select none
+                </button>
+                <button
+                    (click)="toggleSelection(this.customPlanes)"
+                    class="btn btn-primary ms-5"
+                >
+                    Select all
+                </button>
             </div>
 
             <p *ngIf="customPlanes.length">
-                {{countEnabledPlanes(customPlanes)}} out of {{customPlanes.length}} selected.
+                {{ countEnabledPlanes(customPlanes) }} out of
+                {{ customPlanes.length }} selected.
             </p>
 
             <div class="form-check mb-0" *ngFor="let plane of customPlanes">
-                <label class="form-check-label" (mouseover)="setUrl(plane)">
-                    <input class="form-check-input" type="checkbox" (change)="togglePlane(plane)"
-                           [checked]="plane.enabled">
-                    {{plane.name}}
+                <label
+                    class="form-check-label"
+                    (mouseover)="setUrl(plane)"
+                    (focus)="setUrl(plane)"
+                >
+                    <input
+                        class="form-check-input"
+                        type="checkbox"
+                        (change)="togglePlane(plane)"
+                        [checked]="plane.enabled"
+                    />
+                    {{ plane.name }}
                 </label>
             </div>
 
-            <input #fileInput type="file" multiple class="d-none" (change)="processFiles($event)">
-            <button class="btn btn-primary" [ngClass]="{'mt-3': customPlanes.length}" (click)="fileInput.click()">
+            <input
+                #fileInput
+                type="file"
+                multiple
+                class="d-none"
+                (change)="processFiles($event)"
+            />
+            <button
+                class="btn btn-primary"
+                [ngClass]="{ 'mt-3': customPlanes.length }"
+                (click)="fileInput.click()"
+            >
                 Use custom images
             </button>
 
-            <hr>
+            <hr />
 
             <div class="mb-3">
-                <button (click)="toggleSelection(this.planes, false)" class="btn btn-primary">Select none</button>
-                <button (click)="toggleSelection(this.planes)" class="btn btn-primary ms-5">Select all</button>
+                <button
+                    (click)="toggleSelection(this.planes, false)"
+                    class="btn btn-primary"
+                >
+                    Select none
+                </button>
+                <button
+                    (click)="toggleSelection(this.planes)"
+                    class="btn btn-primary ms-5"
+                >
+                    Select all
+                </button>
             </div>
 
             <p>
-                {{countEnabledPlanes(planes)}} out of {{planes.length}} selected.
+                {{ countEnabledPlanes(planes) }} out of
+                {{ planes.length }} selected.
             </p>
 
             <div class="form-check mb-0" *ngFor="let plane of planes">
                 <label class="form-check-label" (mouseover)="setUrl(plane)">
-                    <input class="form-check-input" type="checkbox" (change)="togglePlane(plane)"
-                           [checked]="plane.enabled">
-                    {{plane.name}}
+                    <input
+                        class="form-check-input"
+                        type="checkbox"
+                        (change)="togglePlane(plane)"
+                        [checked]="plane.enabled"
+                    />
+                    {{ plane.name }}
                 </label>
             </div>
         </div>
         <div class="col-lg-8">
             <div class="card-image-container">
-                <img [alt]="previewPlane.name" class="card-image" [src]="previewPlane.img">
+                <img
+                    [alt]="previewPlane.name"
+                    class="card-image"
+                    [src]="previewPlane.img"
+                />
             </div>
         </div>
     </div>

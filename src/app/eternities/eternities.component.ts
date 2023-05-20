@@ -1,8 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { generateRandomString } from '@ionaru/random-string';
 
 import { AppComponent, IPlane } from '../app.component';
+import { DelayedHoverDirective } from '../delayed-hover.directive';
+import { DiceRollerComponent } from '../dice-roller/dice-roller.component';
+import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
 
 enum NavigationCoordinate {
     TOP_LEFT = '1:1',
@@ -20,10 +24,7 @@ class GridItem {
     plane = AppComponent.fakePlane;
     seen = false;
 
-    constructor(
-        public row: Row,
-        public column: Column,
-    ) {
+    constructor(public row: Row, public column: Column) {
         row.add(this);
         column.add(this);
     }
@@ -52,16 +53,22 @@ abstract class Line {
     public move(x: number): void {
         if (x) {
             if (x === 1) {
-                this.items.unshift(this.items.pop());
+                const item = this.items.pop();
+                if (item) {
+                    this.items.unshift(item);
+                }
             }
             if (x === -1) {
-                this.items.push(this.items.shift());
+                const item = this.items.shift();
+                if (item) {
+                    this.items.push(item);
+                }
             }
         }
     }
 
     public reset(planes: IPlane[]): void {
-        this.items.forEach((item) => item.reset(planes));
+        for (const item of this.items) item.reset(planes);
     }
 }
 
@@ -69,36 +76,50 @@ class Row extends Line {}
 
 class Column extends Line {}
 
-
 @Component({
     selector: 'app-eternities',
+    standalone: true,
+    imports: [
+        CommonModule,
+        DelayedHoverDirective,
+        DiceRollerComponent,
+        NavButtonsComponent,
+        RouterLink,
+    ],
     templateUrl: './eternities.component.html',
     styleUrls: ['./eternities.component.scss'],
 })
 export class EternitiesComponent {
+    planes: IPlane[] = [];
+    previewPlane: IPlane | undefined;
 
-    public planes: IPlane[] = [];
-    public previewPlane: IPlane;
+    rows = [new Row(), new Row(), new Row(), new Row(), new Row()];
+    columns = [
+        new Column(),
+        new Column(),
+        new Column(),
+        new Column(),
+        new Column(),
+    ];
+    items: GridItem[] = [];
 
-    public rows = [new Row(), new Row(), new Row(), new Row(), new Row()];
-    public columns = [new Column(), new Column(), new Column(), new Column(), new Column()];
-    public items: GridItem[] = [];
+    canPlay = true;
 
-    public canPlay = true;
-
-    public seed: string;
+    seed = '000000';
 
     constructor(
         private readonly activatedRoute: ActivatedRoute,
-        private readonly router: Router,
+        private readonly router: Router
     ) {
-        activatedRoute.queryParams.subscribe((params) => {
-            this.seed = params.seed;
+        activatedRoute.queryParams.subscribe((parameters) => {
+            this.seed = parameters['seed'];
 
             if (!this.seed) {
-                this.router.navigate(
-                    [`/eternities`], {queryParams: {seed: generateRandomString(6)}},
-                ).then();
+                this.router
+                    .navigate([`/eternities`], {
+                        queryParams: { seed: generateRandomString(6) },
+                    })
+                    .then();
             }
 
             this.planes = [
@@ -120,133 +141,149 @@ export class EternitiesComponent {
         });
     }
 
-    public walkToPlane(item: GridItem): void {
+    walkToPlane(item: GridItem): void {
         const coordinates = this.getCoordinates(item);
         switch (coordinates) {
-            case NavigationCoordinate.TOP_LEFT:
+            case NavigationCoordinate.TOP_LEFT: {
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, 1);
                 this.move(this.columns, 1);
                 break;
-            case NavigationCoordinate.TOP_CENTER:
+            }
+            case NavigationCoordinate.TOP_CENTER: {
                 this.move(this.rows, 1);
                 break;
-            case NavigationCoordinate.TOP_RIGHT:
+            }
+            case NavigationCoordinate.TOP_RIGHT: {
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, 1);
                 this.move(this.columns, -1);
                 break;
-            case NavigationCoordinate.CENTER_LEFT:
+            }
+            case NavigationCoordinate.CENTER_LEFT: {
                 this.move(this.columns, 1);
                 break;
-            case NavigationCoordinate.CENTER_RIGHT:
+            }
+            case NavigationCoordinate.CENTER_RIGHT: {
                 this.move(this.columns, -1);
                 break;
-            case NavigationCoordinate.BOTTOM_LEFT:
+            }
+            case NavigationCoordinate.BOTTOM_LEFT: {
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, -1);
                 this.move(this.columns, 1);
                 break;
-            case NavigationCoordinate.BOTTOM_CENTER:
+            }
+            case NavigationCoordinate.BOTTOM_CENTER: {
                 this.move(this.rows, -1);
                 break;
-            case NavigationCoordinate.BOTTOM_RIGHT:
+            }
+            case NavigationCoordinate.BOTTOM_RIGHT: {
                 if (item.seen) {
                     return;
                 }
                 this.move(this.rows, -1);
                 this.move(this.columns, -1);
                 break;
-            default:
+            }
+            default: {
                 return;
+            }
         }
         this.seeVisibleGridItems();
     }
 
-    public getGridRow(item: GridItem): number {
+    getGridRow(item: GridItem): number {
         return this.rows.indexOf(item.row) + 1;
     }
 
-    public getGridColumn(item: GridItem): number {
+    getGridColumn(item: GridItem): number {
         return this.columns.indexOf(item.column) + 1;
     }
 
-    public move(lines: Line[], x: -1 | 1): void {
+    move(lines: Line[], x: -1 | 1): void {
         if (x === 1) {
             const line = lines.pop();
-            line.reset(this.planes);
-            lines.unshift(line);
+            if (line) {
+                line.reset(this.planes);
+                lines.unshift(line);
+            }
         } else {
             const line = lines.shift();
-            line.reset(this.planes);
-            lines.push(line);
+            if (line) {
+                line.reset(this.planes);
+                lines.push(line);
+            }
         }
     }
 
-    public seeVisibleGridItems(): void {
-
-        const allowedCoordinates = [
+    seeVisibleGridItems(): void {
+        const allowedCoordinates = new Set([
             NavigationCoordinate.TOP_CENTER,
             NavigationCoordinate.CENTER_LEFT,
             NavigationCoordinate.CENTER,
             NavigationCoordinate.CENTER_RIGHT,
             NavigationCoordinate.BOTTOM_CENTER,
-        ];
+        ]);
 
         for (const item of this.items) {
             const coordinates = this.getCoordinates(item);
-            if (allowedCoordinates.includes(coordinates) && !item.seen) {
+            if (allowedCoordinates.has(coordinates) && !item.seen) {
                 item.see(this.getRandomPlane());
             }
         }
     }
 
-    public getRandomPlane(): IPlane {
+    getRandomPlane(): IPlane {
         return AppComponent.spliceRandomItemFromList(this.planes, this.seed);
     }
 
-    public hover(item: GridItem): void {
+    hover(item: GridItem): void {
         if (item.seen) {
             this.previewPlane = item.plane;
         }
     }
 
-    public dismissPreview(): void {
+    dismissPreview(): void {
         this.previewPlane = undefined;
     }
 
-    public isInteractable(item: GridItem): boolean {
+    isInteractable(item: GridItem): boolean {
         const coordinates = this.getCoordinates(item);
 
-        if ([
-            NavigationCoordinate.TOP_CENTER,
-            NavigationCoordinate.CENTER_LEFT,
-            NavigationCoordinate.CENTER,
-            NavigationCoordinate.CENTER_RIGHT,
-            NavigationCoordinate.BOTTOM_CENTER,
-        ].includes(coordinates)) {
+        if (
+            [
+                NavigationCoordinate.TOP_CENTER,
+                NavigationCoordinate.CENTER_LEFT,
+                NavigationCoordinate.CENTER,
+                NavigationCoordinate.CENTER_RIGHT,
+                NavigationCoordinate.BOTTOM_CENTER,
+            ].includes(coordinates)
+        ) {
             return true;
         }
 
-        if ([
-            NavigationCoordinate.TOP_LEFT,
-            NavigationCoordinate.TOP_RIGHT,
-            NavigationCoordinate.BOTTOM_LEFT,
-            NavigationCoordinate.BOTTOM_RIGHT,
-        ].includes(coordinates)) {
+        if (
+            [
+                NavigationCoordinate.TOP_LEFT,
+                NavigationCoordinate.TOP_RIGHT,
+                NavigationCoordinate.BOTTOM_LEFT,
+                NavigationCoordinate.BOTTOM_RIGHT,
+            ].includes(coordinates)
+        ) {
             return !item.seen;
         }
 
         return false;
     }
 
-    public getCoordinates(item: GridItem): NavigationCoordinate {
+    getCoordinates(item: GridItem): NavigationCoordinate {
         const itemRow = this.rows.indexOf(item.row);
         const itemColumn = this.columns.indexOf(item.column);
         return `${itemRow}:${itemColumn}` as NavigationCoordinate;

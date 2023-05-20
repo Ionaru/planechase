@@ -1,36 +1,52 @@
 <div class="container">
-
     <div class="buttons mt-3">
         <div class="dice-roller-container">
             <app-dice-roller [seed]="seed"></app-dice-roller>
         </div>
     </div>
 
-    <hr>
+    <hr />
 
     <p *ngIf="canPlay" class="m-auto text-center">
         Click on a plane to planeswalk to it, hover over a plane to view it.
     </p>
     <div *ngIf="!canPlay" class="text-center">
-        <p class="text-danger">You need to select at least 25 planes to play Eternities Map.</p>
+        <p class="text-danger">
+            You need to select at least 25 planes to play Eternities Map.
+        </p>
         <button class="btn btn-danger" routerLink="/">Go back</button>
     </div>
 
     <div class="grid">
-        <div class="grid-item" *ngFor="let item of items" (click)="walkToPlane(item)" (appDelayedHover)="hover(item)"
-             [ngClass]="{'interactable': isInteractable(item)}"
-             [ngStyle]="{'grid-row': getGridRow(item), 'grid-column': getGridColumn(item)}">
-            <img class="grid-item-image" [src]="item.plane.img" [alt]="item.plane.name">
+        <div
+            class="grid-item"
+            *ngFor="let item of items"
+            (click)="walkToPlane(item)"
+            (appDelayedHover)="hover(item)"
+            [ngClass]="{ interactable: isInteractable(item) }"
+            [ngStyle]="{
+                'grid-row': getGridRow(item),
+                'grid-column': getGridColumn(item)
+            }"
+        >
+            <img
+                class="grid-item-image"
+                [src]="item.plane.img"
+                [alt]="item.plane.name"
+            />
         </div>
 
-        <div class="preview-box-container" *ngIf="previewPlane" (click)="dismissPreview()">
-            <img [src]="previewPlane.img" [alt]="previewPlane.name">
+        <div
+            class="preview-box-container"
+            *ngIf="previewPlane"
+            (click)="dismissPreview()"
+        >
+            <img [src]="previewPlane.img" [alt]="previewPlane.name" />
             <p>Click to dismiss</p>
         </div>
-
     </div>
 
-    <hr>
+    <hr />
 
     <div class="buttons mt-3">
         <div class="nav-container">

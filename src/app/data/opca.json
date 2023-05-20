@@ -7,9 +7,7 @@
             "object": "card",
             "id": "ed4f4210-9871-4cec-9b46-100c80f93cd4",
             "oracle_id": "15b979de-c8ee-4664-9ca7-6c4eb3346967",
-            "multiverse_ids": [
-                423590
-            ],
+            "multiverse_ids": [423590],
             "tcgplayer_id": 125570,
             "cardmarket_id": 294404,
             "name": "Academy at Tolaria West",
@@ -52,9 +50,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -75,9 +71,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "James Paick",
-            "artist_ids": [
-                "1a7be0a2-d8ac-45c7-b0a0-eb0886f47b5f"
-            ],
+            "artist_ids": ["1a7be0a2-d8ac-45c7-b0a0-eb0886f47b5f"],
             "illustration_id": "8d617a18-0f09-4471-8ac6-f0928f1f9912",
             "border_color": "black",
             "frame": "2015",
@@ -109,9 +103,7 @@
             "object": "card",
             "id": "6caf8b21-1807-442c-a461-c89c7591df70",
             "oracle_id": "38f84e55-049c-441e-b4e2-1e207ab5dbe5",
-            "multiverse_ids": [
-                423592
-            ],
+            "multiverse_ids": [423592],
             "tcgplayer_id": 125571,
             "cardmarket_id": 294406,
             "name": "Agyrem",
@@ -154,9 +146,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -177,9 +167,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Todd Lockwood",
-            "artist_ids": [
-                "d0b9f3cc-13fb-42b6-bc43-b034728e5c7b"
-            ],
+            "artist_ids": ["d0b9f3cc-13fb-42b6-bc43-b034728e5c7b"],
             "illustration_id": "995f5b3f-7988-4eb5-9335-284f5c3a1e10",
             "border_color": "black",
             "frame": "2015",
@@ -211,9 +199,7 @@
             "object": "card",
             "id": "a1c7f2eb-0654-46f9-ae3d-11efcac837b8",
             "oracle_id": "25650a32-4014-4065-ad01-7357c3ad3995",
-            "multiverse_ids": [
-                423593
-            ],
+            "multiverse_ids": [423593],
             "tcgplayer_id": 125572,
             "cardmarket_id": 294407,
             "name": "Akoum",
@@ -256,9 +242,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -279,9 +263,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Rob Alexander",
-            "artist_ids": [
-                "35906871-6c78-4ab2-9ed1-e6792c8efb74"
-            ],
+            "artist_ids": ["35906871-6c78-4ab2-9ed1-e6792c8efb74"],
             "illustration_id": "0d0681f8-ecba-4289-ac18-2292b9dc9c0b",
             "border_color": "black",
             "frame": "2015",
@@ -313,9 +295,7 @@
             "object": "card",
             "id": "d6dc655e-d8ef-443a-bb3e-46c7ca1555ba",
             "oracle_id": "d6ab4159-e04e-4991-8a9b-9da302c98e9d",
-            "multiverse_ids": [
-                423594
-            ],
+            "multiverse_ids": [423594],
             "tcgplayer_id": 125573,
             "cardmarket_id": 294408,
             "name": "Aretopolis",
@@ -358,9 +338,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -381,9 +359,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Christopher Moeller",
-            "artist_ids": [
-                "21e10012-06ae-44f2-b38d-3824dd2e73d4"
-            ],
+            "artist_ids": ["21e10012-06ae-44f2-b38d-3824dd2e73d4"],
             "illustration_id": "d5c2e9f0-cb0e-4e7c-9d81-c0fd7805b035",
             "border_color": "black",
             "frame": "2015",
@@ -415,9 +391,7 @@
             "object": "card",
             "id": "56c735c0-9346-431b-869f-3accfa193016",
             "oracle_id": "805f9dc2-e172-481d-bae7-9a136a3d1e49",
-            "multiverse_ids": [
-                423595
-            ],
+            "multiverse_ids": [423595],
             "tcgplayer_id": 125574,
             "cardmarket_id": 294409,
             "name": "Astral Arena",
@@ -460,9 +434,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -483,9 +455,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Sam Burley",
-            "artist_ids": [
-                "f89f4b78-cefb-41f7-b7cb-4f4d28de0c4f"
-            ],
+            "artist_ids": ["f89f4b78-cefb-41f7-b7cb-4f4d28de0c4f"],
             "illustration_id": "3c8ac9e9-5c61-44d2-b2a5-eff983930098",
             "border_color": "black",
             "frame": "2015",
@@ -517,9 +487,7 @@
             "object": "card",
             "id": "434a2d09-5776-4168-b863-f3b0a736d19b",
             "oracle_id": "82e67c57-6d7a-44cc-ba63-77ce887ab075",
-            "multiverse_ids": [
-                423596
-            ],
+            "multiverse_ids": [423596],
             "tcgplayer_id": 125575,
             "cardmarket_id": 294410,
             "name": "Bant",
@@ -562,9 +530,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -585,9 +551,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Michael Komarck",
-            "artist_ids": [
-                "96a53b95-fe5f-4fbb-9411-ccf4ee150aca"
-            ],
+            "artist_ids": ["96a53b95-fe5f-4fbb-9411-ccf4ee150aca"],
             "illustration_id": "37d62f5a-f174-48ca-9678-9e1ec7002686",
             "border_color": "black",
             "frame": "2015",
@@ -619,9 +583,7 @@
             "object": "card",
             "id": "27efe0cb-e3b9-4058-8c3e-aad8e693f077",
             "oracle_id": "ce8139b9-31f3-464d-86ea-7efbdbfce478",
-            "multiverse_ids": [
-                423597
-            ],
+            "multiverse_ids": [423597],
             "tcgplayer_id": 125576,
             "cardmarket_id": 294411,
             "name": "Bloodhill Bastion",
@@ -664,9 +626,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -687,9 +647,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Mark Hyzer",
-            "artist_ids": [
-                "85deac3f-b647-4893-993d-3ea4d16d93ef"
-            ],
+            "artist_ids": ["85deac3f-b647-4893-993d-3ea4d16d93ef"],
             "illustration_id": "1997a8b5-21ca-429d-9224-222ebea4fc77",
             "border_color": "black",
             "frame": "2015",
@@ -721,9 +679,7 @@
             "object": "card",
             "id": "0cf339cb-04c0-40e8-a64c-b80229a32cec",
             "oracle_id": "2979597d-c3cc-4585-a9b7-7fa15641b030",
-            "multiverse_ids": [
-                423598
-            ],
+            "multiverse_ids": [423598],
             "tcgplayer_id": 125651,
             "cardmarket_id": 294412,
             "name": "Celestine Reef",
@@ -766,9 +722,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -789,9 +743,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Donato Giancola",
-            "artist_ids": [
-                "90332db2-aecb-4d79-917b-95cbeb8d0cb6"
-            ],
+            "artist_ids": ["90332db2-aecb-4d79-917b-95cbeb8d0cb6"],
             "illustration_id": "dc9573c0-a33c-466b-9208-54b8d66b32fb",
             "border_color": "black",
             "frame": "2015",
@@ -823,9 +775,7 @@
             "object": "card",
             "id": "42ecb371-53aa-4368-8ddd-88ae8e90ae0c",
             "oracle_id": "6dc67a65-31bf-4535-9e02-8f6d6ecefde5",
-            "multiverse_ids": [
-                423582
-            ],
+            "multiverse_ids": [423582],
             "tcgplayer_id": 125577,
             "cardmarket_id": 294396,
             "name": "Chaotic Aether",
@@ -868,9 +818,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -891,9 +839,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Dan Scott",
-            "artist_ids": [
-                "f852fa13-137e-40f2-bbc1-0f01df09c0e0"
-            ],
+            "artist_ids": ["f852fa13-137e-40f2-bbc1-0f01df09c0e0"],
             "illustration_id": "375c30bc-2186-433f-a201-759ac76388ba",
             "border_color": "black",
             "frame": "2015",
@@ -925,9 +871,7 @@
             "object": "card",
             "id": "ff65643b-e8bb-49d6-8887-13a146ee5174",
             "oracle_id": "b21a71d7-f236-43e2-b576-0b5c9280f0cc",
-            "multiverse_ids": [
-                423599
-            ],
+            "multiverse_ids": [423599],
             "tcgplayer_id": 125578,
             "cardmarket_id": 294413,
             "name": "Cliffside Market",
@@ -970,9 +914,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -993,9 +935,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Matt Stewart",
-            "artist_ids": [
-                "20871267-2d8a-41d5-b03a-be3d557c5734"
-            ],
+            "artist_ids": ["20871267-2d8a-41d5-b03a-be3d557c5734"],
             "illustration_id": "43c8ab85-a133-4f6f-a083-6cb7388d5c74",
             "border_color": "black",
             "frame": "2015",
@@ -1027,9 +967,7 @@
             "object": "card",
             "id": "ca4c429a-ca40-4656-aea5-86eb450e47b7",
             "oracle_id": "cb467901-a68d-4922-8ceb-867b582c8fe7",
-            "multiverse_ids": [
-                423601
-            ],
+            "multiverse_ids": [423601],
             "tcgplayer_id": 125580,
             "cardmarket_id": 294415,
             "name": "Edge of Malacol",
@@ -1072,9 +1010,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1095,9 +1031,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Goran Josic",
-            "artist_ids": [
-                "522bfda2-454a-4a74-b717-42930040f73a"
-            ],
+            "artist_ids": ["522bfda2-454a-4a74-b717-42930040f73a"],
             "illustration_id": "2b43448b-33d7-4647-86f4-9c8422368675",
             "border_color": "black",
             "frame": "2015",
@@ -1129,9 +1063,7 @@
             "object": "card",
             "id": "bec61f7a-cf02-4150-aff9-9465fa14c779",
             "oracle_id": "23fe1c21-c396-4ebf-a8b0-22d697952b34",
-            "multiverse_ids": [
-                423602
-            ],
+            "multiverse_ids": [423602],
             "tcgplayer_id": 125581,
             "cardmarket_id": 294416,
             "name": "Eloren Wilds",
@@ -1157,13 +1089,7 @@
             "colors": [],
             "color_identity": [],
             "keywords": [],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -1181,9 +1107,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1204,9 +1128,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Darrell Riche",
-            "artist_ids": [
-                "262c8e55-4efc-467b-a042-6f734b9d2e01"
-            ],
+            "artist_ids": ["262c8e55-4efc-467b-a042-6f734b9d2e01"],
             "illustration_id": "3c601dc2-c9f5-4d8d-9d78-d05ac5a968d5",
             "border_color": "black",
             "frame": "2015",
@@ -1238,9 +1160,7 @@
             "object": "card",
             "id": "1dde33fa-f748-43c9-9ead-9461332e9e67",
             "oracle_id": "b1eff630-b56c-48a5-ac21-836a60157b35",
-            "multiverse_ids": [
-                423604
-            ],
+            "multiverse_ids": [423604],
             "tcgplayer_id": 125582,
             "cardmarket_id": 294418,
             "name": "Feeding Grounds",
@@ -1283,9 +1203,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1306,9 +1224,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Matt Stewart",
-            "artist_ids": [
-                "20871267-2d8a-41d5-b03a-be3d557c5734"
-            ],
+            "artist_ids": ["20871267-2d8a-41d5-b03a-be3d557c5734"],
             "illustration_id": "76f110fd-c94a-4444-8cb6-b34670fa80cd",
             "border_color": "black",
             "frame": "2015",
@@ -1340,9 +1256,7 @@
             "object": "card",
             "id": "b52a233b-cc51-4f3e-94d0-a4b75ecb248e",
             "oracle_id": "81a0d96a-7ac8-4947-8779-2102c9b33d38",
-            "multiverse_ids": [
-                423605
-            ],
+            "multiverse_ids": [423605],
             "tcgplayer_id": 125583,
             "cardmarket_id": 294419,
             "name": "Fields of Summer",
@@ -1385,9 +1299,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1408,9 +1320,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Daniel Ljunggren",
-            "artist_ids": [
-                "0fbd4798-76eb-46d5-a5d4-1e3a25870e34"
-            ],
+            "artist_ids": ["0fbd4798-76eb-46d5-a5d4-1e3a25870e34"],
             "illustration_id": "57951dbc-b432-44e5-8514-7e315e0e7b90",
             "border_color": "black",
             "frame": "2015",
@@ -1442,9 +1352,7 @@
             "object": "card",
             "id": "d89133d1-06e7-4b8f-8f42-e0551fd93a5b",
             "oracle_id": "1799d361-85e7-4c04-aa04-6f83e6499573",
-            "multiverse_ids": [
-                423607
-            ],
+            "multiverse_ids": [423607],
             "tcgplayer_id": 125585,
             "cardmarket_id": 294421,
             "name": "Furnace Layer",
@@ -1487,9 +1395,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1510,9 +1416,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Kekai Kotaki",
-            "artist_ids": [
-                "4b771085-c049-4308-930d-ec9665f803a4"
-            ],
+            "artist_ids": ["4b771085-c049-4308-930d-ec9665f803a4"],
             "illustration_id": "4b56fc0b-a6dd-4656-82df-16e7c01e2936",
             "border_color": "black",
             "frame": "2015",
@@ -1544,9 +1448,7 @@
             "object": "card",
             "id": "99ee3cd9-321e-4dfa-a144-65854d914d84",
             "oracle_id": "2387edac-765b-4502-bd3d-88be8ba7d0a4",
-            "multiverse_ids": [
-                423608
-            ],
+            "multiverse_ids": [423608],
             "tcgplayer_id": 125586,
             "cardmarket_id": 294422,
             "name": "Gavony",
@@ -1589,9 +1491,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1612,9 +1512,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Dave Kendall",
-            "artist_ids": [
-                "8a5540a8-18c9-4fa9-802c-59d6866114d5"
-            ],
+            "artist_ids": ["8a5540a8-18c9-4fa9-802c-59d6866114d5"],
             "illustration_id": "ed837fcc-884d-425a-95c4-0b4ee74bb613",
             "border_color": "black",
             "frame": "2015",
@@ -1646,9 +1544,7 @@
             "object": "card",
             "id": "fdaaef56-0c95-404a-8de5-e8f21e0282d3",
             "oracle_id": "662e5245-73e4-49ba-aece-c73f1bea7b6a",
-            "multiverse_ids": [
-                423609
-            ],
+            "multiverse_ids": [423609],
             "tcgplayer_id": 125587,
             "cardmarket_id": 294423,
             "name": "Glen Elendra",
@@ -1691,9 +1587,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1714,9 +1608,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Omar Rayyan",
-            "artist_ids": [
-                "256b61a2-b9af-4ff5-b485-47a61818f818"
-            ],
+            "artist_ids": ["256b61a2-b9af-4ff5-b485-47a61818f818"],
             "illustration_id": "121c7c7d-7bc4-48b5-b84d-b856ffa4de4c",
             "border_color": "black",
             "frame": "2015",
@@ -1748,9 +1640,7 @@
             "object": "card",
             "id": "56a1afab-782c-4f31-96f5-17b676852fea",
             "oracle_id": "43a23de7-0738-4b03-b87d-5a7d1144825c",
-            "multiverse_ids": [
-                423610
-            ],
+            "multiverse_ids": [423610],
             "tcgplayer_id": 125588,
             "cardmarket_id": 294424,
             "name": "Glimmervoid Basin",
@@ -1793,9 +1683,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1816,9 +1704,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Lars Grant-West",
-            "artist_ids": [
-                "21ed6499-c4d3-4965-ab02-6c7228275bec"
-            ],
+            "artist_ids": ["21ed6499-c4d3-4965-ab02-6c7228275bec"],
             "illustration_id": "d4b48a41-398c-4480-81cb-e7e0ac9f90e0",
             "border_color": "black",
             "frame": "2015",
@@ -1850,9 +1736,7 @@
             "object": "card",
             "id": "830c7c81-335e-4f0b-81b9-209732408093",
             "oracle_id": "f12400e5-8288-48e1-b3b7-0cc4f8d9ca67",
-            "multiverse_ids": [
-                423611
-            ],
+            "multiverse_ids": [423611],
             "tcgplayer_id": 125589,
             "cardmarket_id": 294425,
             "name": "Goldmeadow",
@@ -1913,9 +1797,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -1936,9 +1818,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Warren Mahy",
-            "artist_ids": [
-                "002c739e-aa1f-4c1d-921b-37cb2d1b1c5b"
-            ],
+            "artist_ids": ["002c739e-aa1f-4c1d-921b-37cb2d1b1c5b"],
             "illustration_id": "6b943ff7-3a2f-43b4-9e0d-dda96c71a81e",
             "border_color": "black",
             "frame": "2015",
@@ -1970,9 +1850,7 @@
             "object": "card",
             "id": "3dfccef2-4d55-423f-8375-4e349bbf615e",
             "oracle_id": "fb9651f5-1aec-4812-a044-3c1b60e6651f",
-            "multiverse_ids": [
-                423612
-            ],
+            "multiverse_ids": [423612],
             "tcgplayer_id": 125590,
             "cardmarket_id": 294426,
             "name": "Grand Ossuary",
@@ -2033,9 +1911,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2056,9 +1932,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Kekai Kotaki",
-            "artist_ids": [
-                "4b771085-c049-4308-930d-ec9665f803a4"
-            ],
+            "artist_ids": ["4b771085-c049-4308-930d-ec9665f803a4"],
             "illustration_id": "82eadc3b-6e4d-4818-8163-ada9d98a6813",
             "border_color": "black",
             "frame": "2015",
@@ -2090,9 +1964,7 @@
             "object": "card",
             "id": "ecbe3339-2cd1-45e2-bac1-8ea995238c30",
             "oracle_id": "1aaa60e4-47a8-4255-8a09-5f00922ccf6d",
-            "multiverse_ids": [
-                423614
-            ],
+            "multiverse_ids": [423614],
             "tcgplayer_id": 125591,
             "cardmarket_id": 294428,
             "name": "Grixis",
@@ -2135,9 +2007,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2158,9 +2028,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Nils Hamm",
-            "artist_ids": [
-                "c540d1fc-1500-457f-93cf-d6069ee66546"
-            ],
+            "artist_ids": ["c540d1fc-1500-457f-93cf-d6069ee66546"],
             "illustration_id": "ba050b27-e034-412b-934a-9d0ce27ad515",
             "border_color": "black",
             "frame": "2015",
@@ -2192,9 +2060,7 @@
             "object": "card",
             "id": "7e1e76f3-4a95-4bb1-bc21-22614b070711",
             "oracle_id": "3e553881-bac7-4830-b739-3b8c6aa0ded6",
-            "multiverse_ids": [
-                423615
-            ],
+            "multiverse_ids": [423615],
             "tcgplayer_id": 125592,
             "cardmarket_id": 294429,
             "name": "Grove of the Dreampods",
@@ -2237,9 +2103,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2260,9 +2124,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Erica Yang",
-            "artist_ids": [
-                "fcc15b63-b280-49da-9fee-f862824a2fc8"
-            ],
+            "artist_ids": ["fcc15b63-b280-49da-9fee-f862824a2fc8"],
             "illustration_id": "9e28b5a1-8bb5-40b2-8ce0-5abd8c868d9c",
             "border_color": "black",
             "frame": "2015",
@@ -2294,9 +2156,7 @@
             "object": "card",
             "id": "5d87893f-36e0-4621-a139-fedbc74ed4c5",
             "oracle_id": "1f7daaf2-3206-4f52-928a-f5116b782367",
-            "multiverse_ids": [
-                423616
-            ],
+            "multiverse_ids": [423616],
             "tcgplayer_id": 81908,
             "cardmarket_id": 294430,
             "name": "Hedron Fields of Agadeem",
@@ -2357,9 +2217,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2380,9 +2238,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Vincent Proce",
-            "artist_ids": [
-                "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"
-            ],
+            "artist_ids": ["d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"],
             "illustration_id": "0f82a670-d9c2-4e8e-8db0-280003ca4a12",
             "border_color": "black",
             "frame": "2015",
@@ -2414,9 +2270,7 @@
             "object": "card",
             "id": "61471ab4-749a-40e4-b06b-153edec80daa",
             "oracle_id": "065346cd-cd81-478e-8a62-2c7ea421bdcd",
-            "multiverse_ids": [
-                423618
-            ],
+            "multiverse_ids": [423618],
             "tcgplayer_id": 125652,
             "cardmarket_id": 294432,
             "name": "Horizon Boughs",
@@ -2459,9 +2313,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2482,9 +2334,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jean-Sébastien Rossbach",
-            "artist_ids": [
-                "1b0c07a7-84e8-4384-9b97-28c162586558"
-            ],
+            "artist_ids": ["1b0c07a7-84e8-4384-9b97-28c162586558"],
             "illustration_id": "86bcaf0a-6a48-40e6-aad2-1b178bf4d9b6",
             "border_color": "black",
             "frame": "2015",
@@ -2516,9 +2366,7 @@
             "object": "card",
             "id": "d44a959c-7a04-4342-8827-882349f786fc",
             "oracle_id": "ece3b5ed-3c07-4586-bf99-72bc1aa6ccef",
-            "multiverse_ids": [
-                423619
-            ],
+            "multiverse_ids": [423619],
             "tcgplayer_id": 125593,
             "cardmarket_id": 294433,
             "name": "Immersturm",
@@ -2561,9 +2409,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2584,9 +2430,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Raymond Swanland",
-            "artist_ids": [
-                "e956bacc-077d-4c12-b6bc-ba798b718af9"
-            ],
+            "artist_ids": ["e956bacc-077d-4c12-b6bc-ba798b718af9"],
             "illustration_id": "c2632990-5b8a-4fe9-8029-da56e27fae0a",
             "border_color": "black",
             "frame": "2015",
@@ -2618,9 +2462,7 @@
             "object": "card",
             "id": "56e4874c-9d3d-4a1c-a027-186a33ce0da7",
             "oracle_id": "7812174b-2dc1-43e8-b98f-639905e20ab7",
-            "multiverse_ids": [
-                423583
-            ],
+            "multiverse_ids": [423583],
             "tcgplayer_id": 125594,
             "cardmarket_id": 294397,
             "name": "Interplanar Tunnel",
@@ -2663,9 +2505,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2686,9 +2526,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Chuck Lukacs",
-            "artist_ids": [
-                "2bdf4da7-c66c-4c46-a253-284c856ccfab"
-            ],
+            "artist_ids": ["2bdf4da7-c66c-4c46-a253-284c856ccfab"],
             "illustration_id": "ed2fb817-82d1-45ee-8bbd-aa5e0e08a618",
             "border_color": "black",
             "frame": "2015",
@@ -2720,9 +2558,7 @@
             "object": "card",
             "id": "51bbbfd8-795f-4223-86f3-b3b3111d38c3",
             "oracle_id": "f017380f-97db-4a36-b111-b257aa17ebaf",
-            "multiverse_ids": [
-                423620
-            ],
+            "multiverse_ids": [423620],
             "tcgplayer_id": 125595,
             "cardmarket_id": 294434,
             "name": "Isle of Vesuva",
@@ -2765,9 +2601,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2823,9 +2657,7 @@
             "object": "card",
             "id": "d01d1b4f-5ac5-40b0-b4ad-34ac70aeb488",
             "oracle_id": "e5f8b2bb-e9bb-4a0a-aa88-7fa0299f52a9",
-            "multiverse_ids": [
-                423621
-            ],
+            "multiverse_ids": [423621],
             "tcgplayer_id": 125596,
             "cardmarket_id": 294435,
             "name": "Izzet Steam Maze",
@@ -2868,9 +2700,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -2891,9 +2721,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Franz Vohwinkel",
-            "artist_ids": [
-                "3a243c17-3baa-4b53-9599-645311cd7d3d"
-            ],
+            "artist_ids": ["3a243c17-3baa-4b53-9599-645311cd7d3d"],
             "illustration_id": "e5169463-65cc-4aa0-8f7e-f0c2e3af32b5",
             "border_color": "black",
             "frame": "2015",
@@ -2925,9 +2753,7 @@
             "object": "card",
             "id": "dc91f536-b3e5-48d2-a306-003e1bdfe8ba",
             "oracle_id": "9aa94de8-b114-4479-a771-c7bc0297be58",
-            "multiverse_ids": [
-                423622
-            ],
+            "multiverse_ids": [423622],
             "tcgplayer_id": 81910,
             "cardmarket_id": 294436,
             "name": "Jund",
@@ -2988,9 +2814,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3011,9 +2835,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Aleksi Briclot",
-            "artist_ids": [
-                "5e470014-31cb-41b0-b054-e23374484449"
-            ],
+            "artist_ids": ["5e470014-31cb-41b0-b054-e23374484449"],
             "illustration_id": "d41510f3-0943-42c3-ae08-23f42c2428aa",
             "border_color": "black",
             "frame": "2015",
@@ -3045,9 +2867,7 @@
             "object": "card",
             "id": "5271d8fd-3657-45a3-8147-00cc1d19425f",
             "oracle_id": "b54d9a4a-1d55-4ceb-96fd-2b1d5e46de14",
-            "multiverse_ids": [
-                423623
-            ],
+            "multiverse_ids": [423623],
             "tcgplayer_id": 125597,
             "cardmarket_id": 294437,
             "name": "Kessig",
@@ -3090,9 +2910,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3113,9 +2931,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Adam Paquette",
-            "artist_ids": [
-                "89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2"
-            ],
+            "artist_ids": ["89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2"],
             "illustration_id": "c75cd2be-30e2-4f6a-aa8b-583c494f6778",
             "border_color": "black",
             "frame": "2015",
@@ -3147,9 +2963,7 @@
             "object": "card",
             "id": "0f05d1ae-d70b-474c-93fc-a5d2e3ac6b64",
             "oracle_id": "256770fe-c17d-45dd-bf05-36eeee240324",
-            "multiverse_ids": [
-                423624
-            ],
+            "multiverse_ids": [423624],
             "tcgplayer_id": 125598,
             "cardmarket_id": 294438,
             "name": "Kharasha Foothills",
@@ -3192,9 +3006,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3215,9 +3027,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Trevor Claxton",
-            "artist_ids": [
-                "35d39e75-5d6c-4318-9136-38cdfff34a05"
-            ],
+            "artist_ids": ["35d39e75-5d6c-4318-9136-38cdfff34a05"],
             "illustration_id": "4bb5efc7-16bd-493f-a88a-a7b9ba86b500",
             "border_color": "black",
             "frame": "2015",
@@ -3249,9 +3059,7 @@
             "object": "card",
             "id": "93f386a5-08ce-4f76-944f-f38620a41027",
             "oracle_id": "fc650404-991c-4639-b311-c35df81a254a",
-            "multiverse_ids": [
-                423625
-            ],
+            "multiverse_ids": [423625],
             "tcgplayer_id": 125599,
             "cardmarket_id": 294439,
             "name": "Kilnspire District",
@@ -3275,13 +3083,9 @@
             "type_line": "Plane — Ravnica",
             "oracle_text": "When you planeswalk to Kilnspire District or at the beginning of your precombat main phase, put a charge counter on Kilnspire District, then add {R} for each charge counter on it.\nWhenever you roll {CHAOS}, you may pay {X}. If you do, Kilnspire District deals X damage to any target.",
             "colors": [],
-            "color_identity": [
-                "R"
-            ],
+            "color_identity": ["R"],
             "keywords": [],
-            "produced_mana": [
-                "R"
-            ],
+            "produced_mana": ["R"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -3299,9 +3103,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3322,9 +3124,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "John Avon",
-            "artist_ids": [
-                "798f3932-30e0-4420-aa3f-db4d613f89ca"
-            ],
+            "artist_ids": ["798f3932-30e0-4420-aa3f-db4d613f89ca"],
             "illustration_id": "a1132680-3d38-412b-a917-edcfe9da96ed",
             "border_color": "black",
             "frame": "2015",
@@ -3356,9 +3156,7 @@
             "object": "card",
             "id": "95d5c842-5768-49f8-8711-fdb7850b480d",
             "oracle_id": "2732b605-7c88-4995-b46e-62dc09e68919",
-            "multiverse_ids": [
-                423626
-            ],
+            "multiverse_ids": [423626],
             "tcgplayer_id": 125600,
             "cardmarket_id": 294440,
             "name": "Krosa",
@@ -3382,21 +3180,9 @@
             "type_line": "Plane — Dominaria",
             "oracle_text": "All creatures get +2/+2.\nWhenever you roll {CHAOS}, you may add {W}{U}{B}{R}{G}.",
             "colors": [],
-            "color_identity": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "color_identity": ["B", "G", "R", "U", "W"],
             "keywords": [],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -3414,9 +3200,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3437,9 +3221,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Steven Belledin",
-            "artist_ids": [
-                "f07d73b9-52a0-4fe5-858b-61f7b42174a5"
-            ],
+            "artist_ids": ["f07d73b9-52a0-4fe5-858b-61f7b42174a5"],
             "illustration_id": "43b23220-6ea0-4db4-9b5e-4dc4a1325901",
             "border_color": "black",
             "frame": "2015",
@@ -3471,9 +3253,7 @@
             "object": "card",
             "id": "b6078774-f681-46dd-a68e-1cefa8261d16",
             "oracle_id": "ac4fe2a2-76ff-49d9-b506-26a17b4bf892",
-            "multiverse_ids": [
-                423627
-            ],
+            "multiverse_ids": [423627],
             "tcgplayer_id": 125601,
             "cardmarket_id": 294441,
             "name": "Lair of the Ashen Idol",
@@ -3534,9 +3314,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3557,9 +3335,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Philip Straub",
-            "artist_ids": [
-                "43cdce85-e4bc-424e-ac95-fd0886b66ff3"
-            ],
+            "artist_ids": ["43cdce85-e4bc-424e-ac95-fd0886b66ff3"],
             "illustration_id": "67e7212a-5727-4400-8f27-dca9fd38fbde",
             "border_color": "black",
             "frame": "2015",
@@ -3591,9 +3367,7 @@
             "object": "card",
             "id": "7a049235-2fda-48a7-b46e-d150a4893397",
             "oracle_id": "85592710-8637-4726-8b92-552b9be677c0",
-            "multiverse_ids": [
-                423628
-            ],
+            "multiverse_ids": [423628],
             "tcgplayer_id": 125602,
             "cardmarket_id": 294442,
             "name": "Lethe Lake",
@@ -3618,9 +3392,7 @@
             "oracle_text": "At the beginning of your upkeep, mill ten cards.\nWhenever you roll {CHAOS}, target player mills ten cards.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Mill"
-            ],
+            "keywords": ["Mill"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -3638,9 +3410,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3661,9 +3431,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Chris J. Anderson",
-            "artist_ids": [
-                "ff71f6ff-6fe7-4d20-a597-9d981525c14f"
-            ],
+            "artist_ids": ["ff71f6ff-6fe7-4d20-a597-9d981525c14f"],
             "illustration_id": "68454647-94db-4d2d-9883-8f76bf01aa2c",
             "border_color": "black",
             "frame": "2015",
@@ -3695,9 +3463,7 @@
             "object": "card",
             "id": "00832a47-dec8-411e-9708-b3ebbd3a2dfc",
             "oracle_id": "11b3fcb2-0b66-4d8b-8e66-a21a5da1c1f5",
-            "multiverse_ids": [
-                423629
-            ],
+            "multiverse_ids": [423629],
             "tcgplayer_id": 125603,
             "cardmarket_id": 294443,
             "name": "Llanowar",
@@ -3721,13 +3487,9 @@
             "type_line": "Plane — Dominaria",
             "oracle_text": "All creatures have \"{T}: Add {G}{G}.\"\nWhenever you roll {CHAOS}, untap all creatures you control.",
             "colors": [],
-            "color_identity": [
-                "G"
-            ],
+            "color_identity": ["G"],
             "keywords": [],
-            "produced_mana": [
-                "G"
-            ],
+            "produced_mana": ["G"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -3745,9 +3507,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3768,9 +3528,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Kev Walker",
-            "artist_ids": [
-                "f366a0ee-a0cd-466d-ba6a-90058c7a31a6"
-            ],
+            "artist_ids": ["f366a0ee-a0cd-466d-ba6a-90058c7a31a6"],
             "illustration_id": "8a0194dc-01f8-4a30-ba6e-741c7d4bcecf",
             "border_color": "black",
             "frame": "2015",
@@ -3802,9 +3560,7 @@
             "object": "card",
             "id": "9c155a59-afee-4821-9715-10dafb9f9d9a",
             "oracle_id": "6491f511-87e6-4504-84f5-fe5cf44768d7",
-            "multiverse_ids": [
-                423631
-            ],
+            "multiverse_ids": [423631],
             "tcgplayer_id": 125604,
             "cardmarket_id": 294445,
             "name": "Minamo",
@@ -3847,9 +3603,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3870,9 +3624,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Charles Urbach",
-            "artist_ids": [
-                "507c67d2-1514-40ab-b7cb-a9f3b96a08e8"
-            ],
+            "artist_ids": ["507c67d2-1514-40ab-b7cb-a9f3b96a08e8"],
             "illustration_id": "ccae9ab7-8edc-4f31-a398-8ceb8013c301",
             "border_color": "black",
             "frame": "2015",
@@ -3904,9 +3656,7 @@
             "object": "card",
             "id": "d7a2b02e-3ff2-4c71-9022-b08472f53664",
             "oracle_id": "b6329c2f-ea7f-4611-986c-f82bacf2a872",
-            "multiverse_ids": [
-                423632
-            ],
+            "multiverse_ids": [423632],
             "tcgplayer_id": 125653,
             "cardmarket_id": 294446,
             "name": "Mirrored Depths",
@@ -3949,9 +3699,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -3972,9 +3720,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Chippy",
-            "artist_ids": [
-                "a36f01a0-e51a-48b2-a556-b9b3bc73f969"
-            ],
+            "artist_ids": ["a36f01a0-e51a-48b2-a556-b9b3bc73f969"],
             "illustration_id": "e0bb2f71-9fb7-4a07-a32e-cb8f46603017",
             "border_color": "black",
             "frame": "2015",
@@ -4006,9 +3752,7 @@
             "object": "card",
             "id": "54327aa2-319d-4430-a266-03cadeed6146",
             "oracle_id": "302e4ac2-522b-4a0a-850a-d856639ea2a4",
-            "multiverse_ids": [
-                423584
-            ],
+            "multiverse_ids": [423584],
             "tcgplayer_id": 125605,
             "cardmarket_id": 294398,
             "name": "Morphic Tide",
@@ -4051,9 +3795,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4074,9 +3816,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Brandon Kitkouski",
-            "artist_ids": [
-                "0330b5e8-2cf0-4ecb-8fd7-e20a18bdeb20"
-            ],
+            "artist_ids": ["0330b5e8-2cf0-4ecb-8fd7-e20a18bdeb20"],
             "illustration_id": "4fa395ac-c03a-414e-999d-331594553dd2",
             "border_color": "black",
             "frame": "2015",
@@ -4108,9 +3848,7 @@
             "object": "card",
             "id": "a4d3edeb-4a78-4de3-a167-4565c494ba23",
             "oracle_id": "e0dc9986-1099-4189-bfff-8f41bab9019d",
-            "multiverse_ids": [
-                423633
-            ],
+            "multiverse_ids": [423633],
             "tcgplayer_id": 125606,
             "cardmarket_id": 294447,
             "name": "Mount Keralia",
@@ -4153,9 +3891,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4176,9 +3912,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Franz Vohwinkel",
-            "artist_ids": [
-                "3a243c17-3baa-4b53-9599-645311cd7d3d"
-            ],
+            "artist_ids": ["3a243c17-3baa-4b53-9599-645311cd7d3d"],
             "illustration_id": "a4f4e387-794d-4e71-b054-bb87b1e46c59",
             "border_color": "black",
             "frame": "2015",
@@ -4210,9 +3944,7 @@
             "object": "card",
             "id": "46daa243-7c4e-4b0c-8ec2-e70cba8e72c3",
             "oracle_id": "07cc253d-e23c-450c-bfaf-5cb6a3a588ce",
-            "multiverse_ids": [
-                423634
-            ],
+            "multiverse_ids": [423634],
             "tcgplayer_id": 125607,
             "cardmarket_id": 294448,
             "name": "Murasa",
@@ -4255,9 +3987,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4278,9 +4008,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jung Park",
-            "artist_ids": [
-                "269392ac-4c06-4650-98e2-d49a5a7f2371"
-            ],
+            "artist_ids": ["269392ac-4c06-4650-98e2-d49a5a7f2371"],
             "illustration_id": "8e53e26f-9988-4659-8a47-0e0297ee3d26",
             "border_color": "black",
             "frame": "2015",
@@ -4312,9 +4040,7 @@
             "object": "card",
             "id": "3205818c-c7a9-4b70-a403-854c2ad9456d",
             "oracle_id": "c871974e-54e6-411f-8408-3708823fa2df",
-            "multiverse_ids": [
-                423585
-            ],
+            "multiverse_ids": [423585],
             "tcgplayer_id": 125608,
             "cardmarket_id": 294399,
             "name": "Mutual Epiphany",
@@ -4357,9 +4083,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4380,9 +4104,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jason Felix",
-            "artist_ids": [
-                "af42a44c-8ec3-47a7-9047-5d29ddad186d"
-            ],
+            "artist_ids": ["af42a44c-8ec3-47a7-9047-5d29ddad186d"],
             "illustration_id": "dfbc85e7-dbf7-4f36-bcd7-119ac022aaec",
             "border_color": "black",
             "frame": "2015",
@@ -4414,9 +4136,7 @@
             "object": "card",
             "id": "f63b82f9-ebc4-465c-b25e-5ee710525143",
             "oracle_id": "3e0bcf65-1eaf-440f-a59b-0b11e1106135",
-            "multiverse_ids": [
-                423635
-            ],
+            "multiverse_ids": [423635],
             "tcgplayer_id": 125609,
             "cardmarket_id": 294449,
             "name": "Naar Isle",
@@ -4459,9 +4179,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4482,9 +4200,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Mark Zug",
-            "artist_ids": [
-                "48e2b98c-5467-4671-bd42-4c3746115117"
-            ],
+            "artist_ids": ["48e2b98c-5467-4671-bd42-4c3746115117"],
             "illustration_id": "6643bb2a-61ef-4dba-a167-bbeef967c827",
             "border_color": "black",
             "frame": "2015",
@@ -4516,9 +4232,7 @@
             "object": "card",
             "id": "15611e29-6f96-4c5c-a919-c8fe590581b0",
             "oracle_id": "5ed6be01-af06-4f3d-8b43-ef8993c52c97",
-            "multiverse_ids": [
-                423636
-            ],
+            "multiverse_ids": [423636],
             "tcgplayer_id": 125610,
             "cardmarket_id": 294450,
             "name": "Naya",
@@ -4561,9 +4275,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4619,9 +4331,7 @@
             "object": "card",
             "id": "9f4b51ac-3e56-494f-aad7-ff5b0c3ed6ed",
             "oracle_id": "72af7529-75bb-488f-801d-7148631b9e9b",
-            "multiverse_ids": [
-                423637
-            ],
+            "multiverse_ids": [423637],
             "tcgplayer_id": 125611,
             "cardmarket_id": 294451,
             "name": "Nephalia",
@@ -4646,9 +4356,7 @@
             "oracle_text": "At the beginning of your end step, mill seven cards. Then return a card at random from your graveyard to your hand.\nWhenever you roll {CHAOS}, return target card from your graveyard to your hand.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Mill"
-            ],
+            "keywords": ["Mill"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -4666,9 +4374,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4689,9 +4395,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Daniel Ljunggren",
-            "artist_ids": [
-                "0fbd4798-76eb-46d5-a5d4-1e3a25870e34"
-            ],
+            "artist_ids": ["0fbd4798-76eb-46d5-a5d4-1e3a25870e34"],
             "illustration_id": "f83e63da-7cc6-4acd-9089-7869aaf48768",
             "border_color": "black",
             "frame": "2015",
@@ -4723,9 +4427,7 @@
             "object": "card",
             "id": "20d23638-74fb-481d-a3c4-d7f5fd666211",
             "oracle_id": "9d58f647-3f83-4f65-a944-c6236db7c422",
-            "multiverse_ids": [
-                423638
-            ],
+            "multiverse_ids": [423638],
             "tcgplayer_id": 125612,
             "cardmarket_id": 294452,
             "name": "Norn's Dominion",
@@ -4768,9 +4470,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4791,9 +4491,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Igor Kieryluk",
-            "artist_ids": [
-                "9c3e9d17-509f-485c-9360-46d897ce716b"
-            ],
+            "artist_ids": ["9c3e9d17-509f-485c-9360-46d897ce716b"],
             "illustration_id": "c28f850a-37a4-4a94-b88c-4b29518f9277",
             "border_color": "black",
             "frame": "2015",
@@ -4825,9 +4523,7 @@
             "object": "card",
             "id": "2eef332f-d47f-4bc3-b39d-572dce4997b2",
             "oracle_id": "69f06edb-dade-4e94-b563-e36a05e567f0",
-            "multiverse_ids": [
-                423639
-            ],
+            "multiverse_ids": [423639],
             "tcgplayer_id": 125613,
             "cardmarket_id": 294453,
             "name": "Onakke Catacomb",
@@ -4870,9 +4566,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4893,9 +4587,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Nic Klein",
-            "artist_ids": [
-                "b948d330-3fbd-44cc-b140-02bcc5d46f79"
-            ],
+            "artist_ids": ["b948d330-3fbd-44cc-b140-02bcc5d46f79"],
             "illustration_id": "763e8ffe-bb36-40aa-9d66-4aa0c0696def",
             "border_color": "black",
             "frame": "2015",
@@ -4927,9 +4619,7 @@
             "object": "card",
             "id": "f9fc5e0d-e605-468b-98da-34101087b8c4",
             "oracle_id": "6e008fdc-48f2-40ef-95bd-80d014535ca3",
-            "multiverse_ids": [
-                423640
-            ],
+            "multiverse_ids": [423640],
             "tcgplayer_id": 125614,
             "cardmarket_id": 294454,
             "name": "Orochi Colony",
@@ -4972,9 +4662,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -4995,9 +4683,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Charles Urbach",
-            "artist_ids": [
-                "507c67d2-1514-40ab-b7cb-a9f3b96a08e8"
-            ],
+            "artist_ids": ["507c67d2-1514-40ab-b7cb-a9f3b96a08e8"],
             "illustration_id": "f86dce36-dc81-4e29-94dc-d04535affab1",
             "border_color": "black",
             "frame": "2015",
@@ -5029,9 +4715,7 @@
             "object": "card",
             "id": "be92be0a-e10d-478b-bc09-9cd09bfb269e",
             "oracle_id": "c7241e4b-d2c7-4801-96a3-91bb998953a1",
-            "multiverse_ids": [
-                423641
-            ],
+            "multiverse_ids": [423641],
             "tcgplayer_id": 125615,
             "cardmarket_id": 294455,
             "name": "Orzhova",
@@ -5074,9 +4758,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5097,9 +4779,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Charles Urbach",
-            "artist_ids": [
-                "507c67d2-1514-40ab-b7cb-a9f3b96a08e8"
-            ],
+            "artist_ids": ["507c67d2-1514-40ab-b7cb-a9f3b96a08e8"],
             "illustration_id": "f4356e52-a9cf-44f5-81d5-faf64c144fd0",
             "border_color": "black",
             "frame": "2015",
@@ -5131,9 +4811,7 @@
             "object": "card",
             "id": "35add85f-a70a-497d-9a11-593325a1a4ef",
             "oracle_id": "29e3371d-aa41-46a9-921a-96565be47eff",
-            "multiverse_ids": [
-                423642
-            ],
+            "multiverse_ids": [423642],
             "tcgplayer_id": 125616,
             "cardmarket_id": 294456,
             "name": "Otaria",
@@ -5176,9 +4854,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5199,9 +4875,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Charles Urbach",
-            "artist_ids": [
-                "507c67d2-1514-40ab-b7cb-a9f3b96a08e8"
-            ],
+            "artist_ids": ["507c67d2-1514-40ab-b7cb-a9f3b96a08e8"],
             "illustration_id": "cf2338ee-d708-47ef-8510-444ce9b499a2",
             "border_color": "black",
             "frame": "2015",
@@ -5233,9 +4907,7 @@
             "object": "card",
             "id": "74242a9e-4add-4140-847e-a296e46e6f94",
             "oracle_id": "cd8ce6f1-9753-40a7-a625-5ed63c15c29e",
-            "multiverse_ids": [
-                423643
-            ],
+            "multiverse_ids": [423643],
             "tcgplayer_id": 125617,
             "cardmarket_id": 294457,
             "name": "Panopticon",
@@ -5278,9 +4950,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5301,9 +4971,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "John Avon",
-            "artist_ids": [
-                "798f3932-30e0-4420-aa3f-db4d613f89ca"
-            ],
+            "artist_ids": ["798f3932-30e0-4420-aa3f-db4d613f89ca"],
             "illustration_id": "5b6e4da5-b691-4465-91cb-264a9109d38a",
             "border_color": "black",
             "frame": "2015",
@@ -5335,9 +5003,7 @@
             "object": "card",
             "id": "10fc16b9-3913-400f-bd27-02fcd5c28147",
             "oracle_id": "a34b272b-084b-4ff1-8b02-d95116ccfeab",
-            "multiverse_ids": [
-                423586
-            ],
+            "multiverse_ids": [423586],
             "tcgplayer_id": 125618,
             "cardmarket_id": 294400,
             "name": "Planewide Disaster",
@@ -5380,9 +5046,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5403,9 +5067,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Dave Kendall",
-            "artist_ids": [
-                "8a5540a8-18c9-4fa9-802c-59d6866114d5"
-            ],
+            "artist_ids": ["8a5540a8-18c9-4fa9-802c-59d6866114d5"],
             "illustration_id": "7fc2b2af-3ed4-4cc4-958b-61750abced59",
             "border_color": "black",
             "frame": "2015",
@@ -5437,9 +5099,7 @@
             "object": "card",
             "id": "559007a6-c515-413a-8d3c-8ce1df0742ff",
             "oracle_id": "f133e42a-2962-4781-b413-ce2127f17c26",
-            "multiverse_ids": [
-                423644
-            ],
+            "multiverse_ids": [423644],
             "tcgplayer_id": 125619,
             "cardmarket_id": 294458,
             "name": "Pools of Becoming",
@@ -5482,9 +5142,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5505,9 +5163,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jason Chan",
-            "artist_ids": [
-                "8062d5a9-51b6-4822-933f-fa9e9dba8416"
-            ],
+            "artist_ids": ["8062d5a9-51b6-4822-933f-fa9e9dba8416"],
             "illustration_id": "55170f25-6bd2-41c4-a5af-5b22891ebb86",
             "border_color": "black",
             "frame": "2015",
@@ -5539,9 +5195,7 @@
             "object": "card",
             "id": "86ff49dd-9845-459e-baaf-f65126ccb648",
             "oracle_id": "34a31865-b701-4ce1-8912-29fc41ecdda3",
-            "multiverse_ids": [
-                423645
-            ],
+            "multiverse_ids": [423645],
             "tcgplayer_id": 125620,
             "cardmarket_id": 294459,
             "name": "Prahv",
@@ -5584,9 +5238,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5607,9 +5259,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Drew Baker",
-            "artist_ids": [
-                "a8c4ef83-94ad-41c7-861f-95debea16868"
-            ],
+            "artist_ids": ["a8c4ef83-94ad-41c7-861f-95debea16868"],
             "illustration_id": "438cfb9b-cc91-4ec9-b8c8-9d542c365323",
             "border_color": "black",
             "frame": "2015",
@@ -5641,9 +5291,7 @@
             "object": "card",
             "id": "072c1a59-dbdc-469c-9743-e083e52b0b6d",
             "oracle_id": "53517dbf-7b32-423a-af76-afd39b876a1a",
-            "multiverse_ids": [
-                423646
-            ],
+            "multiverse_ids": [423646],
             "tcgplayer_id": 125621,
             "cardmarket_id": 294460,
             "name": "Quicksilver Sea",
@@ -5668,9 +5316,7 @@
             "oracle_text": "When you planeswalk to Quicksilver Sea or at the beginning of your upkeep, scry 4. (Look at the top four cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)\nWhenever you roll {CHAOS}, reveal the top card of your library. You may play it without paying its mana cost.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Scry"
-            ],
+            "keywords": ["Scry"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -5688,9 +5334,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5711,9 +5355,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Charles Urbach",
-            "artist_ids": [
-                "507c67d2-1514-40ab-b7cb-a9f3b96a08e8"
-            ],
+            "artist_ids": ["507c67d2-1514-40ab-b7cb-a9f3b96a08e8"],
             "illustration_id": "4cdb0b3a-a5c6-40cd-881b-72d607101cc5",
             "border_color": "black",
             "frame": "2015",
@@ -5745,9 +5387,7 @@
             "object": "card",
             "id": "de770524-9afc-4971-842a-6ee0b81176fb",
             "oracle_id": "b53e06af-be18-4f75-9dd0-7494ec867b13",
-            "multiverse_ids": [
-                423647
-            ],
+            "multiverse_ids": [423647],
             "tcgplayer_id": 125622,
             "cardmarket_id": 294461,
             "name": "Raven's Run",
@@ -5790,9 +5430,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5813,9 +5451,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Omar Rayyan",
-            "artist_ids": [
-                "256b61a2-b9af-4ff5-b485-47a61818f818"
-            ],
+            "artist_ids": ["256b61a2-b9af-4ff5-b485-47a61818f818"],
             "illustration_id": "01a7ef60-261a-4813-a9ca-b246e4a9d298",
             "border_color": "black",
             "frame": "2015",
@@ -5847,9 +5483,7 @@
             "object": "card",
             "id": "211014b3-ad13-41b3-bfb6-b907108769fd",
             "oracle_id": "3fc15821-1add-4321-aecd-33f8a8c5f9a7",
-            "multiverse_ids": [
-                423587
-            ],
+            "multiverse_ids": [423587],
             "tcgplayer_id": 125623,
             "cardmarket_id": 294401,
             "name": "Reality Shaping",
@@ -5892,9 +5526,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -5915,9 +5547,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Dan Scott",
-            "artist_ids": [
-                "f852fa13-137e-40f2-bbc1-0f01df09c0e0"
-            ],
+            "artist_ids": ["f852fa13-137e-40f2-bbc1-0f01df09c0e0"],
             "illustration_id": "6f0576c5-074d-45f9-8887-58c855be0ec4",
             "border_color": "black",
             "frame": "2015",
@@ -5949,9 +5579,7 @@
             "object": "card",
             "id": "4c20e1cd-c541-4b44-8e20-adaa45a989a2",
             "oracle_id": "f0c8ce35-b627-485c-bd64-d7eae47b8efa",
-            "multiverse_ids": [
-                423648
-            ],
+            "multiverse_ids": [423648],
             "tcgplayer_id": 125624,
             "cardmarket_id": 294462,
             "name": "Sanctum of Serra",
@@ -5994,9 +5622,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6017,9 +5643,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Rob Alexander",
-            "artist_ids": [
-                "35906871-6c78-4ab2-9ed1-e6792c8efb74"
-            ],
+            "artist_ids": ["35906871-6c78-4ab2-9ed1-e6792c8efb74"],
             "illustration_id": "95980fcd-ee4b-47b5-9153-0da76860065a",
             "border_color": "black",
             "frame": "2015",
@@ -6051,9 +5675,7 @@
             "object": "card",
             "id": "0693024b-7eed-4aa5-a890-66c947db6b73",
             "oracle_id": "edd21d18-98d2-4e3f-8da1-1ba645b8f69c",
-            "multiverse_ids": [
-                423649
-            ],
+            "multiverse_ids": [423649],
             "tcgplayer_id": 125625,
             "cardmarket_id": 294463,
             "name": "Sea of Sand",
@@ -6096,9 +5718,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6119,9 +5739,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jim Nelson",
-            "artist_ids": [
-                "aa9f64d1-29e1-4c82-877e-44c18183f40b"
-            ],
+            "artist_ids": ["aa9f64d1-29e1-4c82-877e-44c18183f40b"],
             "illustration_id": "bd30cda7-2207-4970-84b4-30e7aaa88ab4",
             "border_color": "black",
             "frame": "2015",
@@ -6153,9 +5771,7 @@
             "object": "card",
             "id": "94be33ca-0615-424a-9c4d-0fc91606af40",
             "oracle_id": "0a4bf88d-106a-413b-9d80-8775c1ff5ded",
-            "multiverse_ids": [
-                423650
-            ],
+            "multiverse_ids": [423650],
             "tcgplayer_id": 125626,
             "cardmarket_id": 294464,
             "name": "Selesnya Loft Gardens",
@@ -6181,13 +5797,7 @@
             "colors": [],
             "color_identity": [],
             "keywords": [],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -6205,9 +5815,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6228,9 +5836,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Martina Pilcerova",
-            "artist_ids": [
-                "30fead7c-da53-4c1b-b514-4be6e5ce487c"
-            ],
+            "artist_ids": ["30fead7c-da53-4c1b-b514-4be6e5ce487c"],
             "illustration_id": "823a4934-9072-4909-8ca0-8dc6bac69507",
             "border_color": "black",
             "frame": "2015",
@@ -6262,9 +5868,7 @@
             "object": "card",
             "id": "8ce18193-76d6-4357-80e3-67ab453f47ac",
             "oracle_id": "70edae19-e278-401d-9772-508bd66320a6",
-            "multiverse_ids": [
-                423651
-            ],
+            "multiverse_ids": [423651],
             "tcgplayer_id": 125627,
             "cardmarket_id": 294465,
             "name": "Shiv",
@@ -6288,9 +5892,7 @@
             "type_line": "Plane — Dominaria",
             "oracle_text": "All creatures have \"{R}: This creature gets +1/+0 until end of turn.\"\nWhenever you roll {CHAOS}, create a 5/5 red Dragon creature token with flying.",
             "colors": [],
-            "color_identity": [
-                "R"
-            ],
+            "color_identity": ["R"],
             "keywords": [],
             "all_parts": [
                 {
@@ -6327,9 +5929,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6350,9 +5950,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "rk post",
-            "artist_ids": [
-                "81ae0f3f-1d88-4125-9aeb-b15b4c734c82"
-            ],
+            "artist_ids": ["81ae0f3f-1d88-4125-9aeb-b15b4c734c82"],
             "illustration_id": "6829684c-7227-4d35-87f3-4cb605085761",
             "border_color": "black",
             "frame": "2015",
@@ -6384,9 +5982,7 @@
             "object": "card",
             "id": "24ad1b98-17ef-4c58-a947-384ef39f1193",
             "oracle_id": "61006acf-de38-420b-ab7a-685fbd64141c",
-            "multiverse_ids": [
-                423652
-            ],
+            "multiverse_ids": [423652],
             "tcgplayer_id": 125628,
             "cardmarket_id": 294466,
             "name": "Skybreen",
@@ -6429,9 +6025,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6452,9 +6046,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Wayne England",
-            "artist_ids": [
-                "62dc90c0-4bc2-4d42-ad76-59cad9243566"
-            ],
+            "artist_ids": ["62dc90c0-4bc2-4d42-ad76-59cad9243566"],
             "illustration_id": "3e90db1f-bf4d-41f1-b261-fb366a247055",
             "border_color": "black",
             "frame": "2015",
@@ -6486,9 +6078,7 @@
             "object": "card",
             "id": "fd5cb6c4-2ad7-47db-848b-8f6f157f3529",
             "oracle_id": "c09d304a-87d0-4a2a-bcb2-e81341b2dbf2",
-            "multiverse_ids": [
-                423653
-            ],
+            "multiverse_ids": [423653],
             "tcgplayer_id": 125629,
             "cardmarket_id": 294467,
             "name": "Sokenzan",
@@ -6531,9 +6121,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6554,9 +6142,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Brian Snõddy",
-            "artist_ids": [
-                "770b4e16-de76-49ed-949f-84e6d2e06d25"
-            ],
+            "artist_ids": ["770b4e16-de76-49ed-949f-84e6d2e06d25"],
             "illustration_id": "036c0eda-4245-4a62-a172-29ccae28191b",
             "border_color": "black",
             "frame": "2015",
@@ -6588,9 +6174,7 @@
             "object": "card",
             "id": "de44957b-3dcb-45db-a6a7-b5c6e64b582a",
             "oracle_id": "aa166578-b13b-4adb-a78e-d5183e987112",
-            "multiverse_ids": [
-                423588
-            ],
+            "multiverse_ids": [423588],
             "tcgplayer_id": 125630,
             "cardmarket_id": 294402,
             "name": "Spatial Merging",
@@ -6633,9 +6217,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6656,9 +6238,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Gabor Szikszai",
-            "artist_ids": [
-                "44c3877f-8771-43dc-9e40-f4c765f59d2e"
-            ],
+            "artist_ids": ["44c3877f-8771-43dc-9e40-f4c765f59d2e"],
             "illustration_id": "edcdf5a1-b276-47de-9d30-cf84b91b277e",
             "border_color": "black",
             "frame": "2015",
@@ -6690,9 +6270,7 @@
             "object": "card",
             "id": "eceba6df-8821-499b-b3c2-4d54c6eab257",
             "oracle_id": "7a425df4-7010-462e-9cb5-20389bac721c",
-            "multiverse_ids": [
-                423654
-            ],
+            "multiverse_ids": [423654],
             "tcgplayer_id": 135007,
             "cardmarket_id": 294468,
             "name": "Stairs to Infinity",
@@ -6735,9 +6313,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6758,9 +6334,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Steven Belledin",
-            "artist_ids": [
-                "f07d73b9-52a0-4fe5-858b-61f7b42174a5"
-            ],
+            "artist_ids": ["f07d73b9-52a0-4fe5-858b-61f7b42174a5"],
             "illustration_id": "85527664-3aa4-4e96-9ba1-b8e233f7442a",
             "border_color": "black",
             "frame": "2015",
@@ -6792,9 +6366,7 @@
             "object": "card",
             "id": "52906665-4acb-47d4-a443-b337503060d2",
             "oracle_id": "38bdd034-0375-403c-97ca-6f93a5e12e54",
-            "multiverse_ids": [
-                423655
-            ],
+            "multiverse_ids": [423655],
             "tcgplayer_id": 125631,
             "cardmarket_id": 294469,
             "name": "Stensia",
@@ -6837,9 +6409,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6860,9 +6430,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Vincent Proce",
-            "artist_ids": [
-                "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"
-            ],
+            "artist_ids": ["d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"],
             "illustration_id": "3a187f60-9895-410f-a2d3-d9715c3f974c",
             "border_color": "black",
             "frame": "2015",
@@ -6894,9 +6462,7 @@
             "object": "card",
             "id": "d5b7baf7-3d9a-4acf-8985-126cbee14248",
             "oracle_id": "ff76b576-8ad3-44f9-8043-80003a078e84",
-            "multiverse_ids": [
-                423656
-            ],
+            "multiverse_ids": [423656],
             "tcgplayer_id": 125632,
             "cardmarket_id": 294470,
             "name": "Stronghold Furnace",
@@ -6939,9 +6505,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -6962,9 +6526,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jim Pavelec",
-            "artist_ids": [
-                "1431bdd4-c187-40ea-847a-e1dcd835598a"
-            ],
+            "artist_ids": ["1431bdd4-c187-40ea-847a-e1dcd835598a"],
             "illustration_id": "c21e3a8d-deb4-4866-b2db-58e35d5e4b90",
             "border_color": "black",
             "frame": "2015",
@@ -6996,9 +6558,7 @@
             "object": "card",
             "id": "0dadba2e-1d9a-4f04-b9d5-a3edff017662",
             "oracle_id": "de53c948-b371-4f79-a965-33c44d0b44de",
-            "multiverse_ids": [
-                423657
-            ],
+            "multiverse_ids": [423657],
             "tcgplayer_id": 125633,
             "cardmarket_id": 294471,
             "name": "Takenuma",
@@ -7041,9 +6601,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7064,9 +6622,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Cliff Childs",
-            "artist_ids": [
-                "ed6f7e03-20ba-4c73-bdda-4a4928480721"
-            ],
+            "artist_ids": ["ed6f7e03-20ba-4c73-bdda-4a4928480721"],
             "illustration_id": "c0fb105f-8f2c-4794-a412-38ccfb281953",
             "border_color": "black",
             "frame": "2015",
@@ -7098,9 +6654,7 @@
             "object": "card",
             "id": "09feed09-96de-4208-b6b9-cac0ec150e70",
             "oracle_id": "c85d3740-8c8d-4fef-ad33-a6f446b883ac",
-            "multiverse_ids": [
-                423658
-            ],
+            "multiverse_ids": [423658],
             "tcgplayer_id": 125634,
             "cardmarket_id": 294472,
             "name": "Talon Gates",
@@ -7143,9 +6697,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7166,9 +6718,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Chippy",
-            "artist_ids": [
-                "a36f01a0-e51a-48b2-a556-b9b3bc73f969"
-            ],
+            "artist_ids": ["a36f01a0-e51a-48b2-a556-b9b3bc73f969"],
             "illustration_id": "ce681b54-936a-4417-b021-564b6173a184",
             "border_color": "black",
             "frame": "2015",
@@ -7200,9 +6750,7 @@
             "object": "card",
             "id": "18c94ada-d864-4e94-9d95-e796ab0d0cff",
             "oracle_id": "97f708de-9271-4137-a9fe-dda25b922900",
-            "multiverse_ids": [
-                423659
-            ],
+            "multiverse_ids": [423659],
             "tcgplayer_id": 125635,
             "cardmarket_id": 294473,
             "name": "Tazeem",
@@ -7245,9 +6793,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7268,9 +6814,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Vincent Proce",
-            "artist_ids": [
-                "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"
-            ],
+            "artist_ids": ["d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"],
             "illustration_id": "b1188b1e-7a18-47b7-a9b3-1d91445369a9",
             "border_color": "black",
             "frame": "2015",
@@ -7302,9 +6846,7 @@
             "object": "card",
             "id": "ec65904f-c0dd-45ab-a85a-af4a6a631e11",
             "oracle_id": "bbb1d13c-a3ce-4151-883a-cce9bbd584d0",
-            "multiverse_ids": [
-                423660
-            ],
+            "multiverse_ids": [423660],
             "tcgplayer_id": 125654,
             "cardmarket_id": 294474,
             "name": "Tember City",
@@ -7347,9 +6889,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7370,9 +6910,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Ben Thompson",
-            "artist_ids": [
-                "f3116c88-57f4-4fd1-95f3-cfd163977661"
-            ],
+            "artist_ids": ["f3116c88-57f4-4fd1-95f3-cfd163977661"],
             "illustration_id": "e69bc9b3-7d47-4619-a4f8-ac985aaa4d7e",
             "border_color": "black",
             "frame": "2015",
@@ -7404,9 +6942,7 @@
             "object": "card",
             "id": "3d8c9d69-be51-4ad4-9c2a-0ec1952e4f72",
             "oracle_id": "8eb442a9-5e61-4e2e-983d-b49b04be2575",
-            "multiverse_ids": [
-                423591
-            ],
+            "multiverse_ids": [423591],
             "tcgplayer_id": 125636,
             "cardmarket_id": 294405,
             "name": "The Aether Flues",
@@ -7449,9 +6985,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7472,9 +7006,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jason A. Engle",
-            "artist_ids": [
-                "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
-            ],
+            "artist_ids": ["02e2b5de-4341-464c-8fdb-a1adbf873bc0"],
             "illustration_id": "c4bf9680-daca-43d0-a9f0-0767b7eacce7",
             "border_color": "black",
             "frame": "2015",
@@ -7506,9 +7038,7 @@
             "object": "card",
             "id": "0b8a0cad-92df-45a1-a3cc-561be2f06778",
             "oracle_id": "5503c308-560d-4d5f-a86a-4b06d9947ddc",
-            "multiverse_ids": [
-                423600
-            ],
+            "multiverse_ids": [423600],
             "tcgplayer_id": 125637,
             "cardmarket_id": 294414,
             "name": "The Dark Barony",
@@ -7551,9 +7081,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7574,9 +7102,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Pete Venters",
-            "artist_ids": [
-                "d54c4a1a-c0c5-4834-84db-125d341f3ad8"
-            ],
+            "artist_ids": ["d54c4a1a-c0c5-4834-84db-125d341f3ad8"],
             "illustration_id": "6ccf0105-a576-4907-91a0-7a9daf2e97b1",
             "border_color": "black",
             "frame": "2015",
@@ -7608,9 +7134,7 @@
             "object": "card",
             "id": "501268b6-878b-4725-be1f-a64c90f79b87",
             "oracle_id": "a04d05ed-1b9b-4407-8780-c75c102a94dd",
-            "multiverse_ids": [
-                423603
-            ],
+            "multiverse_ids": [423603],
             "tcgplayer_id": 125638,
             "cardmarket_id": 294417,
             "name": "The Eon Fog",
@@ -7653,9 +7177,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7676,9 +7198,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jaime Jones",
-            "artist_ids": [
-                "92f6c2c1-fa57-4b52-99c4-0fd866c13dc9"
-            ],
+            "artist_ids": ["92f6c2c1-fa57-4b52-99c4-0fd866c13dc9"],
             "illustration_id": "bcc1a3a8-d351-43a0-9f7d-9af64ffc1b62",
             "border_color": "black",
             "frame": "2015",
@@ -7710,9 +7230,7 @@
             "object": "card",
             "id": "decef464-d1d3-4459-a1c4-fbad684d5d02",
             "oracle_id": "13e801cd-e537-4ea6-8c3d-21b142bdc026",
-            "multiverse_ids": [
-                423606
-            ],
+            "multiverse_ids": [423606],
             "tcgplayer_id": 125639,
             "cardmarket_id": 294420,
             "name": "The Fourth Sphere",
@@ -7773,9 +7291,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7796,9 +7312,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Dave Kendall",
-            "artist_ids": [
-                "8a5540a8-18c9-4fa9-802c-59d6866114d5"
-            ],
+            "artist_ids": ["8a5540a8-18c9-4fa9-802c-59d6866114d5"],
             "illustration_id": "22c22b4f-3153-4247-8594-f1f62f57d673",
             "border_color": "black",
             "frame": "2015",
@@ -7830,9 +7344,7 @@
             "object": "card",
             "id": "8c08ca87-a485-4e4e-8f19-0da6a351142e",
             "oracle_id": "8c56bb41-a8d8-4b0f-bbb7-be8466dc9ed1",
-            "multiverse_ids": [
-                423613
-            ],
+            "multiverse_ids": [423613],
             "tcgplayer_id": 125640,
             "cardmarket_id": 294427,
             "name": "The Great Forest",
@@ -7875,9 +7387,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -7898,9 +7408,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Howard Lyon",
-            "artist_ids": [
-                "6dd06426-59fe-4b9c-aad5-6da8446a5c3d"
-            ],
+            "artist_ids": ["6dd06426-59fe-4b9c-aad5-6da8446a5c3d"],
             "illustration_id": "1eb02cca-c6a5-48ac-8a6f-e7dd1ef2240d",
             "border_color": "black",
             "frame": "2015",
@@ -7932,9 +7440,7 @@
             "object": "card",
             "id": "4ba7ce8f-e11d-4e06-8cb6-668de2a43a4e",
             "oracle_id": "cde8d8c4-5e2b-452f-b3e9-bb9f2e745ec9",
-            "multiverse_ids": [
-                423617
-            ],
+            "multiverse_ids": [423617],
             "tcgplayer_id": 125641,
             "cardmarket_id": 294431,
             "name": "The Hippodrome",
@@ -7977,9 +7483,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8000,9 +7504,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Steve Argyle",
-            "artist_ids": [
-                "a44ddda4-5331-4f83-aac9-3e00ed36bd7b"
-            ],
+            "artist_ids": ["a44ddda4-5331-4f83-aac9-3e00ed36bd7b"],
             "illustration_id": "c980f94b-817b-42a4-bca9-c0948ec0e657",
             "border_color": "black",
             "frame": "2015",
@@ -8034,9 +7536,7 @@
             "object": "card",
             "id": "6223caca-e993-4834-a673-3eee65b8afe1",
             "oracle_id": "e28deac5-d3c4-48e9-974c-093e3122f317",
-            "multiverse_ids": [
-                423630
-            ],
+            "multiverse_ids": [423630],
             "tcgplayer_id": 125642,
             "cardmarket_id": 294444,
             "name": "The Maelstrom",
@@ -8079,9 +7579,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8102,9 +7600,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "James Paick",
-            "artist_ids": [
-                "1a7be0a2-d8ac-45c7-b0a0-eb0886f47b5f"
-            ],
+            "artist_ids": ["1a7be0a2-d8ac-45c7-b0a0-eb0886f47b5f"],
             "illustration_id": "a2f52e01-c6b3-42d1-993f-bb93a29b91da",
             "border_color": "black",
             "frame": "2015",
@@ -8136,9 +7632,7 @@
             "object": "card",
             "id": "4c9dc306-92e9-46e1-a67c-d4f2a65ce339",
             "oracle_id": "2d84be6d-49a5-4200-8cd3-d8653dfd0899",
-            "multiverse_ids": [
-                423667
-            ],
+            "multiverse_ids": [423667],
             "tcgplayer_id": 125643,
             "cardmarket_id": 294481,
             "name": "The Zephyr Maze",
@@ -8181,9 +7675,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8204,9 +7696,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "rk post",
-            "artist_ids": [
-                "81ae0f3f-1d88-4125-9aeb-b15b4c734c82"
-            ],
+            "artist_ids": ["81ae0f3f-1d88-4125-9aeb-b15b4c734c82"],
             "illustration_id": "4832ef3d-5a57-4659-8ad0-235da1116d8a",
             "border_color": "black",
             "frame": "2015",
@@ -8238,9 +7728,7 @@
             "object": "card",
             "id": "ba38fb01-ea16-4a2d-964a-41f7b4d74024",
             "oracle_id": "e19e8895-f8a4-4995-8dd4-2821c6469126",
-            "multiverse_ids": [
-                423589
-            ],
+            "multiverse_ids": [423589],
             "tcgplayer_id": 125644,
             "cardmarket_id": 294403,
             "name": "Time Distortion",
@@ -8283,9 +7771,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8306,9 +7792,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "rk post",
-            "artist_ids": [
-                "81ae0f3f-1d88-4125-9aeb-b15b4c734c82"
-            ],
+            "artist_ids": ["81ae0f3f-1d88-4125-9aeb-b15b4c734c82"],
             "illustration_id": "90164a88-5672-4475-a0e9-2b492f1e7aa4",
             "border_color": "black",
             "frame": "2015",
@@ -8340,9 +7824,7 @@
             "object": "card",
             "id": "f5f307bf-80ac-46cb-9003-3e70a0703e71",
             "oracle_id": "b2c95c7a-a04c-46ef-a879-6eb08e444093",
-            "multiverse_ids": [
-                423661
-            ],
+            "multiverse_ids": [423661],
             "tcgplayer_id": 125645,
             "cardmarket_id": 294475,
             "name": "Trail of the Mage-Rings",
@@ -8385,9 +7867,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8408,9 +7888,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Vincent Proce",
-            "artist_ids": [
-                "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"
-            ],
+            "artist_ids": ["d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"],
             "illustration_id": "494c9242-4362-47db-a3ac-06f3c6a68e54",
             "border_color": "black",
             "frame": "2015",
@@ -8442,9 +7920,7 @@
             "object": "card",
             "id": "93f94fb5-abf6-46f8-860c-e93446b8236a",
             "oracle_id": "d858e6db-9842-41d1-8006-574c8dcd98ed",
-            "multiverse_ids": [
-                423662
-            ],
+            "multiverse_ids": [423662],
             "tcgplayer_id": 125646,
             "cardmarket_id": 294476,
             "name": "Truga Jungle",
@@ -8470,13 +7946,7 @@
             "colors": [],
             "color_identity": [],
             "keywords": [],
-            "produced_mana": [
-                "B",
-                "G",
-                "R",
-                "U",
-                "W"
-            ],
+            "produced_mana": ["B", "G", "R", "U", "W"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -8494,9 +7964,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8517,9 +7985,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Jim Nelson",
-            "artist_ids": [
-                "aa9f64d1-29e1-4c82-877e-44c18183f40b"
-            ],
+            "artist_ids": ["aa9f64d1-29e1-4c82-877e-44c18183f40b"],
             "illustration_id": "5eb058cb-16a2-4a9b-aefb-b76362d5569f",
             "border_color": "black",
             "frame": "2015",
@@ -8551,9 +8017,7 @@
             "object": "card",
             "id": "d212c626-3557-465a-bc1f-65faf3811755",
             "oracle_id": "1300b5e7-d741-4723-bb15-dabd04cb0c11",
-            "multiverse_ids": [
-                423663
-            ],
+            "multiverse_ids": [423663],
             "tcgplayer_id": 125647,
             "cardmarket_id": 294477,
             "name": "Turri Island",
@@ -8596,9 +8060,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8619,9 +8081,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Raymond Swanland",
-            "artist_ids": [
-                "e956bacc-077d-4c12-b6bc-ba798b718af9"
-            ],
+            "artist_ids": ["e956bacc-077d-4c12-b6bc-ba798b718af9"],
             "illustration_id": "f9bcb726-aebf-4446-9f62-99e3acc02614",
             "border_color": "black",
             "frame": "2015",
@@ -8653,9 +8113,7 @@
             "object": "card",
             "id": "6a1b27bc-bb7e-47e1-add5-a9d3e1bfda8b",
             "oracle_id": "f3f5a033-d063-4250-9cfe-4c3c1a2725f1",
-            "multiverse_ids": [
-                423664
-            ],
+            "multiverse_ids": [423664],
             "tcgplayer_id": 125648,
             "cardmarket_id": 294478,
             "name": "Undercity Reaches",
@@ -8698,9 +8156,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8721,9 +8177,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Stephan Martiniere",
-            "artist_ids": [
-                "018799f5-76d7-4849-9375-f1b9030977e6"
-            ],
+            "artist_ids": ["018799f5-76d7-4849-9375-f1b9030977e6"],
             "illustration_id": "02a454e9-5a01-40fe-8389-86d6804a4c60",
             "border_color": "black",
             "frame": "2015",
@@ -8755,9 +8209,7 @@
             "object": "card",
             "id": "621a8224-7ea2-4ca4-be74-e460d05ad12b",
             "oracle_id": "1c4e174e-19fb-4c0a-b762-ef6d927392c9",
-            "multiverse_ids": [
-                423665
-            ],
+            "multiverse_ids": [423665],
             "tcgplayer_id": 125649,
             "cardmarket_id": 294479,
             "name": "Velis Vel",
@@ -8800,9 +8252,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8823,9 +8273,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Terese Nielsen",
-            "artist_ids": [
-                "eb55171c-2342-45f4-a503-2d5a75baf752"
-            ],
+            "artist_ids": ["eb55171c-2342-45f4-a503-2d5a75baf752"],
             "illustration_id": "c89c62b3-6717-4cc8-a948-7113e648287f",
             "border_color": "black",
             "frame": "2015",
@@ -8857,9 +8305,7 @@
             "object": "card",
             "id": "27f3c16a-34f9-497d-835c-5942e395ded8",
             "oracle_id": "e4b941d1-60cb-4e14-89a4-62a9785f6eda",
-            "multiverse_ids": [
-                423666
-            ],
+            "multiverse_ids": [423666],
             "tcgplayer_id": 125650,
             "cardmarket_id": 294480,
             "name": "Windriddle Palaces",
@@ -8884,9 +8330,7 @@
             "oracle_text": "Players play with the top card of their libraries revealed.\nYou may play lands and cast spells from the top of any player's library.\nWhenever you roll {CHAOS}, each player mills a card.",
             "colors": [],
             "color_identity": [],
-            "keywords": [
-                "Mill"
-            ],
+            "keywords": ["Mill"],
             "legalities": {
                 "standard": "not_legal",
                 "future": "not_legal",
@@ -8904,9 +8348,7 @@
                 "oldschool": "not_legal",
                 "premodern": "not_legal"
             },
-            "games": [
-                "paper"
-            ],
+            "games": ["paper"],
             "reserved": false,
             "foil": false,
             "nonfoil": true,
@@ -8927,9 +8369,7 @@
             "rarity": "common",
             "card_back_id": "7840c131-f96b-4700-9347-2215c43156e6",
             "artist": "Kekai Kotaki",
-            "artist_ids": [
-                "4b771085-c049-4308-930d-ec9665f803a4"
-            ],
+            "artist_ids": ["4b771085-c049-4308-930d-ec9665f803a4"],
             "illustration_id": "e35493dd-bea9-4990-a6c0-2618fa85905d",
             "border_color": "black",
             "frame": "2015",

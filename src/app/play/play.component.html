@@ -1,28 +1,40 @@
 <div class="container">
-
     <div class="buttons mt-3">
         <div class="nav-button">
-            <button class="btn btn-primary d-block" (click)="setPreviousPlane()" [disabled]="!previousPlanes.length">
+            <button
+                class="btn btn-primary d-block"
+                (click)="setPreviousPlane()"
+                [disabled]="!previousPlanes.length"
+            >
                 <fa-icon [icon]="previousIcon" [fixedWidth]="true"></fa-icon>
             </button>
         </div>
         <app-dice-roller [seed]="seed"></app-dice-roller>
         <div class="nav-button">
-            <button class="btn btn-primary d-block" (click)="setNextPlane()" [disabled]="!currentPlane">
+            <button
+                class="btn btn-primary d-block"
+                (click)="setNextPlane()"
+                [disabled]="!currentPlane"
+            >
                 <fa-icon [icon]="nextIcon" [fixedWidth]="true"></fa-icon>
             </button>
         </div>
     </div>
 
-    <hr>
+    <hr />
 
     <div class="text-center mb-3" *ngIf="!currentPlane">
         <p>You have used all planes!</p>
         <button class="btn btn-danger" (click)="resetPlanes()">Reset</button>
     </div>
-    <img [alt]="currentPlane.name" *ngIf="currentPlane" class="plane" [src]="currentPlane.img">
+    <img
+        [alt]="currentPlane.name"
+        *ngIf="currentPlane"
+        class="plane"
+        [src]="currentPlane.img"
+    />
 
-    <hr>
+    <hr />
 
     <div class="buttons mt-3">
         <div class="nav-container">

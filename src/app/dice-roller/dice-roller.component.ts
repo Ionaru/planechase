@@ -1,4 +1,6 @@
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faDiceD6, faRedo, faTimes } from '@fortawesome/free-solid-svg-icons';
 import seedrandom from 'seedrandom';
 
@@ -6,35 +8,40 @@ import { AppComponent } from '../app.component';
 
 @Component({
     selector: 'app-dice-roller',
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule, NgOptimizedImage],
     templateUrl: './dice-roller.component.html',
     styleUrls: ['./dice-roller.component.scss'],
 })
 export class DiceRollerComponent implements OnInit {
+    @Input({ required: true }) seed!: string;
 
-    @Input() seed: string;
+    resetSeed = '';
 
-    public resetSeed = '';
+    rollCounter = 0;
+    rolled?: number;
 
-    public rollCounter = 0;
-    public rolled?: number;
+    rollIcon = faDiceD6;
+    resetIcon = faRedo;
+    xIcon = faTimes;
 
-    public rollIcon = faDiceD6;
-    public resetIcon = faRedo;
-    public xIcon = faTimes;
-
-    public ngOnInit() {
+    ngOnInit() {
         // Set initial seed based on page seed.
         this.resetSeed = seedrandom(this.seed)().toString();
         this.reset();
     }
 
-    public roll(): void {
-        const roll = AppComponent.getRandomNumber(this.resetSeed + this.rollCounter, 6, 1);
+    roll(): void {
+        const roll = AppComponent.getRandomNumber(
+            this.resetSeed + this.rollCounter,
+            6,
+            1
+        );
         this.rollCounter++;
         this.rolled = roll;
     }
 
-    public reset(): void {
+    reset(): void {
         this.resetSeed = seedrandom(this.resetSeed)().toString();
         this.rollCounter = 0;
         this.rolled = undefined;
