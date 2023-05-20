@@ -17,7 +17,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: lts/*
 
       - name: Audit
         run: npm audit --production
@@ -32,7 +32,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: lts/*
 
       - name: Install packages
         run: npm ci
@@ -49,7 +49,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: lts/*
 
       - name: Install packages
         run: npm ci
@@ -106,7 +106,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: lts/*
 
       - name: Deploy
         run: npx -q @ionaru/teamcity-deploy teamcity.saturnserver.org Planechase_Deploy ${{ secrets.TEAMCITY_TOKEN }}
