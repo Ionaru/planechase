@@ -11,16 +11,18 @@
         </p>
     </div>
     <div class="m-auto">
-        @if (rolled !== 6 && rolled !== 1) {
-            <p class="align-middle m-auto">
-                <fa-icon [icon]="xIcon"></fa-icon>
-            </p>
-        }
-        @if (rolled === 6) {
-            <img alt="planeswalker" src="assets/PW.svg" />
-        }
-        @if (rolled === 1) {
-            <img alt="chaos" src="assets/CHAOS.svg" />
+        @switch (rolled) {
+            @case (1) {
+                <img alt="chaos" src="assets/CHAOS.svg" />
+            }
+            @case (6) {
+                <img alt="planeswalker" src="assets/PW.svg" />
+            }
+            @default {
+                <p class="align-middle m-auto">
+                    <fa-icon [icon]="xIcon"></fa-icon>
+                </p>
+            }
         }
     </div>
     <button class="btn btn-primary d-block" (click)="roll()">

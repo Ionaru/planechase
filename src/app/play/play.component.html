@@ -23,16 +23,15 @@
 
     <hr />
 
-    @if (!currentPlane) {
+    @if (currentPlane) {
+        <img [alt]="currentPlane.name" class="plane" [src]="currentPlane.img" />
+    } @else {
         <div class="text-center mb-3">
             <p>You have used all planes!</p>
             <button class="btn btn-danger" (click)="resetPlanes()">
                 Reset
             </button>
         </div>
-    }
-    @if (currentPlane) {
-        <img [alt]="currentPlane.name" class="plane" [src]="currentPlane.img" />
     }
 
     <hr />

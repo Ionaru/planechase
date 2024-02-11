@@ -11,8 +11,7 @@
         <p class="m-auto text-center">
             Click on a plane to planeswalk to it, hover over a plane to view it.
         </p>
-    }
-    @if (!canPlay) {
+    } @else {
         <div class="text-center">
             <p class="text-danger">
                 You need to select at least 25 planes to play Eternities Map.
@@ -22,7 +21,7 @@
     }
 
     <div class="grid">
-        @for (item of items; track item) {
+        @for (item of items; track item.plane.id) {
             <div
                 class="grid-item"
                 (click)="walkToPlane(item)"

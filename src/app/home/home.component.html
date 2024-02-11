@@ -30,14 +30,12 @@
                         Select all
                     </button>
                 </div>
-            }
-            @if (customPlanes.length) {
                 <p>
                     {{ countEnabledPlanes(customPlanes) }} out of
                     {{ customPlanes.length }} selected.
                 </p>
             }
-            @for (plane of customPlanes; track plane) {
+            @for (plane of customPlanes; track plane.id) {
                 <div class="form-check mb-0">
                     <label
                         class="form-check-label"
@@ -92,7 +90,7 @@
                 {{ planes.length }} selected.
             </p>
 
-            @for (plane of planes; track plane) {
+            @for (plane of planes; track plane.id) {
                 <div class="form-check mb-0">
                     <label class="form-check-label" (mouseover)="setUrl(plane)">
                         <input
