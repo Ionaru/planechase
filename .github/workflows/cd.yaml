@@ -95,7 +95,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push image
-        run: docker push -a ghcr.io/ionaru/planechase/planechase:latest
+        run: docker push ghcr.io/ionaru/planechase/planechase:latest
 
   deploy:
     needs: [ push-image ]
