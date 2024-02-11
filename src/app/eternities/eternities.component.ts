@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { NgClass, NgStyle } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { generateRandomString } from '@ionaru/random-string';
@@ -24,7 +24,10 @@ class GridItem {
     plane = AppComponent.fakePlane;
     seen = false;
 
-    constructor(public row: Row, public column: Column) {
+    constructor(
+        public row: Row,
+        public column: Column,
+    ) {
         row.add(this);
         column.add(this);
     }
@@ -80,11 +83,12 @@ class Column extends Line {}
     selector: 'app-eternities',
     standalone: true,
     imports: [
-        CommonModule,
         DelayedHoverDirective,
         DiceRollerComponent,
         NavButtonsComponent,
         RouterLink,
+        NgClass,
+        NgStyle,
     ],
     templateUrl: './eternities.component.html',
     styleUrls: ['./eternities.component.scss'],
@@ -109,7 +113,7 @@ export class EternitiesComponent {
 
     constructor(
         private readonly activatedRoute: ActivatedRoute,
-        private readonly router: Router
+        private readonly router: Router,
     ) {
         activatedRoute.queryParams.subscribe((parameters) => {
             this.seed = parameters['seed'];

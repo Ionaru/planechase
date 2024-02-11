@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -9,7 +9,7 @@ import { AppComponent, IPlane } from '../app.component';
 @Component({
     selector: 'app-home',
     standalone: true,
-    imports: [CommonModule, FontAwesomeModule, RouterLink],
+    imports: [FontAwesomeModule, RouterLink, NgClass],
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss'],
 })
@@ -56,7 +56,7 @@ export class HomeComponent {
                     if (fileList.indexOf(file) === fileList.length - 1) {
                         this.previewPlane = customPlane;
                     }
-                }
+                },
             );
 
             reader.readAsDataURL(file);

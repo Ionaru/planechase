@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -12,12 +11,7 @@ import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
 @Component({
     selector: 'app-play',
     standalone: true,
-    imports: [
-        CommonModule,
-        FontAwesomeModule,
-        NavButtonsComponent,
-        DiceRollerComponent,
-    ],
+    imports: [FontAwesomeModule, NavButtonsComponent, DiceRollerComponent],
     templateUrl: './play.component.html',
     styleUrls: ['./play.component.scss'],
 })
@@ -34,7 +28,7 @@ export class PlayComponent {
 
     constructor(
         private readonly activatedRoute: ActivatedRoute,
-        private readonly router: Router
+        private readonly router: Router,
     ) {
         activatedRoute.queryParams.subscribe((parameters) => {
             this.seed = parameters['seed'];

@@ -15,41 +15,45 @@
 
     <div class="row">
         <div class="col-lg-4">
-            <div *ngIf="customPlanes.length" class="mb-3">
-                <button
-                    (click)="toggleSelection(this.customPlanes, false)"
-                    class="btn btn-primary"
-                >
-                    Select none
-                </button>
-                <button
-                    (click)="toggleSelection(this.customPlanes)"
-                    class="btn btn-primary ms-5"
-                >
-                    Select all
-                </button>
-            </div>
-
-            <p *ngIf="customPlanes.length">
-                {{ countEnabledPlanes(customPlanes) }} out of
-                {{ customPlanes.length }} selected.
-            </p>
-
-            <div class="form-check mb-0" *ngFor="let plane of customPlanes">
-                <label
-                    class="form-check-label"
-                    (mouseover)="setUrl(plane)"
-                    (focus)="setUrl(plane)"
-                >
-                    <input
-                        class="form-check-input"
-                        type="checkbox"
-                        (change)="togglePlane(plane)"
-                        [checked]="plane.enabled"
-                    />
-                    {{ plane.name }}
-                </label>
-            </div>
+            @if (customPlanes.length) {
+                <div class="mb-3">
+                    <button
+                        (click)="toggleSelection(this.customPlanes, false)"
+                        class="btn btn-primary"
+                    >
+                        Select none
+                    </button>
+                    <button
+                        (click)="toggleSelection(this.customPlanes)"
+                        class="btn btn-primary ms-5"
+                    >
+                        Select all
+                    </button>
+                </div>
+            }
+            @if (customPlanes.length) {
+                <p>
+                    {{ countEnabledPlanes(customPlanes) }} out of
+                    {{ customPlanes.length }} selected.
+                </p>
+            }
+            @for (plane of customPlanes; track plane) {
+                <div class="form-check mb-0">
+                    <label
+                        class="form-check-label"
+                        (mouseover)="setUrl(plane)"
+                        (focus)="setUrl(plane)"
+                    >
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            (change)="togglePlane(plane)"
+                            [checked]="plane.enabled"
+                        />
+                        {{ plane.name }}
+                    </label>
+                </div>
+            }
 
             <input
                 #fileInput
@@ -88,17 +92,19 @@
                 {{ planes.length }} selected.
             </p>
 
-            <div class="form-check mb-0" *ngFor="let plane of planes">
-                <label class="form-check-label" (mouseover)="setUrl(plane)">
-                    <input
-                        class="form-check-input"
-                        type="checkbox"
-                        (change)="togglePlane(plane)"
-                        [checked]="plane.enabled"
-                    />
-                    {{ plane.name }}
-                </label>
-            </div>
+            @for (plane of planes; track plane) {
+                <div class="form-check mb-0">
+                    <label class="form-check-label" (mouseover)="setUrl(plane)">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            (change)="togglePlane(plane)"
+                            [checked]="plane.enabled"
+                        />
+                        {{ plane.name }}
+                    </label>
+                </div>
+            }
         </div>
         <div class="col-lg-8">
             <div class="card-image-container">

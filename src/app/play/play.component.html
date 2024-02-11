@@ -23,16 +23,17 @@
 
     <hr />
 
-    <div class="text-center mb-3" *ngIf="!currentPlane">
-        <p>You have used all planes!</p>
-        <button class="btn btn-danger" (click)="resetPlanes()">Reset</button>
-    </div>
-    <img
-        [alt]="currentPlane.name"
-        *ngIf="currentPlane"
-        class="plane"
-        [src]="currentPlane.img"
-    />
+    @if (!currentPlane) {
+        <div class="text-center mb-3">
+            <p>You have used all planes!</p>
+            <button class="btn btn-danger" (click)="resetPlanes()">
+                Reset
+            </button>
+        </div>
+    }
+    @if (currentPlane) {
+        <img [alt]="currentPlane.name" class="plane" [src]="currentPlane.img" />
+    }
 
     <hr />
 

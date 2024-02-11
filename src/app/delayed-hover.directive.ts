@@ -2,7 +2,7 @@ import {
     Directive,
     ElementRef,
     EventEmitter,
-    Input,
+    input,
     OnInit,
     Output,
 } from '@angular/core';
@@ -13,7 +13,7 @@ import { fromEvent, map, merge, of, switchMap, delay } from 'rxjs';
     standalone: true,
 })
 export class DelayedHoverDirective implements OnInit {
-    @Input() delay = 1500;
+    delay = input(1500);
 
     // eslint-disable-next-line unicorn/prefer-event-target
     @Output('appDelayedHover') hoverEvent = new EventEmitter();
@@ -22,10 +22,10 @@ export class DelayedHoverDirective implements OnInit {
 
     ngOnInit(): void {
         const hide$ = fromEvent(this.element.nativeElement, 'mouseleave').pipe(
-            map(() => false)
+            map(() => false),
         );
         const show$ = fromEvent(this.element.nativeElement, 'mouseenter').pipe(
-            map(() => true)
+            map(() => true),
         );
 
         merge(hide$, show$)
@@ -34,8 +34,8 @@ export class DelayedHoverDirective implements OnInit {
                     if (!show) {
                         return of(false);
                     }
-                    return of(true).pipe(delay(this.delay));
-                })
+                    return of(true).pipe(delay(this.delay()));
+                }),
             )
             .subscribe((show) => {
                 if (show) {
