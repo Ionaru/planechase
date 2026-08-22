@@ -1,10 +1,13 @@
 /* Importing Bootstrap SCSS file. */
-$container-max-widths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px,
-    xxl: 1141px,
+/* Sass @import is deprecated and removed in Dart Sass 3, so the container width
+   overrides are passed through @use ... with instead of being declared above the
+   import and picked up by !default. */
+@use 'bootstrap/scss/bootstrap' with (
+    $container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1141px,
+    )
 );
-
-@import 'bootstrap/scss/bootstrap';

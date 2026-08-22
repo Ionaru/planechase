@@ -1,5 +1,5 @@
 import { NgClass } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faDiceD20 } from '@fortawesome/free-solid-svg-icons';
@@ -8,9 +8,9 @@ import { AppComponent, IPlane } from '../app.component';
 
 @Component({
     selector: 'app-home',
-    standalone: true,
     imports: [FontAwesomeModule, RouterLink, NgClass],
     templateUrl: './home.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
@@ -20,9 +20,9 @@ export class HomeComponent {
     customPlanes = AppComponent.customPlanes;
     previewPlane = AppComponent.fakePlane;
 
-    toggleSelection(context: IPlane[], enabled = true): void {
+    toggleSelection(context: IPlane[], isEnabled = true): void {
         for (const plane of context) {
-            plane.enabled = enabled;
+            plane.enabled = isEnabled;
         }
     }
 

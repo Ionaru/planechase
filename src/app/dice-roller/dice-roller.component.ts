@@ -1,5 +1,9 @@
-import { NgOptimizedImage } from '@angular/common';
-import { Component, input, OnInit } from '@angular/core';
+import {
+    Component,
+    input,
+    OnInit,
+    ChangeDetectionStrategy,
+} from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faDiceD6, faRedo, faTimes } from '@fortawesome/free-solid-svg-icons';
 import seedrandom from 'seedrandom';
@@ -8,9 +12,9 @@ import { AppComponent } from '../app.component';
 
 @Component({
     selector: 'app-dice-roller',
-    standalone: true,
-    imports: [FontAwesomeModule, NgOptimizedImage],
+    imports: [FontAwesomeModule],
     templateUrl: './dice-roller.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./dice-roller.component.scss'],
 })
 export class DiceRollerComponent implements OnInit {

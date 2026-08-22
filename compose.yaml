@@ -1,8 +1,0 @@
-services:
-    planechase:
-        image: ghcr.io/ionaru/planechase/planechase:latest
-        build:
-            context: .
-        restart: unless-stopped
-        ports:
-            - '${PLANECHASE_PORT:-80}:80'

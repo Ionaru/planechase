@@ -1,0 +1,26 @@
+services:
+    planechase:
+        image: ghcr.io/ionaru/planechase:${PLANECHASE_GIT_REVISION:-latest}
+        build:
+            context: ../
+            dockerfile: deploy/Dockerfile
+        # No published ports. nginx listens on 80 and is reached over the "edge"
+        # network by the reverse proxy, as http://planechase:80.
+        networks:
+            - edge
+        restart: unless-stopped
+        healthcheck:
+            # index.html is served straight from disk with no application behind it, so
+            # this is both cheap and complete: if it answers, nginx is up and the bundle
+            # made it into the image. busybox wget is in the nginx alpine image, curl is
+            # not.
+            test: ['CMD', 'wget', '--spider', '-q', 'http://127.0.0.1/']
+            interval: 30s
+            timeout: 5s
+            retries: 3
+            start_period: 10s
+
+networks:
+    # Shared with the reverse proxy; created outside this stack.
+    edge:
+        external: true

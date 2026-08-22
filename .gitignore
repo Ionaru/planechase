@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Local environment overrides, and the file the deploy reads on the server
+.env
