@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -10,12 +10,15 @@ import { NavButtonsComponent } from '../nav-buttons/nav-buttons.component';
 
 @Component({
     selector: 'app-play',
-    standalone: true,
     imports: [FontAwesomeModule, NavButtonsComponent, DiceRollerComponent],
     templateUrl: './play.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./play.component.scss'],
 })
 export class PlayComponent {
+    private readonly activatedRoute = inject(ActivatedRoute);
+    private readonly router = inject(Router);
+
     currentPlane: IPlane | undefined;
     planes: IPlane[] = [];
     previousPlanes: IPlane[] = [];
@@ -26,19 +29,18 @@ export class PlayComponent {
 
     seed = '000000';
 
-    constructor(
-        private readonly activatedRoute: ActivatedRoute,
-        private readonly router: Router,
-    ) {
+    constructor() {
+        const activatedRoute = this.activatedRoute;
+
         activatedRoute.queryParams.subscribe((parameters) => {
             this.seed = parameters['seed'];
 
             if (!this.seed) {
-                this.router
-                    .navigate([`/play`], {
-                        queryParams: { seed: generateRandomString(6) },
-                    })
-                    .then();
+                // Deliberately not awaited: this only swaps a missing seed for a
+                // generated one, and the subscription carries on either way.
+                void this.router.navigate([`/play`], {
+                    queryParams: { seed: generateRandomString(6) },
+                });
             }
 
             this.resetPlanes();

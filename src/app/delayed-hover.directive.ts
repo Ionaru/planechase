@@ -5,6 +5,7 @@ import {
     input,
     OnInit,
     Output,
+    inject,
 } from '@angular/core';
 import { fromEvent, map, merge, of, switchMap, delay } from 'rxjs';
 
@@ -13,12 +14,11 @@ import { fromEvent, map, merge, of, switchMap, delay } from 'rxjs';
     standalone: true,
 })
 export class DelayedHoverDirective implements OnInit {
+    private readonly element = inject(ElementRef);
+
     delay = input(1500);
 
-    // eslint-disable-next-line unicorn/prefer-event-target
     @Output('appDelayedHover') hoverEvent = new EventEmitter();
-
-    constructor(private readonly element: ElementRef) {}
 
     ngOnInit(): void {
         const hide$ = fromEvent(this.element.nativeElement, 'mouseleave').pipe(

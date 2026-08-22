@@ -1,5 +1,5 @@
 import { NgClass, NgStyle } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy, inject } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { generateRandomString } from '@ionaru/random-string';
 
@@ -38,11 +38,13 @@ class GridItem {
     }
 
     public reset(planes: IPlane[]): void {
-        if (this.seen) {
-            planes.push(this.plane);
-            this.plane = AppComponent.fakePlane;
-            this.seen = false;
+        if (!this.seen) {
+            return;
         }
+
+        planes.push(this.plane);
+        this.plane = AppComponent.fakePlane;
+        this.seen = false;
     }
 }
 
@@ -54,18 +56,20 @@ abstract class Line {
     }
 
     public move(x: number): void {
-        if (x) {
-            if (x === 1) {
-                const item = this.items.pop();
-                if (item) {
-                    this.items.unshift(item);
-                }
+        if (!x) {
+            return;
+        }
+
+        if (x === 1) {
+            const item = this.items.pop();
+            if (item) {
+                this.items.unshift(item);
             }
-            if (x === -1) {
-                const item = this.items.shift();
-                if (item) {
-                    this.items.push(item);
-                }
+        }
+        if (x === -1) {
+            const item = this.items.shift();
+            if (item) {
+                this.items.push(item);
             }
         }
     }
@@ -81,7 +85,6 @@ class Column extends Line {}
 
 @Component({
     selector: 'app-eternities',
-    standalone: true,
     imports: [
         DelayedHoverDirective,
         DiceRollerComponent,
@@ -91,9 +94,13 @@ class Column extends Line {}
         NgStyle,
     ],
     templateUrl: './eternities.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./eternities.component.scss'],
 })
 export class EternitiesComponent {
+    private readonly activatedRoute = inject(ActivatedRoute);
+    private readonly router = inject(Router);
+
     planes: IPlane[] = [];
     previewPlane: IPlane | undefined;
 
@@ -111,19 +118,18 @@ export class EternitiesComponent {
 
     seed = '000000';
 
-    constructor(
-        private readonly activatedRoute: ActivatedRoute,
-        private readonly router: Router,
-    ) {
+    constructor() {
+        const activatedRoute = this.activatedRoute;
+
         activatedRoute.queryParams.subscribe((parameters) => {
             this.seed = parameters['seed'];
 
             if (!this.seed) {
-                this.router
-                    .navigate([`/eternities`], {
-                        queryParams: { seed: generateRandomString(6) },
-                    })
-                    .then();
+                // Deliberately not awaited: this only swaps a missing seed for a
+                // generated one, and the subscription carries on either way.
+                void this.router.navigate([`/eternities`], {
+                    queryParams: { seed: generateRandomString(6) },
+                });
             }
 
             this.planes = [
