@@ -1,0 +1,35 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      # The Angular packages are released as one version and only ever work with
+      # each other, so a PR that moves one of them alone cannot be merged.
+      angular:
+        patterns:
+          - "@angular/*"
+          - "angular-eslint"
+      # These release together and break together, so update them as one PR.
+      eslint:
+        patterns:
+          - "@eslint/*"
+          - "eslint"
+          - "eslint-config-*"
+          - "eslint-plugin-*"
+          - "typescript-eslint"
+      types:
+        patterns:
+          - "@types/*"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: docker
+    directory: /deploy
+    schedule:
+      interval: weekly

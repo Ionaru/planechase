@@ -9,104 +9,150 @@ on:
     branches:
       - main
 
+env:
+  NODE_VERSION: "24"
+
 jobs:
   audit:
+    name: Audit dependencies
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: lts/*
+          node-version: ${{ env.NODE_VERSION }}
+      - run: npm audit --omit=dev
 
-      - name: Audit
-        run: npm audit --production
+  get_sha:
+    name: Get short SHA for image tags
+    runs-on: ubuntu-latest
+    outputs:
+      sha_short: ${{ steps.get_sha.outputs.sha_short }}
+    steps:
+      - uses: actions/checkout@v7
+      - id: get_sha
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
 
   test:
-    needs: [ audit ]
-
+    name: Lint and build
+    needs: [audit]
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: lts/*
-
-      - name: Install packages
-        run: npm ci
-
-      - name: Lint
-        run: npm run lint
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      # "npm run lint" is prettier --check followed by ng lint.
+      - run: npm run lint
+      - run: npm run build:production
 
   build-image:
-    needs: [ test ]
-
+    name: Build image
+    needs: [audit]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-
-      - name: Install packages
-        run: npm ci
-
-      - name: Build
-        run: npm run build:production
-
-      - name: Build image
-        run: docker build -t planechase:latest .
-
-      - name: Save image
-        run: docker save planechase:latest > planechase-image.tar
-
-      - uses: actions/upload-artifact@v3
+      - uses: actions/checkout@v7
+      - run: docker compose -f deploy/compose.yaml build planechase
+      - run: docker save -o planechase-image.tar ghcr.io/ionaru/planechase:latest
+      - uses: actions/upload-artifact@v7
         with:
           name: planechase-image
           path: planechase-image.tar
           retention-days: 1
 
   push-image:
-    needs: [ build-image ]
-
+    name: Push image
     if: github.event_name == 'push'
-
+    needs: [get_sha, test, build-image]
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
-      - name: Retrieve saved Docker image
-        uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v8
         with:
           name: planechase-image
-
-      - name: Load image into docker
-        run: docker load < planechase-image.tar
-
-      - name: Retag image for upload
-        run: docker tag planechase:latest ghcr.io/ionaru/planechase/planechase:latest
-
-      - name: Login to Docker Registry
-        uses: docker/login-action@v3
+      - run: docker load -i planechase-image.tar
+      - run: docker tag ghcr.io/ionaru/planechase:latest ghcr.io/ionaru/planechase:${{ needs.get_sha.outputs.sha_short }}
+      - uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push image
-        run: docker push ghcr.io/ionaru/planechase/planechase:latest
+      - run: docker push -a ghcr.io/ionaru/planechase
 
   deploy:
-    needs: [ push-image ]
-
+    name: Deploy
+    needs: [get_sha, push-image]
     if: github.event_name == 'push'
-
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
     steps:
-      - uses: actions/setup-node@v4
+      - uses: appleboy/ssh-action@v1.2.5
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          GIT_REVISION: ${{ needs.get_sha.outputs.sha_short }}
         with:
-          node-version: lts/*
+          command_timeout: 15m
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          envs: DEPLOY_PATH,GIT_REVISION
+          script: |
+            set -eu
 
-      - name: Deploy
-        run: npx -q @ionaru/teamcity-deploy teamcity.saturnserver.org Planechase_Deploy ${{ secrets.TEAMCITY_TOKEN }}
+            cd "$DEPLOY_PATH"
+
+            # Match the checkout to the commit whose image was just published, so the
+            # compose file on disk and the running image always come from one commit.
+            git fetch --prune origin
+            git checkout --force "$GIT_REVISION"
+
+            export PLANECHASE_GIT_REVISION="$GIT_REVISION"
+
+            # --env-file is not optional. Compose does not auto-discover a .env at the
+            # checkout root when the compose file lives in deploy/, so without it the
+            # stack silently runs :latest instead of the revision just built.
+            #
+            # This body must stay a SINGLE command. A shell function used as the left
+            # operand of || runs with errexit disabled, so a multi-command body would
+            # keep going after a failure and return the last command's status, losing
+            # the real exit code.
+            compose() {
+              docker compose \
+                --project-name planechase \
+                --env-file "$DEPLOY_PATH/.env" \
+                --file "$DEPLOY_PATH/deploy/compose.yaml" \
+                "$@"
+            }
+
+            compose pull
+
+            # The service has a healthcheck, so --wait blocks until nginx actually
+            # answers rather than merely reporting "running". A static site starts in
+            # seconds, so this needs nothing like search-eve's cache warm-up window.
+            # "|| rc=$?" stops errexit aborting before the logs are printed.
+            rc=0
+            compose up --detach --pull=never --no-build --remove-orphans \
+              --wait --wait-timeout 120 || rc=$?
+
+            compose logs --tail=100 planechase
+
+            if [ "$rc" -ne 0 ]; then
+              exit "$rc"
+            fi
+
+            # Reclaim disk from superseded planechase images only. Other stacks share
+            # this Docker daemon, so a global "docker system prune --all" would delete
+            # theirs.
+            stale="$(docker image ls --format '{{.Repository}}:{{.Tag}}' \
+              --filter 'reference=ghcr.io/ionaru/planechase' \
+              | grep -vx "ghcr.io/ionaru/planechase:${GIT_REVISION}" || true)"
+            if [ -n "$stale" ]; then
+              echo "$stale" | xargs -r docker image rm --force || true
+            fi
